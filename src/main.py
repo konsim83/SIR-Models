@@ -1,6 +1,3 @@
-from scipy.stats._stats import scipy
-__author__      = "Konrad Simon"
-__copyright__   = "Copyright 2020, UHH"
 __version__ = "v1.0"
 __license__ = "MIT"
  
