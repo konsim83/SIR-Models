@@ -17,18 +17,15 @@
    <item row="0" column="0">
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
-      <widget class="QLabel" name="labelGraph">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
+      <widget class="QGraphicsView" name="graphicsView">
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
        </property>
-       <property name="styleSheet">
-        <string notr="true">border: 1px solid;</string>
+       <property name="lineWidth">
+        <number>2</number>
        </property>
-       <property name="text">
-        <string/>
+       <property name="midLineWidth">
+        <number>2</number>
        </property>
       </widget>
      </item>
