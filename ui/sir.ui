@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>905</width>
-    <height>734</height>
+    <height>749</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <item row="0" column="0">
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
-      <widget class="QLabel" name="graph">
+      <widget class="QLabel" name="labelGraph">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -51,10 +51,38 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_2">
        <item>
-        <widget class="QPushButton" name="pushButtonPlay">
-         <property name="text">
-          <string>compute</string>
+        <widget class="QGroupBox" name="groupBox_solver">
+         <property name="title">
+          <string>solver</string>
          </property>
+         <widget class="QWidget" name="verticalLayoutWidget">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>110</y>
+            <width>168</width>
+            <height>103</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <property name="sizeConstraint">
+            <enum>QLayout::SetDefaultConstraint</enum>
+           </property>
+           <item>
+            <widget class="QPushButton" name="pushButtonSolve">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>compute</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
         </widget>
        </item>
        <item>
@@ -74,7 +102,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QGroupBox" name="groupBox">
+        <widget class="QGroupBox" name="groupBox_model_prm">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
            <horstretch>0</horstretch>
@@ -86,28 +114,28 @@
          </property>
          <layout class="QGridLayout" name="gridLayout">
           <item row="6" column="1">
-           <widget class="QLabel" name="label_1">
+           <widget class="QLabel" name="label_mu">
             <property name="text">
              <string>mortality per person (mu)</string>
             </property>
            </widget>
           </item>
           <item row="9" column="1">
-           <widget class="QLabel" name="label_5">
+           <widget class="QLabel" name="label_N">
             <property name="text">
              <string>population size</string>
             </property>
            </widget>
           </item>
           <item row="8" column="1">
-           <widget class="QLabel" name="label_4">
+           <widget class="QLabel" name="label_beta">
             <property name="text">
              <string>infection rate per time unit (beta)</string>
             </property>
            </widget>
           </item>
           <item row="5" column="1">
-           <widget class="QLabel" name="label_2">
+           <widget class="QLabel" name="label_gamma">
             <property name="text">
              <string>recovery rate per time unit (gamma)</string>
             </property>
@@ -117,14 +145,14 @@
            <layout class="QVBoxLayout" name="verticalLayout_3"/>
           </item>
           <item row="7" column="1">
-           <widget class="QLabel" name="label_3">
+           <widget class="QLabel" name="label_nu">
             <property name="text">
              <string>birth rate per person (nu)</string>
             </property>
            </widget>
           </item>
           <item row="9" column="2">
-           <widget class="QSpinBox" name="N">
+           <widget class="QSpinBox" name="spinBox_N">
             <property name="maximum">
              <number>1000000</number>
             </property>
@@ -137,14 +165,14 @@
            </widget>
           </item>
           <item row="10" column="1">
-           <widget class="QLabel" name="label_6">
+           <widget class="QLabel" name="label_tmax">
             <property name="text">
              <string>time span (time unit)</string>
             </property>
            </widget>
           </item>
           <item row="5" column="2">
-           <widget class="QDoubleSpinBox" name="gamma">
+           <widget class="QDoubleSpinBox" name="spinBox_gamma">
             <property name="decimals">
              <number>3</number>
             </property>
@@ -157,21 +185,21 @@
            </widget>
           </item>
           <item row="6" column="2">
-           <widget class="QDoubleSpinBox" name="mu">
+           <widget class="QDoubleSpinBox" name="spinBox_mu">
             <property name="singleStep">
              <double>0.100000000000000</double>
             </property>
            </widget>
           </item>
           <item row="7" column="2">
-           <widget class="QDoubleSpinBox" name="nu">
+           <widget class="QDoubleSpinBox" name="spinBox_nu">
             <property name="singleStep">
              <double>0.100000000000000</double>
             </property>
            </widget>
           </item>
           <item row="8" column="2">
-           <widget class="QDoubleSpinBox" name="beta">
+           <widget class="QDoubleSpinBox" name="spinBox_beta">
             <property name="singleStep">
              <double>0.010000000000000</double>
             </property>
@@ -181,7 +209,7 @@
            </widget>
           </item>
           <item row="10" column="2">
-           <widget class="QSpinBox" name="tmax">
+           <widget class="QSpinBox" name="spinBox_tmax">
             <property name="minimum">
              <number>5</number>
             </property>
@@ -193,6 +221,40 @@
             </property>
             <property name="value">
              <number>365</number>
+            </property>
+           </widget>
+          </item>
+          <item row="11" column="2">
+           <widget class="QDoubleSpinBox" name="spinBox_i0">
+            <property name="maximum">
+             <double>9999.989999999999782</double>
+            </property>
+            <property name="value">
+             <double>8.830000000000000</double>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="2">
+           <widget class="QDoubleSpinBox" name="spinBox_r0">
+            <property name="maximum">
+             <double>99999.990000000005239</double>
+            </property>
+            <property name="singleStep">
+             <double>0.010000000000000</double>
+            </property>
+           </widget>
+          </item>
+          <item row="11" column="1">
+           <widget class="QLabel" name="label_i0">
+            <property name="text">
+             <string>initial infections</string>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="1">
+           <widget class="QLabel" name="label_r0">
+            <property name="text">
+             <string>initial recoveries</string>
             </property>
            </widget>
           </item>
