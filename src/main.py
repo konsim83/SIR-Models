@@ -13,22 +13,22 @@ from scipy.integrate import odeint
  
 from PyQt5 import QtCore, QtGui, QtWidgets
 
+from pyqtgraph import PlotWidget, plot
+import pyqtgraph as pg
 
-from PyQt5 import QtCore, QtGui, QtWidgets
 
-#########################
-def SIR(y0,t,N,c,w):
-    # -- zunächst die Anfangsdaten - S, I, R:
-    S = y0[0]
-    I = y0[1]
-    R = y0[2]
-    # -- jetzt die Modellgleichungen
-    r1 = -c*(S/N)*I
-    r2 = c*(S/N)*I -w*I
-    r3 = w*I
-    # Rückgabe der berechneten rechten Seite
-    return [r1, r2, r3]
-#########################
+def SIR_function(y, t, N, beta, gamma, mu, nu):
+        # -- zunächst die Anfangsdaten - S, I, R:
+        S = y[0]
+        I = y[1]
+        R = y[2]
+        # -- jetzt die Modellgleichungen
+        r1 = nu*N - beta*(S/N)*I - mu*S
+        r2 = beta*(S/N)*I -gamma*I - mu*I
+        r3 = gamma*I - mu*R
+        # Rückgabe der berechneten rechten Seite
+        return [r1, r2, r3]
+
 
 class Ui_QCvWidget(object):
     def setupUi(self, QCvWidget):
@@ -144,7 +144,7 @@ class Ui_QCvWidget(object):
         self.gridLayout.addWidget(self.spinBox_tmax, 10, 2, 1, 1)
         self.spinBox_i0 = QtWidgets.QDoubleSpinBox(self.groupBox_model_prm)
         self.spinBox_i0.setMaximum(9999.99)
-        self.spinBox_i0.setProperty("value", 8.83)
+        self.spinBox_i0.setProperty("value", 5.83)
         self.spinBox_i0.setObjectName("spinBox_i0")
         self.gridLayout.addWidget(self.spinBox_i0, 11, 2, 1, 1)
         self.spinBox_r0 = QtWidgets.QDoubleSpinBox(self.groupBox_model_prm)
@@ -161,22 +161,47 @@ class Ui_QCvWidget(object):
         self.horizontalLayout_2.addWidget(self.groupBox_model_prm)
         self.verticalLayout.addLayout(self.horizontalLayout_2)
         self.gridLayout_2.addLayout(self.verticalLayout, 0, 0, 1, 1)
-
+        
+        def callback_change_value(new_value):
+            print("new beta = ", self.spinBox_beta.value())
+            print("new N = ", self.spinBox_N.value())
+            
+        self.spinBox_beta.valueChanged.connect(callback_change_value)
+        self.spinBox_N.valueChanged.connect(callback_change_value)
+           
         self.retranslateUi(QCvWidget)
         QtCore.QMetaObject.connectSlotsByName(QCvWidget)
         
-        self.i0 = 5.83  # Infizierte Fälle zum Anfangszeitpunkt
-        self.r0 = 0.    # Anzahl Genesener zum Anfangszeitpunkt
-        self.s0 = self.spinBox_N.value() - self.i0 - self.r0 # Anzahl noch Gesunder zum Anfangszeitpunkt
+        self.i0 = self.spinBox_i0.value()
+        self.r0 = self.spinBox_r0.value()
+        self.s0 = self.spinBox_N.value() - self.i0 - self.r0
         
-        self.beta = self.spinBox_beta.value()   # Infektionsrate
-        self.gamma = self.spinBox_gamma.value()   # Genesungsrate
-        
-        # -- definiere die Daten für den Gleichungslöser
         self.y0 = [self.s0, self.i0, self.r0]
-        self.tspan  = np.linspace(0, self.spinBox_tmax.value(), self.spinBox_tmax.value()*3) # rechne für 365 Tage mit 4 Schritten pro Tag
+        self.tspan  = np.linspace(0, self.spinBox_tmax.value(), self.spinBox_tmax.value()*3)
         
+        self.beta = self.spinBox_beta.value()
+        self.gamma = self.spinBox_gamma.value()
+        self.mu = self.spinBox_mu.value()
+        self.nu = self.spinBox_nu.value()
+        self.N = self.spinBox_N.value()
+                
+        self.solution = []
 
+        #
+        # Callbacks
+        #
+        self.spinBox_beta.valueChanged.connect(self.callback_change_generic_parameter)
+        self.spinBox_gamma.valueChanged.connect(self.callback_change_generic_parameter)
+        self.spinBox_mu.valueChanged.connect(self.callback_change_generic_parameter)
+        self.spinBox_nu.valueChanged.connect(self.callback_change_generic_parameter)
+        self.spinBox_N.valueChanged.connect(self.callback_change_generic_parameter)
+        
+        self.spinBox_tmax.valueChanged.connect(self.callback_change_tmax)
+        self.spinBox_i0.valueChanged.connect(self.callback_change_s0)
+        self.spinBox_r0.valueChanged.connect(self.callback_change_s0)
+        
+        self.pushButtonSolve.clicked.connect(self.callback_solve)
+        
     def retranslateUi(self, QCvWidget):
         _translate = QtCore.QCoreApplication.translate
         QCvWidget.setWindowTitle(_translate("QCvWidget", "QCvWidget"))
@@ -191,6 +216,26 @@ class Ui_QCvWidget(object):
         self.label_tmax.setText(_translate("QCvWidget", "time span (time unit)"))
         self.label_i0.setText(_translate("QCvWidget", "initial infections"))
         self.label_r0.setText(_translate("QCvWidget", "initial recoveries"))
+        
+    def callback_change_generic_parameter(self, new_value):
+        self.beta = self.spinBox_beta.value()
+        self.gamma = self.spinBox_gamma.value()
+        self.mu = self.spinBox_mu.value()
+        self.nu = self.spinBox_nu.value()
+        self.N = self.spinBox_N.value()
+        
+    def callback_change_tmax(self, new_value):
+        self.tspan  = np.linspace(0, self.spinBox_tmax.value(), self.spinBox_tmax.value()*3)
+            
+    def callback_change_s0(self, new_value):
+        self.s0 = self.spinBox_N.value() - self.i0 - self.r0
+        
+    def callback_solve(self):
+        self.solution = odeint(SIR_function, 
+                               self.y0, 
+                               self.tspan, 
+                               args=(self.N, self.beta, self.gamma, self.mu, self.nu))
+        print("Model solved.")
 
 
 if __name__ == "__main__":
