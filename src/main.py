@@ -19,12 +19,42 @@ def SIR_function(y, t, N, beta, gamma, mu, nu):
         S = y[0]
         I = y[1]
         R = y[2]
-        # -- jetzt die Modellgleichungen
+        
         r1 = nu*N - beta*(S/N)*I - mu*S
         r2 = beta*(S/N)*I -gamma*I - mu*I
         r3 = gamma*I - mu*R
-        # Rückgabe der berechneten rechten Seite
+        
         return [r1, r2, r3]
+    
+
+def SIRD_function(y, t, N, beta, gamma, mu, nu, mu_d):
+    # -- zunächst die Anfangsdaten - S, I, R:
+    S = y[0]
+    I = y[1]
+    R = y[2]
+    D = y[3]
+    
+    r1 = nu*N - beta*(S/N)*I - mu*S
+    r2 = beta*(S/N)*I -gamma*I - (mu+mu_d)*I
+    r3 = gamma*I - mu*R
+    r4 = mu_d*I
+    
+    return [r1, r2, r3, r4]
+
+
+def SEIR_function(y, t, N, beta, gamma, mu, nu, a):
+    # -- zunächst die Anfangsdaten - S, I, R:
+    S = y[0]
+    E = y[1]
+    I = y[2]
+    R = y[3]
+    
+    r1 = nu*N - beta*(S/N)*I - mu*S
+    r2 = beta*(S/N)*I - a*E # Ist this really divided by N?
+    r3 = a*E - gamma*I - mu*R
+    r4 = gamma*I - mu*R
+    
+    return [r1, r2, r3, r4]
 
 
 class SIR_QCvWidget(object):
@@ -70,15 +100,13 @@ class SIR_QCvWidget(object):
         self.verticalLayout_2.setSpacing(6)
         self.verticalLayout_2.setObjectName("verticalLayout_2")
         
-        self.pushButtonSolve = QtWidgets.QPushButton(self.verticalLayoutWidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Maximum)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.pushButtonSolve.sizePolicy().hasHeightForWidth())
-        self.pushButtonSolve.setSizePolicy(sizePolicy)
-        self.pushButtonSolve.setObjectName("pushButtonSolve")
+        self.comboBox = QtWidgets.QComboBox(self.verticalLayoutWidget)
+        self.comboBox.setObjectName("comboBox")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.verticalLayout_2.addWidget(self.comboBox)
         
-        self.verticalLayout_2.addWidget(self.pushButtonSolve)
         self.horizontalLayout_2.addWidget(self.groupBox_solver)
         
         spacerItem1 = QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Minimum)
@@ -176,6 +204,30 @@ class SIR_QCvWidget(object):
         self.spinBox_r0.setObjectName("spinBox_r0")
         self.gridLayout.addWidget(self.spinBox_r0, 12, 2, 1, 1)
         
+        self.spinBox_mu_d = QtWidgets.QDoubleSpinBox(self.groupBox_model_prm)
+        self.spinBox_mu_d.setDecimals(3)
+        self.spinBox_mu_d.setMinimum(0)
+        self.spinBox_mu_d.setMaximum(1.0)
+        self.spinBox_mu_d.setSingleStep(0.001)
+        self.spinBox_mu_d.setProperty("value", 0.05)
+        self.spinBox_mu_d.setObjectName("spinBox_mu_d")
+        self.gridLayout.addWidget(self.spinBox_mu_d, 13, 2, 1, 1)
+        
+        self.spinBox_a = QtWidgets.QDoubleSpinBox(self.groupBox_model_prm)
+        self.spinBox_a.setDecimals(3)
+        self.spinBox_a.setMinimum(0.001)
+        self.spinBox_a.setSingleStep(0.001)
+        self.spinBox_a.setObjectName("spinBox_a")
+        self.gridLayout.addWidget(self.spinBox_a, 14, 2, 1, 1)
+        
+        self.label_a = QtWidgets.QLabel(self.groupBox_model_prm)
+        self.label_a.setObjectName("label_a")
+        self.gridLayout.addWidget(self.label_a, 14, 1, 1, 1)
+        
+        self.label_mu_d = QtWidgets.QLabel(self.groupBox_model_prm)
+        self.label_mu_d.setObjectName("label_mu_d")
+        self.gridLayout.addWidget(self.label_mu_d, 13, 1, 1, 1)
+        
         self.label_i0 = QtWidgets.QLabel(self.groupBox_model_prm)
         self.label_i0.setObjectName("label_i0")
         self.gridLayout.addWidget(self.label_i0, 11, 1, 1, 1)
@@ -194,9 +246,13 @@ class SIR_QCvWidget(object):
         #
         # Local variables
         #
+        self.initial_run = True
+        
         self.i0 = self.spinBox_i0.value()
+        self.e0 = 0.0
         self.r0 = self.spinBox_r0.value()
         self.s0 = self.spinBox_N.value() - self.i0 - self.r0
+        self.d0 = 0.0
         
         self.y0 = [self.s0, self.i0, self.r0]
         self.tspan  = np.linspace(0, self.spinBox_tmax.value(), self.spinBox_tmax.value()*3)
@@ -206,6 +262,8 @@ class SIR_QCvWidget(object):
         self.mu = self.spinBox_mu.value()
         self.nu = self.spinBox_nu.value()
         self.N = self.spinBox_N.value()
+        self.mu_d = self.spinBox_mu_d.value()
+        self.a = self.spinBox_a.value()
                 
         self.solution = []
 
@@ -217,16 +275,24 @@ class SIR_QCvWidget(object):
         self.spinBox_mu.valueChanged.connect(self.callback_change_generic_parameter)
         self.spinBox_nu.valueChanged.connect(self.callback_change_generic_parameter)
         self.spinBox_N.valueChanged.connect(self.callback_change_generic_parameter)
+        self.spinBox_mu_d.valueChanged.connect(self.callback_change_generic_parameter)
+        self.spinBox_a.valueChanged.connect(self.callback_change_generic_parameter)
         
         self.spinBox_tmax.valueChanged.connect(self.callback_change_tmax)
         self.spinBox_i0.valueChanged.connect(self.callback_change_s0)
         self.spinBox_r0.valueChanged.connect(self.callback_change_s0)
         
-        self.pushButtonSolve.clicked.connect(self.callback_solve)
+        self.comboBox.currentIndexChanged.connect(self.callback_change_model_id)
         
         self.plot_s_ref = []
+        self.plot_e_ref = []
         self.plot_i_ref = []
         self.plot_r_ref = []
+        self.plot_d_ref = []
+        
+        self.plot_legend = []
+        
+        self.model_id = 0
         
         self.callback_solve()
         self.plot()
@@ -236,7 +302,10 @@ class SIR_QCvWidget(object):
         
         QCvWidget.setWindowTitle(_translate("QCvWidget", "SIR Models"))
         self.groupBox_solver.setTitle(_translate("QCvWidget", "solver"))
-        self.pushButtonSolve.setText(_translate("QCvWidget", "compute"))
+#         self.pushButtonSolve.setText(_translate("QCvWidget", "compute"))
+        self.comboBox.setItemText(0, _translate("QCvWidget", "SIR model"))
+        self.comboBox.setItemText(1, _translate("QCvWidget", "SIRD model"))
+        self.comboBox.setItemText(2, _translate("QCvWidget", "SEIR model"))
         self.groupBox_model_prm.setTitle(_translate("QCvWidget", "model parameters"))
         self.label_mu.setText(_translate("QCvWidget", "mortality per person (mu)"))
         self.label_N.setText(_translate("QCvWidget", "population size"))
@@ -246,14 +315,32 @@ class SIR_QCvWidget(object):
         self.label_tmax.setText(_translate("QCvWidget", "time span (time unit)"))
         self.label_i0.setText(_translate("QCvWidget", "initial infections"))
         self.label_r0.setText(_translate("QCvWidget", "initial recoveries"))
+        self.label_mu_d.setText(_translate("QCvWidget", "SIRD only: disease mortality per time unit (mu_d)"))
+        self.label_a.setText(_translate("QCvWidget", "SEIR only: medium latency of exposure (not infectious)"))
         
-    
+    def callback_change_model_id(self, model_index):
+        self.model_id = model_index
+        
+        self.plot_legend.scene().removeItem(self.plot_legend)
+        
+        if self.model_id == 0:
+            self.y0 = [self.s0, self.i0, self.r0]
+        elif self.model_id == 1:
+            self.y0 = [self.s0, self.i0, self.r0, self.d0]
+        elif self.model_id == 2:
+            self.y0 = [self.s0, self.e0, self.i0, self.r0]
+        
+        self.callback_solve()
+        self.plot()
+        
     def callback_change_generic_parameter(self, new_value):
         self.beta = self.spinBox_beta.value()
         self.gamma = self.spinBox_gamma.value()
         self.mu = self.spinBox_mu.value()
         self.nu = self.spinBox_nu.value()
         self.N = self.spinBox_N.value()
+        self.mu_d = self.spinBox_mu_d.value()
+        self.a = self.spinBox_a.value()
         
         self.callback_solve()
         self.update_plots()
@@ -268,21 +355,41 @@ class SIR_QCvWidget(object):
     
     def callback_change_s0(self, new_value):
         self.s0 = self.spinBox_N.value() - self.i0 - self.r0
+        if self.model_id == 0:
+            self.y0 = [self.s0, self.i0, self.r0]
+        elif self.model_id == 1:
+            self.y0 = [self.s0, self.i0, self.r0, self.d0]
+        elif self.model_id == 2:
+            self.y0 = [self.s0, self.e0, self.i0, self.r0]
         
         self.callback_solve()
         self.update_plots()
         
     
     def callback_solve(self):
-        self.solution = odeint(SIR_function, 
-                               self.y0, 
-                               self.tspan, 
-                               args=(self.N, self.beta, self.gamma, self.mu, self.nu))
-        print("Model solved.")
+        if self.model_id == 0:
+            self.solution = odeint(SIR_function, 
+                                   self.y0, 
+                                   self.tspan, 
+                                   args=(self.N, self.beta, self.gamma, self.mu, self.nu))
+            print("SIR model solved...")
+        elif self.model_id == 1:
+            self.solution = odeint(SIRD_function, 
+                                   self.y0, 
+                                   self.tspan, 
+                                   args=(self.N, self.beta, self.gamma, self.mu, self.nu, self.mu_d))
+            print("SIRD model solved...")
+        elif self.model_id == 2:
+            self.solution = odeint(SEIR_function, 
+                                   self.y0, 
+                                   self.tspan, 
+                                   args=(self.N, self.beta, self.gamma, self.mu, self.nu, self.a))
+            print("SEIR model solved...")
+                
         
     def plot(self):
         self.graphWidget.setBackground('w')
-        
+    
         self.graphWidget.setLabel("left", "number of people", color='red', size=30)
         self.graphWidget.setLabel("bottom", 'time (days)', color='red', size=30)
                 
@@ -290,36 +397,151 @@ class SIR_QCvWidget(object):
         
         self.graphWidget.setXRange(0, self.spinBox_tmax.value(), padding=0)
         self.graphWidget.setYRange(0, self.spinBox_N.value(), padding=0)
-        
-        self.graphWidget.addLegend()
-        
-        self.plot_s_ref = self.graphWidget.plot(self.tspan, 
-                              self.solution[:,0], 
-                              name="suspectible", 
-                              pen=pg.mkPen(color="b", width=3, style=QtCore.Qt.SolidLine))
-        self.plot_i_ref = self.graphWidget.plot(self.tspan, 
-                              self.solution[:,1], 
-                              name="infected", 
-                              pen=pg.mkPen(color="r", width=3, style=QtCore.Qt.SolidLine))
-        self.plot_r_ref = self.graphWidget.plot(self.tspan, 
-                              self.solution[:,2], 
-                              name="removed", 
-                              pen=pg.mkPen(color="g", width=3, style=QtCore.Qt.SolidLine))
+                    
+        if self.model_id == 0:
+            self.plot_s_ref.clear()
+            self.plot_e_ref.clear()
+            self.plot_i_ref.clear()
+            self.plot_r_ref.clear()
+            self.plot_d_ref.clear()
+                  
+            self.graphWidget.addLegend(offset=(-10,10))
+            self.plot_legend = self.graphWidget.getPlotItem().legend
+            
+            
+            self.plot_s_ref = self.graphWidget.plot(self.tspan, 
+                                  self.solution[:,0], 
+                                  name="suspectible", 
+                                  pen=pg.mkPen(color="b", width=3, style=QtCore.Qt.SolidLine))
+            self.plot_i_ref = self.graphWidget.plot(self.tspan, 
+                                  self.solution[:,1], 
+                                  name="infected", 
+                                  pen=pg.mkPen(color="r", width=3, style=QtCore.Qt.SolidLine))
+            self.plot_r_ref = self.graphWidget.plot(self.tspan, 
+                                  self.solution[:,2], 
+                                  name="removed", 
+                                  pen=pg.mkPen(color="g", width=3, style=QtCore.Qt.SolidLine))
+            
+        elif self.model_id == 1:
+            self.plot_s_ref.clear()
+            self.plot_e_ref.clear()
+            self.plot_i_ref.clear()
+            self.plot_r_ref.clear()
+            self.plot_d_ref.clear()
+            
+            self.graphWidget.addLegend(offset=(-10,10))
+            self.plot_legend = self.graphWidget.getPlotItem().legend
+            
+            self.plot_s_ref = self.graphWidget.plot(self.tspan, 
+                                  self.solution[:,0], 
+                                  name="suspectible", 
+                                  pen=pg.mkPen(color="b", width=3, style=QtCore.Qt.SolidLine))
+            self.plot_i_ref = self.graphWidget.plot(self.tspan, 
+                                  self.solution[:,1], 
+                                  name="infected", 
+                                  pen=pg.mkPen(color="r", width=3, style=QtCore.Qt.SolidLine))
+            self.plot_r_ref = self.graphWidget.plot(self.tspan, 
+                                  self.solution[:,2], 
+                                  name="recovered", 
+                                  pen=pg.mkPen(color="g", width=3, style=QtCore.Qt.SolidLine))
+            self.plot_d_ref = self.graphWidget.plot(self.tspan, 
+                                  self.solution[:,3], 
+                                  name="deaths", 
+                                  pen=pg.mkPen(color="y", width=3, style=QtCore.Qt.SolidLine))
+        elif self.model_id == 2:
+            self.plot_s_ref.clear()
+            self.plot_e_ref.clear()
+            self.plot_i_ref.clear()
+            self.plot_r_ref.clear()
+            self.plot_d_ref.clear()
+
+            self.graphWidget.addLegend(offset=(-10,10))
+            self.plot_legend = self.graphWidget.getPlotItem().legend
+            
+            self.plot_s_ref = self.graphWidget.plot(self.tspan, 
+                                  self.solution[:,0], 
+                                  name="suspectible", 
+                                  pen=pg.mkPen(color="b", width=3, style=QtCore.Qt.SolidLine))
+            self.plot_e_ref = self.graphWidget.plot(self.tspan, 
+                                  self.solution[:,1], 
+                                  name="exposed (not infectious)", 
+                                  pen=pg.mkPen(color="y", width=3, style=QtCore.Qt.SolidLine))
+            self.plot_i_ref = self.graphWidget.plot(self.tspan, 
+                                  self.solution[:,2], 
+                                  name="infectious", 
+                                  pen=pg.mkPen(color="r", width=3, style=QtCore.Qt.SolidLine))
+            self.plot_r_ref = self.graphWidget.plot(self.tspan, 
+                                  self.solution[:,3], 
+                                  name="removed", 
+                                  pen=pg.mkPen(color="g", width=3, style=QtCore.Qt.SolidLine))
         
         
     def update_plots(self):
-        self.plot_s_ref.setData(self.tspan, 
-                              self.solution[:,0], 
-                              name="suspectible", 
-                              pen=pg.mkPen(color="b", width=3, style=QtCore.Qt.SolidLine))
-        self.plot_i_ref.setData(self.tspan, 
-                              self.solution[:,1], 
-                              name="infected", 
-                              pen=pg.mkPen(color="r", width=3, style=QtCore.Qt.SolidLine))
-        self.plot_r_ref.setData(self.tspan, 
-                              self.solution[:,2], 
-                              name="removed", 
-                              pen=pg.mkPen(color="g", width=3, style=QtCore.Qt.SolidLine))
+        self.graphWidget.setXRange(0, self.spinBox_tmax.value(), padding=0)
+        self.graphWidget.setYRange(0, self.spinBox_N.value(), padding=0)
+        
+        if self.model_id == 0:
+            self.plot_s_ref.clear()
+            self.plot_e_ref.clear()
+            self.plot_i_ref.clear()
+            self.plot_r_ref.clear()
+            self.plot_d_ref.clear()
+            self.plot_s_ref.setData(self.tspan, 
+                                  self.solution[:,0], 
+                                  name="suspectible", 
+                                  pen=pg.mkPen(color="b", width=3, style=QtCore.Qt.SolidLine))
+            self.plot_i_ref.setData(self.tspan, 
+                                  self.solution[:,1], 
+                                  name="infected", 
+                                  pen=pg.mkPen(color="r", width=3, style=QtCore.Qt.SolidLine))
+            self.plot_r_ref.setData(self.tspan, 
+                                  self.solution[:,2], 
+                                  name="removed", 
+                                  pen=pg.mkPen(color="g", width=3, style=QtCore.Qt.SolidLine))
+        elif self.model_id == 1:
+            self.plot_s_ref.clear()
+            self.plot_e_ref.clear()
+            self.plot_i_ref.clear()
+            self.plot_r_ref.clear()
+            self.plot_d_ref.clear()
+            self.plot_s_ref = self.graphWidget.plot(self.tspan, 
+                                  self.solution[:,0], 
+                                  name="suspectible", 
+                                  pen=pg.mkPen(color="b", width=3, style=QtCore.Qt.SolidLine))
+            self.plot_i_ref = self.graphWidget.plot(self.tspan, 
+                                  self.solution[:,1], 
+                                  name="infected", 
+                                  pen=pg.mkPen(color="r", width=3, style=QtCore.Qt.SolidLine))
+            self.plot_r_ref = self.graphWidget.plot(self.tspan, 
+                                  self.solution[:,2], 
+                                  name="recovered", 
+                                  pen=pg.mkPen(color="g", width=3, style=QtCore.Qt.SolidLine))
+            self.plot_d_ref = self.graphWidget.plot(self.tspan, 
+                                  self.solution[:,3], 
+                                  name="deaths", 
+                                  pen=pg.mkPen(color="y", width=3, style=QtCore.Qt.SolidLine))
+        elif self.model_id == 2:
+            self.plot_s_ref.clear()
+            self.plot_e_ref.clear()
+            self.plot_i_ref.clear()
+            self.plot_r_ref.clear()
+            self.plot_d_ref.clear()
+            self.plot_s_ref = self.graphWidget.plot(self.tspan, 
+                                  self.solution[:,0], 
+                                  name="suspectible", 
+                                  pen=pg.mkPen(color="b", width=3, style=QtCore.Qt.SolidLine))
+            self.plot_e_ref = self.graphWidget.plot(self.tspan, 
+                                  self.solution[:,1], 
+                                  name="exposed (not infectious)", 
+                                  pen=pg.mkPen(color="y", width=3, style=QtCore.Qt.SolidLine))
+            self.plot_i_ref = self.graphWidget.plot(self.tspan, 
+                                  self.solution[:,2], 
+                                  name="infectious", 
+                                  pen=pg.mkPen(color="r", width=3, style=QtCore.Qt.SolidLine))
+            self.plot_r_ref = self.graphWidget.plot(self.tspan, 
+                                  self.solution[:,3], 
+                                  name="removed", 
+                                  pen=pg.mkPen(color="g", width=3, style=QtCore.Qt.SolidLine))
         
 
 if __name__ == "__main__":
