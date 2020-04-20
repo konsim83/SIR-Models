@@ -15,4 +15,10 @@ You will need
 	* PyQt5
 	* PyQtGraph
 	
+To run the GUI enter the code folder and type
+
+```
+python3 src/main.py
+```
+	
 The models can be fed with real data. Have fun experimenting. 
