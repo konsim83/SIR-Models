@@ -1,0 +1,2572 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   id="svg2861"
+   sodipodi:docname="seird.svg"
+   width="1827.2448"
+   height="714.19989"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata2865">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>pyqtgraph SVG export</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1853"
+     inkscape:window-height="1145"
+     id="namedview2863"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.6025"
+     inkscape:cx="1017.8906"
+     inkscape:cy="266.35964"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2861" />
+  <title
+     id="title1860">pyqtgraph SVG export</title>
+  <desc
+     id="desc1862">Generated with Qt and pyqtgraph</desc>
+  <defs
+     id="defs1864" />
+  <g
+     id="PlotItem_1"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel"
+     transform="translate(-2.7552585,-0.5)">
+    <g
+       id="AxisItem_1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         id="g1868"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <polyline
+           points="56.0,674.0 1793.042258,674.0"
+           id="polyline1866"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         id="g1874"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.5019609">
+        <polyline
+           points="56.4896,15.020609000000036 56.4896,674.0"
+           id="polyline1870"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="962.969116922,15.020609000000036 962.969116922,674.0"
+           id="polyline1872"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         id="g1880"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.25097997">
+        <polyline
+           points="509.729358461,15.020609000000036 509.729358461,674.0"
+           id="polyline1876"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="1416.2098545500003,15.020609000000036 1416.2098545500003,674.0"
+           id="polyline1878"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         id="g1914"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.164706">
+        <polyline
+           points="147.1375516922,15.020609000000036 147.1375516922,674.0"
+           id="polyline1882"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="237.785307551,15.020609000000036 237.785307551,674.0"
+           id="polyline1884"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="328.43365091000004,15.020609000000036 328.43365091000004,674.0"
+           id="polyline1886"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="419.081994269,15.020609000000036 419.081994269,674.0"
+           id="polyline1888"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="600.3777018200001,15.020609000000036 600.3777018200001,674.0"
+           id="polyline1890"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="691.026045179,15.020609000000036 691.026045179,674.0"
+           id="polyline1892"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="781.673409371,15.020609000000036 781.673409371,674.0"
+           id="polyline1894"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="872.3217527300001,15.020609000000036 872.3217527300001,674.0"
+           id="polyline1896"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="1053.61452278,15.020609000000036 1053.61452278,674.0"
+           id="polyline1898"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="1144.2658036400003,15.020609000000036 1144.2658036400003,674.0"
+           id="polyline1900"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="1234.9170845,15.020609000000036 1234.9170845,674.0"
+           id="polyline1902"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="1325.55857369,15.020609000000036 1325.55857369,674.0"
+           id="polyline1904"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="1506.86113541,15.020609000000036 1506.86113541,674.0"
+           id="polyline1906"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="1597.5026246,15.020609000000036 1597.5026246,674.0"
+           id="polyline1908"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="1688.1539054600003,15.020609000000036 1688.1539054600003,674.0"
+           id="polyline1910"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="1778.80518632,15.020609000000036 1778.80518632,674.0"
+           id="polyline1912"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1918"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="-4.21875"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1916"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">0</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1922"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="913.078"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1920"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">200</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1926"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="450.203"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1924"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">100</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1930"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="1375.97"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1928"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">300</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1934"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="84.109398"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1932"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">20</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1938"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="176.688"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1936"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">40</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1942"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="269.26599"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1940"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">60</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1946"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="361.84399"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1944"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">80</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1950"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="542.76599"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1948"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">120</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1954"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="635.34399"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1952"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">140</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1958"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="727.922"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1956"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">160</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1962"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="820.5"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1960"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">180</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1966"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="1005.66"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1964"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">220</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1970"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="1098.23"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1968"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">240</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1974"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="1190.8101"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1972"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">260</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1978"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="1283.39"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1976"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">280</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1982"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="1468.53"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1980"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">320</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1986"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="1561.11"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1984"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">340</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1990"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="1653.6899"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1988"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">360</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,56.4896,674)"
+         id="g1994"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="1746.27"
+           xml:space="preserve"
+           y="14.2969"
+           id="text1992"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">380</text>
+      </g>
+      <g
+         id="QGraphicsTextItem_1"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <g
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           transform="translate(899,694)"
+           id="g1998"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+          <text
+             font-size="14.3611"
+             font-style="normal"
+             font-weight="400"
+             x="4"
+             xml:space="preserve"
+             y="18"
+             id="text1996"
+             style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#ff0000;fill-opacity:1;stroke:none">time (days) </text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="AxisItem_2"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         id="g2004"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <polyline
+           points="54.854185,1.0 54.854185,659.979391"
+           id="polyline2002"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         id="g2008"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.5019609">
+        <polyline
+           points="1792.386023,659.979391 55.343765,659.979391"
+           id="polyline2006"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         id="g2018"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.25097997">
+        <polyline
+           points="1792.386023,511.03046529399995 55.343765,511.03046529399995"
+           id="polyline2010"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="1792.386023,362.081539588 55.343765,362.081539588"
+           id="polyline2012"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="1792.386023,213.132613882 55.343765,213.132613882"
+           id="polyline2014"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="1792.386023,64.1842756762 55.343765,64.1842756762"
+           id="polyline2016"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         id="g2028"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.164706">
+        <polyline
+           points="1792.386023,585.504928147 55.343765,585.504928147"
+           id="polyline2020"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="1792.386023,436.556002441 55.343765,436.556002441"
+           id="polyline2022"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="1792.386023,287.60707673499996 55.343765,287.60707673499996"
+           id="polyline2024"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+        <polyline
+           points="1792.386023,138.659130196 55.343765,138.659130196"
+           id="polyline2026"
+           style="vector-effect:non-scaling-stroke;fill:none" />
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,1.48958,1)"
+         id="g2032"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="41.546902"
+           xml:space="preserve"
+           y="678.5"
+           id="text2030"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">0</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,1.48958,1)"
+         id="g2036"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="33.0938"
+           xml:space="preserve"
+           y="526.375"
+           id="text2034"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">20</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,1.48958,1)"
+         id="g2040"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="33.0938"
+           xml:space="preserve"
+           y="374.25"
+           id="text2038"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">40</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,1.48958,1)"
+         id="g2044"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="33.0938"
+           xml:space="preserve"
+           y="222.14101"
+           id="text2042"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">60</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,1.48958,1)"
+         id="g2048"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="33.0938"
+           xml:space="preserve"
+           y="70.015602"
+           id="text2046"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">80</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,1.48958,1)"
+         id="g2052"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="33.0938"
+           xml:space="preserve"
+           y="602.43799"
+           id="text2050"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">10</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,1.48958,1)"
+         id="g2056"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="33.0938"
+           xml:space="preserve"
+           y="450.31299"
+           id="text2054"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">30</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,1.48958,1)"
+         id="g2060"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="33.0938"
+           xml:space="preserve"
+           y="298.203"
+           id="text2058"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">50</text>
+      </g>
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         transform="matrix(0.979167,0,0,0.979167,1.48958,1)"
+         id="g2064"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+        <text
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           x="33.0938"
+           xml:space="preserve"
+           y="146.078"
+           id="text2062"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">70</text>
+      </g>
+      <g
+         id="QGraphicsTextItem_2"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <g
+           font-size="14.3611"
+           font-style="normal"
+           font-weight="400"
+           transform="rotate(-90,215,219)"
+           id="g2068"
+           style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+          <text
+             font-size="14.3611"
+             font-style="normal"
+             font-weight="400"
+             x="4"
+             xml:space="preserve"
+             y="18"
+             id="text2066"
+             style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#ff0000;fill-opacity:1;stroke:none">number of people (x1e+06)</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="ViewBox_1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+      <g
+         font-size="14.3611"
+         font-style="normal"
+         font-weight="400"
+         id="g2074"
+         style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:none">
+        <path
+           d="M 56,1 H 1830 V 674 H 56 V 1"
+           id="path2072"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <clipPath
+         id="ViewBox_1_clip">
+        <path
+           d="M 56,1 H 1830 V 674 H 56 V 1"
+           id="path2076"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd;stroke-width:1" />
+      </clipPath>
+      <g
+         clip-path="url(#ViewBox_1_clip)"
+         id="g2857">
+        <g
+           id="ChildGroup_1"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+          <g
+             id="PlotDataItem_1" />
+          <g
+             id="PlotDataItem_2" />
+          <g
+             id="PlotDataItem_3" />
+          <g
+             id="PlotDataItem_4" />
+          <g
+             id="PlotDataItem_5" />
+          <g
+             id="PlotDataItem_6" />
+          <g
+             id="PlotDataItem_7" />
+          <g
+             id="PlotDataItem_8" />
+          <g
+             id="PlotDataItem_9" />
+          <g
+             id="PlotDataItem_10" />
+          <g
+             id="PlotDataItem_11" />
+          <g
+             id="PlotDataItem_12" />
+          <g
+             id="PlotDataItem_13" />
+          <g
+             id="PlotDataItem_14" />
+          <g
+             id="PlotDataItem_15" />
+          <g
+             id="PlotDataItem_16" />
+          <g
+             id="PlotDataItem_17" />
+          <g
+             id="PlotDataItem_18" />
+          <g
+             id="PlotDataItem_19" />
+          <g
+             id="PlotDataItem_20" />
+          <g
+             id="PlotDataItem_21" />
+          <g
+             id="PlotDataItem_22" />
+          <g
+             id="PlotDataItem_23" />
+          <g
+             id="PlotDataItem_24" />
+          <g
+             id="PlotDataItem_25" />
+          <g
+             id="PlotDataItem_26" />
+          <g
+             id="PlotDataItem_27" />
+          <g
+             id="PlotDataItem_28" />
+          <g
+             id="PlotDataItem_29" />
+          <g
+             id="PlotDataItem_30" />
+          <g
+             id="PlotDataItem_31" />
+          <g
+             id="PlotDataItem_32" />
+          <g
+             id="PlotDataItem_33" />
+          <g
+             id="PlotDataItem_34" />
+          <g
+             id="PlotDataItem_35" />
+          <g
+             id="PlotDataItem_36" />
+          <g
+             id="PlotDataItem_37" />
+          <g
+             id="PlotDataItem_38" />
+          <g
+             id="PlotDataItem_39" />
+          <g
+             id="PlotDataItem_40" />
+          <g
+             id="PlotDataItem_41" />
+          <g
+             id="PlotDataItem_42" />
+          <g
+             id="PlotDataItem_43" />
+          <g
+             id="PlotDataItem_44" />
+          <g
+             id="PlotDataItem_45" />
+          <g
+             id="PlotDataItem_46" />
+          <g
+             id="PlotDataItem_47" />
+          <g
+             id="PlotDataItem_48" />
+          <g
+             id="PlotDataItem_49" />
+          <g
+             id="PlotDataItem_50" />
+          <g
+             id="PlotDataItem_51" />
+          <g
+             id="PlotDataItem_52" />
+          <g
+             id="PlotDataItem_53" />
+          <g
+             id="PlotDataItem_54" />
+          <g
+             id="PlotDataItem_55" />
+          <g
+             id="PlotDataItem_56" />
+          <g
+             id="PlotDataItem_57" />
+          <g
+             id="PlotDataItem_58" />
+          <g
+             id="PlotDataItem_59" />
+          <g
+             id="PlotDataItem_60" />
+          <g
+             id="PlotDataItem_61" />
+          <g
+             id="PlotDataItem_62" />
+          <g
+             id="PlotDataItem_63" />
+          <g
+             id="PlotDataItem_64" />
+          <g
+             id="PlotDataItem_65" />
+          <g
+             id="PlotDataItem_66" />
+          <g
+             id="PlotDataItem_67" />
+          <g
+             id="PlotDataItem_68" />
+          <g
+             id="PlotDataItem_69" />
+          <g
+             id="PlotDataItem_70" />
+          <g
+             id="PlotDataItem_71" />
+          <g
+             id="PlotDataItem_72" />
+          <g
+             id="PlotDataItem_73" />
+          <g
+             id="PlotDataItem_74" />
+          <g
+             id="PlotDataItem_75" />
+          <g
+             id="PlotDataItem_76" />
+          <g
+             id="PlotDataItem_77" />
+          <g
+             id="PlotDataItem_78" />
+          <g
+             id="PlotDataItem_79" />
+          <g
+             id="PlotDataItem_80" />
+          <g
+             id="PlotDataItem_81" />
+          <g
+             id="PlotDataItem_82" />
+          <g
+             id="PlotDataItem_83" />
+          <g
+             id="PlotDataItem_84" />
+          <g
+             id="PlotDataItem_85" />
+          <g
+             id="PlotDataItem_86" />
+          <g
+             id="PlotDataItem_87" />
+          <g
+             id="PlotDataItem_88" />
+          <g
+             id="PlotDataItem_89" />
+          <g
+             id="PlotDataItem_90" />
+          <g
+             id="PlotDataItem_91" />
+          <g
+             id="PlotDataItem_92" />
+          <g
+             id="PlotDataItem_93" />
+          <g
+             id="PlotDataItem_94" />
+          <g
+             id="PlotDataItem_95" />
+          <g
+             id="PlotDataItem_96" />
+          <g
+             id="PlotDataItem_97" />
+          <g
+             id="PlotDataItem_98" />
+          <g
+             id="PlotDataItem_99" />
+          <g
+             id="PlotDataItem_100" />
+          <g
+             id="PlotDataItem_101" />
+          <g
+             id="PlotDataItem_102" />
+          <g
+             id="PlotDataItem_103" />
+          <g
+             id="PlotDataItem_104" />
+          <g
+             id="PlotDataItem_105" />
+          <g
+             id="PlotDataItem_106" />
+          <g
+             id="PlotDataItem_107" />
+          <g
+             id="PlotDataItem_108" />
+          <g
+             id="PlotDataItem_109" />
+          <g
+             id="PlotDataItem_110" />
+          <g
+             id="PlotDataItem_111" />
+          <g
+             id="PlotDataItem_112" />
+          <g
+             id="PlotDataItem_113" />
+          <g
+             id="PlotDataItem_114" />
+          <g
+             id="PlotDataItem_115" />
+          <g
+             id="PlotDataItem_116" />
+          <g
+             id="PlotDataItem_117" />
+          <g
+             id="PlotDataItem_118" />
+          <g
+             id="PlotDataItem_119" />
+          <g
+             id="PlotDataItem_120" />
+          <g
+             id="PlotDataItem_121" />
+          <g
+             id="PlotDataItem_122" />
+          <g
+             id="PlotDataItem_123" />
+          <g
+             id="PlotDataItem_124" />
+          <g
+             id="PlotDataItem_125" />
+          <g
+             id="PlotDataItem_126" />
+          <g
+             id="PlotDataItem_127" />
+          <g
+             id="PlotDataItem_128" />
+          <g
+             id="PlotDataItem_129" />
+          <g
+             id="PlotDataItem_130" />
+          <g
+             id="PlotDataItem_131" />
+          <g
+             id="PlotDataItem_132" />
+          <g
+             id="PlotDataItem_133" />
+          <g
+             id="PlotDataItem_134" />
+          <g
+             id="PlotDataItem_135" />
+          <g
+             id="PlotDataItem_136" />
+          <g
+             id="PlotDataItem_137" />
+          <g
+             id="PlotDataItem_138" />
+          <g
+             id="PlotDataItem_139" />
+          <g
+             id="PlotDataItem_140" />
+          <g
+             id="PlotDataItem_141" />
+          <g
+             id="PlotDataItem_142" />
+          <g
+             id="PlotDataItem_143" />
+          <g
+             id="PlotDataItem_144" />
+          <g
+             id="PlotDataItem_145" />
+          <g
+             id="PlotDataItem_146" />
+          <g
+             id="PlotDataItem_147" />
+          <g
+             id="PlotDataItem_148" />
+          <g
+             id="PlotDataItem_149" />
+          <g
+             id="PlotDataItem_150" />
+          <g
+             id="PlotDataItem_151" />
+          <g
+             id="PlotDataItem_152" />
+          <g
+             id="PlotDataItem_153" />
+          <g
+             id="PlotDataItem_154" />
+          <g
+             id="PlotDataItem_155" />
+          <g
+             id="PlotDataItem_156" />
+          <g
+             id="PlotDataItem_157" />
+          <g
+             id="PlotDataItem_158" />
+          <g
+             id="PlotDataItem_159" />
+          <g
+             id="PlotDataItem_160" />
+          <g
+             id="PlotDataItem_161" />
+          <g
+             id="PlotDataItem_162" />
+          <g
+             id="PlotDataItem_163" />
+          <g
+             id="PlotDataItem_164" />
+          <g
+             id="PlotDataItem_165" />
+          <g
+             id="PlotDataItem_166" />
+          <g
+             id="PlotDataItem_167" />
+          <g
+             id="PlotDataItem_168" />
+          <g
+             id="PlotDataItem_169" />
+          <g
+             id="PlotDataItem_170" />
+          <g
+             id="PlotDataItem_171" />
+          <g
+             id="PlotDataItem_172" />
+          <g
+             id="PlotDataItem_173" />
+          <g
+             id="PlotDataItem_174" />
+          <g
+             id="PlotDataItem_175" />
+          <g
+             id="PlotDataItem_176" />
+          <g
+             id="PlotDataItem_177" />
+          <g
+             id="PlotDataItem_178" />
+          <g
+             id="PlotDataItem_179" />
+          <g
+             id="PlotDataItem_180" />
+          <g
+             id="PlotDataItem_181" />
+          <g
+             id="PlotDataItem_182" />
+          <g
+             id="PlotDataItem_183" />
+          <g
+             id="PlotDataItem_184" />
+          <g
+             id="PlotDataItem_185" />
+          <g
+             id="PlotDataItem_186" />
+          <g
+             id="PlotDataItem_187" />
+          <g
+             id="PlotDataItem_188" />
+          <g
+             id="PlotDataItem_189" />
+          <g
+             id="PlotDataItem_190" />
+          <g
+             id="PlotDataItem_191" />
+          <g
+             id="PlotDataItem_192" />
+          <g
+             id="PlotDataItem_193" />
+          <g
+             id="PlotDataItem_194" />
+          <g
+             id="PlotDataItem_195" />
+          <g
+             id="PlotDataItem_196" />
+          <g
+             id="PlotDataItem_197" />
+          <g
+             id="PlotDataItem_198" />
+          <g
+             id="PlotDataItem_199" />
+          <g
+             id="PlotDataItem_200" />
+          <g
+             id="PlotDataItem_201" />
+          <g
+             id="PlotDataItem_202" />
+          <g
+             id="PlotDataItem_203" />
+          <g
+             id="PlotDataItem_204" />
+          <g
+             id="PlotDataItem_205" />
+          <g
+             id="PlotDataItem_206" />
+          <g
+             id="PlotDataItem_207" />
+          <g
+             id="PlotDataItem_208" />
+          <g
+             id="PlotDataItem_209" />
+          <g
+             id="PlotDataItem_210" />
+          <g
+             id="PlotDataItem_211" />
+          <g
+             id="PlotDataItem_212" />
+          <g
+             id="PlotDataItem_213" />
+          <g
+             id="PlotDataItem_214" />
+          <g
+             id="PlotDataItem_215" />
+          <g
+             id="PlotDataItem_216" />
+          <g
+             id="PlotDataItem_217" />
+          <g
+             id="PlotDataItem_218" />
+          <g
+             id="PlotDataItem_219" />
+          <g
+             id="PlotDataItem_220" />
+          <g
+             id="PlotDataItem_221" />
+          <g
+             id="PlotDataItem_222" />
+          <g
+             id="PlotDataItem_223" />
+          <g
+             id="PlotDataItem_224" />
+          <g
+             id="PlotDataItem_225" />
+          <g
+             id="PlotDataItem_226" />
+          <g
+             id="PlotDataItem_227" />
+          <g
+             id="PlotDataItem_228" />
+          <g
+             id="PlotDataItem_229" />
+          <g
+             id="PlotDataItem_230" />
+          <g
+             id="PlotDataItem_231" />
+          <g
+             id="PlotDataItem_232" />
+          <g
+             id="PlotDataItem_233" />
+          <g
+             id="PlotDataItem_234" />
+          <g
+             id="PlotDataItem_235" />
+          <g
+             id="PlotDataItem_236" />
+          <g
+             id="PlotDataItem_237" />
+          <g
+             id="PlotDataItem_238" />
+          <g
+             id="PlotDataItem_239" />
+          <g
+             id="PlotDataItem_240" />
+          <g
+             id="PlotDataItem_241" />
+          <g
+             id="PlotDataItem_242" />
+          <g
+             id="PlotDataItem_243" />
+          <g
+             id="PlotDataItem_244" />
+          <g
+             id="PlotDataItem_245" />
+          <g
+             id="PlotDataItem_246" />
+          <g
+             id="PlotDataItem_247" />
+          <g
+             id="PlotDataItem_248" />
+          <g
+             id="PlotDataItem_249" />
+          <g
+             id="PlotDataItem_250" />
+          <g
+             id="PlotDataItem_251" />
+          <g
+             id="PlotDataItem_252" />
+          <g
+             id="PlotDataItem_253" />
+          <g
+             id="PlotDataItem_254" />
+          <g
+             id="PlotDataItem_255" />
+          <g
+             id="PlotDataItem_256" />
+          <g
+             id="PlotDataItem_257" />
+          <g
+             id="PlotDataItem_258" />
+          <g
+             id="PlotDataItem_259" />
+          <g
+             id="PlotDataItem_260" />
+          <g
+             id="PlotDataItem_261" />
+          <g
+             id="PlotDataItem_262" />
+          <g
+             id="PlotDataItem_263" />
+          <g
+             id="PlotDataItem_264" />
+          <g
+             id="PlotDataItem_265" />
+          <g
+             id="PlotDataItem_266" />
+          <g
+             id="PlotDataItem_267" />
+          <g
+             id="PlotDataItem_268" />
+          <g
+             id="PlotDataItem_269" />
+          <g
+             id="PlotDataItem_270" />
+          <g
+             id="PlotDataItem_271" />
+          <g
+             id="PlotDataItem_272" />
+          <g
+             id="PlotDataItem_273" />
+          <g
+             id="PlotDataItem_274" />
+          <g
+             id="PlotDataItem_275" />
+          <g
+             id="PlotDataItem_276" />
+          <g
+             id="PlotDataItem_277" />
+          <g
+             id="PlotDataItem_278" />
+          <g
+             id="PlotDataItem_279" />
+          <g
+             id="PlotDataItem_280" />
+          <g
+             id="PlotDataItem_281" />
+          <g
+             id="PlotDataItem_282" />
+          <g
+             id="PlotDataItem_283" />
+          <g
+             id="PlotDataItem_284" />
+          <g
+             id="PlotDataItem_285" />
+          <g
+             id="PlotDataItem_286" />
+          <g
+             id="PlotDataItem_287" />
+          <g
+             id="PlotDataItem_288" />
+          <g
+             id="PlotDataItem_289" />
+          <g
+             id="PlotDataItem_290" />
+          <g
+             id="PlotDataItem_291" />
+          <g
+             id="PlotDataItem_292" />
+          <g
+             id="PlotDataItem_293" />
+          <g
+             id="PlotDataItem_294" />
+          <g
+             id="PlotDataItem_295" />
+          <g
+             id="PlotDataItem_296" />
+          <g
+             id="PlotDataItem_297" />
+          <g
+             id="PlotDataItem_298" />
+          <g
+             id="PlotDataItem_299" />
+          <g
+             id="PlotDataItem_300" />
+          <g
+             id="PlotDataItem_301" />
+          <g
+             id="PlotDataItem_302" />
+          <g
+             id="PlotDataItem_303" />
+          <g
+             id="PlotDataItem_304" />
+          <g
+             id="PlotDataItem_305" />
+          <g
+             id="PlotDataItem_306" />
+          <g
+             id="PlotDataItem_307" />
+          <g
+             id="PlotDataItem_308" />
+          <g
+             id="PlotDataItem_309" />
+          <g
+             id="PlotDataItem_310" />
+          <g
+             id="PlotDataItem_311" />
+          <g
+             id="PlotDataItem_312" />
+          <g
+             id="PlotDataItem_313" />
+          <g
+             id="PlotDataItem_314" />
+          <g
+             id="PlotDataItem_315" />
+          <g
+             id="PlotDataItem_316" />
+          <g
+             id="PlotDataItem_317" />
+          <g
+             id="PlotDataItem_318" />
+          <g
+             id="PlotDataItem_319" />
+          <g
+             id="PlotDataItem_320" />
+          <g
+             id="PlotDataItem_321" />
+          <g
+             id="PlotDataItem_322" />
+          <g
+             id="PlotDataItem_323" />
+          <g
+             id="PlotDataItem_324" />
+          <g
+             id="PlotDataItem_325" />
+          <g
+             id="PlotDataItem_326" />
+          <g
+             id="PlotDataItem_327" />
+          <g
+             id="PlotDataItem_328" />
+          <g
+             id="PlotDataItem_329" />
+          <g
+             id="PlotDataItem_330" />
+          <g
+             id="PlotDataItem_331" />
+          <g
+             id="PlotDataItem_332" />
+          <g
+             id="PlotDataItem_333" />
+          <g
+             id="PlotDataItem_334" />
+          <g
+             id="PlotDataItem_335" />
+          <g
+             id="PlotDataItem_336" />
+          <g
+             id="PlotDataItem_337" />
+          <g
+             id="PlotDataItem_338" />
+          <g
+             id="PlotDataItem_339" />
+          <g
+             id="PlotDataItem_340" />
+          <g
+             id="PlotDataItem_341" />
+          <g
+             id="PlotDataItem_342" />
+          <g
+             id="PlotDataItem_343" />
+          <g
+             id="PlotDataItem_344" />
+          <g
+             id="PlotDataItem_345" />
+          <g
+             id="PlotDataItem_346" />
+          <g
+             id="PlotDataItem_347" />
+          <g
+             id="PlotDataItem_348" />
+          <g
+             id="PlotDataItem_349" />
+          <g
+             id="PlotDataItem_350" />
+          <g
+             id="PlotDataItem_351" />
+          <g
+             id="PlotDataItem_352" />
+          <g
+             id="PlotDataItem_353" />
+          <g
+             id="PlotDataItem_354" />
+          <g
+             id="PlotDataItem_355" />
+          <g
+             id="PlotDataItem_356" />
+          <g
+             id="PlotDataItem_357" />
+          <g
+             id="PlotDataItem_358" />
+          <g
+             id="PlotDataItem_359" />
+          <g
+             id="PlotDataItem_360" />
+          <g
+             id="PlotDataItem_361" />
+          <g
+             id="PlotDataItem_362" />
+          <g
+             id="PlotDataItem_363" />
+          <g
+             id="PlotDataItem_364" />
+          <g
+             id="PlotDataItem_365" />
+          <g
+             id="PlotDataItem_366" />
+          <g
+             id="PlotDataItem_367" />
+          <g
+             id="PlotDataItem_368" />
+          <g
+             id="PlotDataItem_369" />
+          <g
+             id="PlotDataItem_370" />
+          <g
+             id="PlotDataItem_371" />
+          <g
+             id="PlotDataItem_372" />
+          <g
+             id="PlotDataItem_373" />
+          <g
+             id="PlotDataItem_374" />
+          <g
+             id="PlotDataItem_375" />
+          <g
+             id="PlotDataItem_376" />
+          <g
+             id="PlotDataItem_377" />
+          <g
+             id="PlotDataItem_378" />
+          <g
+             id="PlotDataItem_379" />
+          <g
+             id="PlotDataItem_380" />
+          <g
+             id="PlotDataItem_381" />
+          <g
+             id="PlotDataItem_382" />
+          <g
+             id="PlotDataItem_383" />
+          <g
+             id="PlotDataItem_384" />
+          <g
+             id="PlotDataItem_385" />
+          <g
+             id="PlotDataItem_386" />
+          <g
+             id="PlotDataItem_387" />
+          <g
+             id="PlotDataItem_388" />
+          <g
+             id="PlotDataItem_389" />
+          <g
+             id="PlotDataItem_390" />
+          <g
+             id="PlotDataItem_391" />
+          <g
+             id="PlotDataItem_392" />
+          <g
+             id="PlotDataItem_393" />
+          <g
+             id="PlotDataItem_394" />
+          <g
+             id="PlotDataItem_395" />
+          <g
+             id="PlotDataItem_396" />
+          <g
+             id="PlotDataItem_397" />
+          <g
+             id="PlotDataItem_398" />
+          <g
+             id="PlotDataItem_399" />
+          <g
+             id="PlotDataItem_400" />
+          <g
+             id="PlotDataItem_401" />
+          <g
+             id="PlotDataItem_402" />
+          <g
+             id="PlotDataItem_403" />
+          <g
+             id="PlotDataItem_404" />
+          <g
+             id="PlotDataItem_405" />
+          <g
+             id="PlotDataItem_406" />
+          <g
+             id="PlotDataItem_407" />
+          <g
+             id="PlotDataItem_408" />
+          <g
+             id="PlotDataItem_409" />
+          <g
+             id="PlotDataItem_410" />
+          <g
+             id="PlotDataItem_411" />
+          <g
+             id="PlotDataItem_412" />
+          <g
+             id="PlotDataItem_413" />
+          <g
+             id="PlotDataItem_414" />
+          <g
+             id="PlotDataItem_415" />
+          <g
+             id="PlotDataItem_416" />
+          <g
+             id="PlotDataItem_417" />
+          <g
+             id="PlotDataItem_418" />
+          <g
+             id="PlotDataItem_419" />
+          <g
+             id="PlotDataItem_420" />
+          <g
+             id="PlotDataItem_421" />
+          <g
+             id="PlotDataItem_422" />
+          <g
+             id="PlotDataItem_423" />
+          <g
+             id="PlotDataItem_424" />
+          <g
+             id="PlotDataItem_425" />
+          <g
+             id="PlotDataItem_426" />
+          <g
+             id="PlotDataItem_427" />
+          <g
+             id="PlotDataItem_428" />
+          <g
+             id="PlotDataItem_429" />
+          <g
+             id="PlotDataItem_430" />
+          <g
+             id="PlotDataItem_431" />
+          <g
+             id="PlotDataItem_432" />
+          <g
+             id="PlotDataItem_433" />
+          <g
+             id="PlotDataItem_434" />
+          <g
+             id="PlotDataItem_435" />
+          <g
+             id="PlotDataItem_436" />
+          <g
+             id="PlotDataItem_437" />
+          <g
+             id="PlotDataItem_438" />
+          <g
+             id="PlotDataItem_439" />
+          <g
+             id="PlotDataItem_440" />
+          <g
+             id="PlotDataItem_441" />
+          <g
+             id="PlotDataItem_442" />
+          <g
+             id="PlotDataItem_443" />
+          <g
+             id="PlotDataItem_444" />
+          <g
+             id="PlotDataItem_445" />
+          <g
+             id="PlotDataItem_446" />
+          <g
+             id="PlotDataItem_447" />
+          <g
+             id="PlotDataItem_448" />
+          <g
+             id="PlotDataItem_449" />
+          <g
+             id="PlotDataItem_450" />
+          <g
+             id="PlotDataItem_451" />
+          <g
+             id="PlotDataItem_452" />
+          <g
+             id="PlotDataItem_453" />
+          <g
+             id="PlotDataItem_454" />
+          <g
+             id="PlotDataItem_455" />
+          <g
+             id="PlotDataItem_456" />
+          <g
+             id="PlotDataItem_457" />
+          <g
+             id="PlotDataItem_458" />
+          <g
+             id="PlotDataItem_459" />
+          <g
+             id="PlotDataItem_460" />
+          <g
+             id="PlotDataItem_461" />
+          <g
+             id="PlotDataItem_462" />
+          <g
+             id="PlotDataItem_463" />
+          <g
+             id="PlotDataItem_464" />
+          <g
+             id="PlotDataItem_465" />
+          <g
+             id="PlotDataItem_466" />
+          <g
+             id="PlotDataItem_467" />
+          <g
+             id="PlotDataItem_468" />
+          <g
+             id="PlotDataItem_469" />
+          <g
+             id="PlotDataItem_470" />
+          <g
+             id="PlotDataItem_471" />
+          <g
+             id="PlotDataItem_472" />
+          <g
+             id="PlotDataItem_473" />
+          <g
+             id="PlotDataItem_474" />
+          <g
+             id="PlotDataItem_475" />
+          <g
+             id="PlotDataItem_476" />
+          <g
+             id="PlotDataItem_477" />
+          <g
+             id="PlotDataItem_478" />
+          <g
+             id="PlotDataItem_479" />
+          <g
+             id="PlotDataItem_480" />
+          <g
+             id="PlotDataItem_481" />
+          <g
+             id="PlotDataItem_482" />
+          <g
+             id="PlotDataItem_483" />
+          <g
+             id="PlotDataItem_484" />
+          <g
+             id="PlotDataItem_485" />
+          <g
+             id="PlotDataItem_486" />
+          <g
+             id="PlotDataItem_487" />
+          <g
+             id="PlotDataItem_488" />
+          <g
+             id="PlotDataItem_489" />
+          <g
+             id="PlotDataItem_490" />
+          <g
+             id="PlotDataItem_491" />
+          <g
+             id="PlotDataItem_492" />
+          <g
+             id="PlotDataItem_493" />
+          <g
+             id="PlotDataItem_494" />
+          <g
+             id="PlotDataItem_495" />
+          <g
+             id="PlotDataItem_496" />
+          <g
+             id="PlotDataItem_497" />
+          <g
+             id="PlotDataItem_498" />
+          <g
+             id="PlotDataItem_499" />
+          <g
+             id="PlotDataItem_500" />
+          <g
+             id="PlotDataItem_501" />
+          <g
+             id="PlotDataItem_502" />
+          <g
+             id="PlotDataItem_503" />
+          <g
+             id="PlotDataItem_504" />
+          <g
+             id="PlotDataItem_505" />
+          <g
+             id="PlotDataItem_506" />
+          <g
+             id="PlotDataItem_507" />
+          <g
+             id="PlotDataItem_508" />
+          <g
+             id="PlotDataItem_509" />
+          <g
+             id="PlotDataItem_510" />
+          <g
+             id="PlotDataItem_511" />
+          <g
+             id="PlotDataItem_512" />
+          <g
+             id="PlotDataItem_513" />
+          <g
+             id="PlotDataItem_514" />
+          <g
+             id="PlotDataItem_515" />
+          <g
+             id="PlotDataItem_516" />
+          <g
+             id="PlotDataItem_517" />
+          <g
+             id="PlotDataItem_518" />
+          <g
+             id="PlotDataItem_519" />
+          <g
+             id="PlotDataItem_520" />
+          <g
+             id="PlotDataItem_521" />
+          <g
+             id="PlotDataItem_522" />
+          <g
+             id="PlotDataItem_523" />
+          <g
+             id="PlotDataItem_524" />
+          <g
+             id="PlotDataItem_525" />
+          <g
+             id="PlotDataItem_526" />
+          <g
+             id="PlotDataItem_527" />
+          <g
+             id="PlotDataItem_528" />
+          <g
+             id="PlotDataItem_529" />
+          <g
+             id="PlotDataItem_530" />
+          <g
+             id="PlotDataItem_531" />
+          <g
+             id="PlotDataItem_532" />
+          <g
+             id="PlotDataItem_533" />
+          <g
+             id="PlotDataItem_534" />
+          <g
+             id="PlotDataItem_535" />
+          <g
+             id="PlotDataItem_536" />
+          <g
+             id="PlotDataItem_537" />
+          <g
+             id="PlotDataItem_538" />
+          <g
+             id="PlotDataItem_539" />
+          <g
+             id="PlotDataItem_540" />
+          <g
+             id="PlotDataItem_541" />
+          <g
+             id="PlotDataItem_542" />
+          <g
+             id="PlotDataItem_543" />
+          <g
+             id="PlotDataItem_544" />
+          <g
+             id="PlotDataItem_545" />
+          <g
+             id="PlotDataItem_546" />
+          <g
+             id="PlotDataItem_547" />
+          <g
+             id="PlotDataItem_548" />
+          <g
+             id="PlotDataItem_549" />
+          <g
+             id="PlotDataItem_550" />
+          <g
+             id="PlotDataItem_551" />
+          <g
+             id="PlotDataItem_552" />
+          <g
+             id="PlotDataItem_553" />
+          <g
+             id="PlotDataItem_554" />
+          <g
+             id="PlotDataItem_555" />
+          <g
+             id="PlotDataItem_556" />
+          <g
+             id="PlotDataItem_557" />
+          <g
+             id="PlotDataItem_558" />
+          <g
+             id="PlotDataItem_559" />
+          <g
+             id="PlotDataItem_560" />
+          <g
+             id="PlotDataItem_561" />
+          <g
+             id="PlotDataItem_562" />
+          <g
+             id="PlotDataItem_563" />
+          <g
+             id="PlotDataItem_564" />
+          <g
+             id="PlotDataItem_565" />
+          <g
+             id="PlotDataItem_566" />
+          <g
+             id="PlotDataItem_567" />
+          <g
+             id="PlotDataItem_568" />
+          <g
+             id="PlotDataItem_569" />
+          <g
+             id="PlotDataItem_570" />
+          <g
+             id="PlotDataItem_571" />
+          <g
+             id="PlotDataItem_572" />
+          <g
+             id="PlotDataItem_573" />
+          <g
+             id="PlotDataItem_574" />
+          <g
+             id="PlotDataItem_575" />
+          <g
+             id="PlotDataItem_576" />
+          <g
+             id="PlotDataItem_577" />
+          <g
+             id="PlotDataItem_578" />
+          <g
+             id="PlotDataItem_579" />
+          <g
+             id="PlotDataItem_580" />
+          <g
+             id="PlotDataItem_581" />
+          <g
+             id="PlotDataItem_582" />
+          <g
+             id="PlotDataItem_583" />
+          <g
+             id="PlotDataItem_584" />
+          <g
+             id="PlotDataItem_585" />
+          <g
+             id="PlotDataItem_586" />
+          <g
+             id="PlotDataItem_587" />
+          <g
+             id="PlotDataItem_588" />
+          <g
+             id="PlotDataItem_589" />
+          <g
+             id="PlotDataItem_590" />
+          <g
+             id="PlotDataItem_591" />
+          <g
+             id="PlotDataItem_592" />
+          <g
+             id="PlotDataItem_593" />
+          <g
+             id="PlotDataItem_594" />
+          <g
+             id="PlotDataItem_595" />
+          <g
+             id="PlotDataItem_596" />
+          <g
+             id="PlotDataItem_597" />
+          <g
+             id="PlotDataItem_598" />
+          <g
+             id="PlotDataItem_599" />
+          <g
+             id="PlotDataItem_600" />
+          <g
+             id="PlotDataItem_601" />
+          <g
+             id="PlotDataItem_602" />
+          <g
+             id="PlotDataItem_603" />
+          <g
+             id="PlotDataItem_604" />
+          <g
+             id="PlotDataItem_605" />
+          <g
+             id="PlotDataItem_606" />
+          <g
+             id="PlotDataItem_607" />
+          <g
+             id="PlotDataItem_608" />
+          <g
+             id="PlotDataItem_609" />
+          <g
+             id="PlotDataItem_610" />
+          <g
+             id="PlotDataItem_611" />
+          <g
+             id="PlotDataItem_612" />
+          <g
+             id="PlotDataItem_613" />
+          <g
+             id="PlotDataItem_614" />
+          <g
+             id="PlotDataItem_615" />
+          <g
+             id="PlotDataItem_616" />
+          <g
+             id="PlotDataItem_617" />
+          <g
+             id="PlotDataItem_618" />
+          <g
+             id="PlotDataItem_619" />
+          <g
+             id="PlotDataItem_620" />
+          <g
+             id="PlotDataItem_621" />
+          <g
+             id="PlotDataItem_622" />
+          <g
+             id="PlotDataItem_623" />
+          <g
+             id="PlotDataItem_624" />
+          <g
+             id="PlotDataItem_625" />
+          <g
+             id="PlotDataItem_626" />
+          <g
+             id="PlotDataItem_627" />
+          <g
+             id="PlotDataItem_628" />
+          <g
+             id="PlotDataItem_629" />
+          <g
+             id="PlotDataItem_630" />
+          <g
+             id="PlotDataItem_631" />
+          <g
+             id="PlotDataItem_632" />
+          <g
+             id="PlotDataItem_633" />
+          <g
+             id="PlotDataItem_634" />
+          <g
+             id="PlotDataItem_635" />
+          <g
+             id="PlotDataItem_636" />
+          <g
+             id="PlotDataItem_637" />
+          <g
+             id="PlotDataItem_638" />
+          <g
+             id="PlotDataItem_639" />
+          <g
+             id="PlotDataItem_640" />
+          <g
+             id="PlotDataItem_641" />
+          <g
+             id="PlotDataItem_642" />
+          <g
+             id="PlotDataItem_643" />
+          <g
+             id="PlotDataItem_644" />
+          <g
+             id="PlotDataItem_645" />
+          <g
+             id="PlotDataItem_646" />
+          <g
+             id="PlotDataItem_647" />
+          <g
+             id="PlotDataItem_648" />
+          <g
+             id="PlotDataItem_649" />
+          <g
+             id="PlotDataItem_650" />
+          <g
+             id="PlotDataItem_651" />
+          <g
+             id="PlotDataItem_652" />
+          <g
+             id="PlotDataItem_653" />
+          <g
+             id="PlotDataItem_654" />
+          <g
+             id="PlotDataItem_655" />
+          <g
+             id="PlotDataItem_656" />
+          <g
+             id="PlotDataItem_657" />
+          <g
+             id="PlotDataItem_658" />
+          <g
+             id="PlotDataItem_659" />
+          <g
+             id="PlotDataItem_660" />
+          <g
+             id="PlotDataItem_661" />
+          <g
+             id="PlotDataItem_662" />
+          <g
+             id="PlotDataItem_663" />
+          <g
+             id="PlotDataItem_664" />
+          <g
+             id="PlotDataItem_665" />
+          <g
+             id="PlotDataItem_666" />
+          <g
+             id="PlotDataItem_667" />
+          <g
+             id="PlotDataItem_668" />
+          <g
+             id="PlotDataItem_669" />
+          <g
+             id="PlotDataItem_670" />
+          <g
+             id="PlotDataItem_671">
+            <g
+               id="PlotCurveItem_671"
+               style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+              <g
+                 font-size="14.3611"
+                 font-style="normal"
+                 font-weight="400"
+                 id="g2751"
+                 style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#0000ff;stroke-width:3;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                <path
+                   d="m 56,42.71113 h 1.544354 1.544353 1.544335 1.544363 1.544363 1.544363 1.544363 1.544316 1.544363 1.544363 1.544363 1.544363 1.544316 1.544363 1.544363 1.544363 1.544362 1.544317 1.544363 1.544363 1.544363 1.544362 1.544317 1.544363 l 1.544363,7.61e-4 h 1.544362 1.544363 1.544317 1.544358 1.54418 1.54464 1.54418 1.54464 1.54418 1.54418 1.54464 1.54417 1.54418 l 1.54464,7.6e-4 h 1.54418 1.54464 1.54418 1.54418 1.54464 1.54417 l 1.54418,7.61e-4 h 1.54464 1.54418 1.54464 l 1.54418,7.6e-4 h 1.54418 1.54464 1.54418 l 1.54464,7.61e-4 h 1.54417 l 1.54418,7.61e-4 h 1.54464 1.54418 l 1.54418,7.6e-4 h 1.54464 l 1.54418,7.61e-4 1.54464,7.6e-4 h 1.54417 l 1.54418,7.61e-4 1.54464,7.6e-4 1.54418,7.61e-4 1.54418,7.61e-4 1.54464,7.6e-4 1.54418,7.61e-4 1.54464,7.6e-4 1.54417,7.61e-4 1.54418,7.61e-4 1.54464,0.0015 1.54418,7.6e-4 1.54464,0.0015 1.54418,0.0015 1.54418,0.0015 1.54464,0.0015 1.54417,0.0015 1.54418,0.0023 1.54464,0.0015 1.54418,0.0023 1.54464,0.0023 1.54418,0.003 1.54418,0.0023 1.54464,0.003 1.54417,0.003 1.54418,0.0038 1.54464,0.003 1.54418,0.0046 1.54464,0.0038 1.54418,0.0046 1.54418,0.0053 1.54464,0.0053 1.54417,0.0061 1.54464,0.0061 1.54418,0.0068 1.54418,0.0068 1.54464,0.0076 1.54418,0.0084 1.54418,0.0091 1.54464,0.0099 1.54417,0.01065 1.54464,0.01141 1.54418,0.01217 1.54418,0.01293 1.54464,0.01445 1.54418,0.01521 1.54418,0.01673 1.54464,0.01825 1.54417,0.01902 1.54465,0.02053 1.54417,0.02282 1.54418,0.02358 1.54464,0.02662 1.54418,0.02738 1.54418,0.03042 1.54464,0.0327 1.54417,0.03499 1.54465,0.03803 1.54417,0.04107 1.54418,0.04411 1.54464,0.04716 1.54418,0.05172 1.54464,0.05476 1.54418,0.05933 1.54417,0.06465 1.54465,0.06921 1.54417,0.07454 1.54418,0.07986 1.54464,0.08671 1.54418,0.09355 1.54464,0.101159 1.54418,0.108003 1.54417,0.117131 1.54465,0.126258 1.54417,0.136145 1.54418,0.146033 1.54464,0.158203 1.54418,0.170372 1.54464,0.183302 1.54418,0.197753 1.54418,0.212965 1.54464,0.229698 1.54417,0.247191 1.54464,0.266967 1.54418,0.286742 1.54418,0.30956 1.54464,0.333138 1.54418,0.358998 1.54418,0.386379 1.54464,0.416803 1.54417,0.448747 1.54464,0.482974 1.54418,0.519482 1.54418,0.559794 1.54464,0.603147 1.54418,0.648782 1.54418,0.697461 1.54464,0.751461 1.54417,0.807746 1.54464,0.869353 1.54418,0.934764 1.54418,1.004738 1.54464,1.080797 1.54418,1.16142 1.54464,1.247365 1.54418,1.340919 1.54417,1.439034 1.54464,1.544757 1.54418,1.658844 1.54418,1.779018 1.54464,1.907557 1.54418,2.045224 1.54464,2.191257 1.54418,2.346417 1.54417,2.511465 1.54464,2.687921 1.54418,2.872745 1.54418,3.070498 1.54464,3.278138 1.54418,3.497949 1.54464,3.729929 1.54418,3.973316 1.54417,4.22963 1.54464,4.49737 1.54418,4.77802 1.54418,5.07084 1.54464,5.37509 1.54418,5.69072 1.54464,6.01702 1.54418,6.35396 1.54417,6.70003 1.54464,7.05446 1.54418,7.41499 1.54464,7.78082 1.54418,8.15123 1.54418,8.52164 1.54464,8.89205 1.54418,9.25941 1.54417,9.62069 1.54464,9.9736 1.54418,10.31435 1.54464,10.64064 1.54418,10.9502 1.54418,11.23694 1.54464,11.50087 1.54418,11.73741 1.54417,11.94353 1.54465,12.11694 1.54417,12.25613 1.54464,12.35653 1.54418,12.4189 1.54418,12.44247 1.54464,12.42346 1.54418,12.3649 1.54464,12.26602 1.54418,12.12759 1.54417,11.95113 1.54464,11.73894 1.54418,11.49249 1.54418,11.21565 1.54464,10.91141 1.54418,10.58207 1.54464,10.23145 1.54418,9.86484 1.54417,9.48454 1.54464,9.09284 1.54418,8.69506 1.54418,8.29422 1.54464,7.89263 1.54418,7.49409 1.54464,7.10009 1.54418,6.71372 1.54417,6.33723 1.54464,5.97062 1.54418,5.61771 1.54464,5.27621 1.54418,4.94991 1.54418,4.63853 1.54464,4.34167 1.54418,4.06018 1.54417,3.79374 1.54464,3.54229 1.54418,3.3056 1.54464,3.08304 1.54418,2.8745 1.54418,2.6791 1.54464,2.49655 1.54418,2.32604 1.54417,2.16707 1.54464,2.01898 1.54418,1.88117 1.54464,1.753 1.54418,1.6339 1.54418,1.52331 1.54464,1.42055 1.54418,1.32517 1.54417,1.23664 1.54464,1.15458 1.54418,1.07844 1.54464,1.0077 1.54418,0.94207 1.54418,0.88122 1.54464,0.8247 1.54418,0.77223 1.54464,0.72355 1.54417,0.67821 1.54418,0.63616 1.54464,0.59706 1.54418,0.56063 1.54418,0.52679 1.54464,0.49522 1.54418,0.46578 1.54464,0.43848 1.54417,0.41293 1.54418,0.38911 1.54464,0.36683 1.54418,0.346 1.54418,0.32659 1.54464,0.30842 1.54418,0.29138 1.54464,0.27541 1.54417,0.2605 1.54418,0.24644 1.54464,0.23334 1.54418,0.22096 1.54464,0.20939 1.54418,0.19843 1.54418,0.18817 1.54464,0.17859 1.54417,0.16938 1.54418,0.16079 1.54464,0.15273 1.54418,0.1451 1.54464,0.13786 1.54418,0.13103 1.54418,0.12458 1.54464,0.11847 1.54232,0.11269 1.54603,0.10721 1.54603,0.10202 1.5414,0.0971 1.54603,0.0924 1.54603,0.088 1.5414,0.0838 1.54603,0.0797 1.54603,0.0759 1.5414,0.0723 1.54603,0.0688 1.5414,0.0655 1.54603,0.0624 1.54603,0.0594 1.5414,0.0565 1.54603,0.0538 1.54603,0.0512 1.5414,0.0487 1.54603,0.0463 1.54603,0.044 1.5414,0.0418 1.54603,0.0398 1.5414,0.0378 1.54602,0.0358 1.54603,0.034 1.5414,0.0322 1.54603,0.0305 1.54603,0.0289 1.5414,0.0273 1.54603,0.0258 1.54603,0.0244 1.5414,0.023 1.54603,0.0217 1.5414,0.0204 1.54603,0.0191 1.54603,0.0179 1.5414,0.0168 1.54603,0.0157 1.54603,0.0146 1.5414,0.0136 1.54603,0.0126 1.54603,0.0116 1.5414,0.0107 1.54603,0.01 1.5414,0.009 1.54603,0.008 1.54603,0.007 1.5414,0.007 1.54603,0.006 1.54603,0.005 1.5414,0.004 1.54602,0.004 1.54603,0.003 1.5414,0.002 1.54603,0.002 1.5414,10e-4 1.54603,5.4e-4 1.54603,-3e-5 1.5414,-5.8e-4 1.54603,-10e-4 1.54603,-0.002 1.5414,-0.002 1.54603,-0.003 1.54603,-0.003 1.5414,-0.004 1.54603,-0.004 1.54603,-0.004 1.5414,-0.005 1.54603,-0.005 1.5414,-0.006 1.54603,-0.006 1.54603,-0.006 1.5414,-0.007 1.54603,-0.007 1.54603,-0.007 1.5414,-0.008 1.54603,-0.008 1.54603,-0.008 1.5414,-0.009 1.54602,-0.009 1.54141,-0.009 1.54602,-0.01 1.54603,-0.01 1.5414,-0.0101 1.54603,-0.0104 1.54603,-0.0107 1.5414,-0.0109 1.54603,-0.0111 1.54603,-0.0114 1.5414,-0.0116 1.54603,-0.0118 1.5414,-0.012 1.54603,-0.0123 1.54603,-0.0125 1.5414,-0.0127 1.54603,-0.0129 1.54603,-0.0131 1.5414,-0.0132 1.54603,-0.0134 1.54603,-0.0136 1.5414,-0.0138 1.54603,-0.0139 1.5414,-0.0141 1.54603,-0.0143 1.54603,-0.0144 1.5414,-0.0146 1.54603,-0.0147 1.54602,-0.0149 1.5414,-0.015 1.54603,-0.0151 1.54603,-0.0153 1.5414,-0.0154 1.54603,-0.0155 1.54603,-0.0157 1.5414,-0.0158 1.54603,-0.0159 1.5414,-0.016 1.54603,-0.0161 1.54603,-0.0162 1.5414,-0.0164 1.54603,-0.0164 1.54603,-0.0166 1.5414,-0.0166 1.54603,-0.0168 1.54603,-0.0168 1.5414,-0.017 1.54603,-0.017 1.5414,-0.0171 1.54603,-0.0172 1.54603,-0.0173 1.5414,-0.0174 1.54603,-0.0174 1.54603,-0.0175 1.5414,-0.0176 1.54603,-0.0177 1.54602,-0.0178 1.5414,-0.0178 1.54603,-0.0179 1.5414,-0.018 1.54603,-0.018 1.54603,-0.0181 1.5414,-0.0182 1.54603,-0.0182 1.54603,-0.0183 1.5414,-0.0183 1.54603,-0.0184 1.54603,-0.0185 1.5414,-0.0185 1.54603,-0.0186 1.5414,-0.0186 1.54603,-0.0187 1.54603,-0.0187 1.5414,-0.0188 1.54603,-0.0188 1.54603,-0.0189 1.5414,-0.0189 1.54603,-0.019 1.54603,-0.019 1.5414,-0.019 1.54603,-0.0191 1.5414,-0.0191 1.54603,-0.0192 1.54603,-0.0192 1.5414,-0.0192 1.54602,-0.0193 1.54603,-0.0193 1.5414,-0.0193 1.54603,-0.0194 1.54603,-0.0194 1.5414,-0.0194 1.54603,-0.0195 1.54603,-0.0195 1.5414,-0.0195 1.54603,-0.0196 1.5414,-0.0196 1.54603,-0.0196 1.54603,-0.0196 1.5414,-0.0197 1.54603,-0.0197 1.54603,-0.0197 1.5414,-0.0197 1.54603,-0.0198 1.54603,-0.0198 1.5414,-0.0198 1.54603,-0.0198 1.5414,-0.0199 1.54603,-0.0199 1.54603,-0.0199 1.5414,-0.0199 1.54603,-0.0199 1.54602,-0.02 1.54141,-0.02 1.54602,-0.02 1.54603,-0.02 1.5414,-0.02 1.54603,-0.0201 1.5414,-0.0201 1.54603,-0.0201 1.54603,-0.0201 1.5414,-0.0201 1.54603,-0.0201 1.54603,-0.0202 1.5414,-0.0202 1.54603,-0.0202 1.54603,-0.0202 1.5414,-0.0202 1.54603,-0.0202 1.5414,-0.0202 1.54603,-0.0202 1.54603,-0.0203 1.5414,-0.0203 1.54603,-0.0203 1.54603,-0.0203 1.5414,-0.0203 1.54603,-0.0203 1.54603,-0.0203 1.5414,-0.0203 1.54603,-0.0204 1.5414,-0.0204 1.54603,-0.0204 1.54602,-0.0204 1.5414,-0.0204 1.54603,-0.0204 1.54603,-0.0204 1.5414,-0.0204 1.54603,-0.0204 1.54603,-0.0204 1.5414,-0.0204 1.54603,-0.0205 1.54603,-0.0205 1.5414,-0.0205 1.54603,-0.0205 1.5414,-0.0205 1.54603,-0.0205 1.54603,-0.0205 1.5414,-0.0205 1.54603,-0.0205 1.54603,-0.0205 1.5414,-0.0205 1.54603,-0.0205 1.54603,-0.0205 1.5414,-0.0205 1.54603,-0.0205 1.5414,-0.0206 1.54603,-0.0205 1.54603,-0.0205 1.5414,-0.0205 1.54602,-0.0206 1.54603,-0.0205 1.5414,-0.0206 1.54603,-0.0205 1.54603,-0.0206 1.5414,-0.0206 1.54603,-0.0205 1.5414,-0.0206 1.54603,-0.0206 1.54603,-0.0206 1.5414,-0.0206 1.54603,-0.0206 1.54603,-0.0206 1.5414,-0.0206 1.54603,-0.0206 1.54603,-0.0206 1.5414,-0.0206 1.54603,-0.0207 1.5414,-0.0206 1.54603,-0.0206 1.54603,-0.0206 1.5414,-0.0207 1.54603,-0.0206 1.54603,-0.0207 1.5414,-0.0206 1.54603,-0.0207 1.54603,-0.0206 1.5414,-0.0207 1.54602,-0.0206 1.54603,-0.0207 1.5414,-0.0207 1.54603,-0.0206 1.5414,-0.0207 1.54603,-0.0207 1.54603,-0.0206 1.5414,-0.0207 1.54603,-0.0207 1.54603,-0.0207 1.5414,-0.0207 1.54603,-0.0206 1.54603,-0.0207 1.5414,-0.0207 1.54603,-0.0207 1.5414,-0.0207 1.54603,-0.0207 1.54603,-0.0207 1.5414,-0.0207 1.54603,-0.0207 1.54603,-0.0207 1.5414,-0.0207 1.54603,-0.0207 1.54603,-0.0207 1.5414,-0.0207 1.54603,-0.0207 1.5414,-0.0207 1.54603,-0.0207 1.54602,-0.0207 1.54141,-0.0207 1.54602,-0.0207 1.54603,-0.0208 1.5414,-0.0207 1.54603,-0.0207 1.54603,-0.0207 1.5414,-0.0207 1.54603,-0.0207 1.54142,-0.0207 1.546,-0.0208 1.546,-0.0207 1.5414,-0.0207 1.5461,-0.0207 1.546,-0.0207 1.5414,-0.0208 1.546,-0.0207 1.5461,-0.0207 1.5414,-0.0207 1.546,-0.0207 1.5414,-0.0208 1.546,-0.0207 1.546,-0.0207 1.5414,-0.0207 1.5461,-0.0207 1.546,-0.0208 1.5414,-0.0207 1.546,-0.0207 1.5461,-0.0207 1.5414,-0.0208 1.546,-0.0207 1.546,-0.0207 1.5414,-0.0207 1.5461,-0.0207 1.5414,-0.0208 1.546,-0.0207 1.546,-0.0207 1.5414,-0.0207 1.546,-0.0208 1.5461,-0.0207 1.5414,-0.0207 1.546,-0.0207 1.546,-0.0207 1.5414,-0.0208 1.5461,-0.0207 1.5414,-0.0207 1.546,-0.0207 1.546,-0.0208 1.5414,-0.0207 1.546,-0.0207 1.5461,-0.0207 1.5414,-0.0207 1.546,-0.0208 1.546,-0.0207 1.5414,-0.0207 1.5461,-0.0207 1.5414,-0.0207 1.546,-0.0207 1.546,-0.0208 1.5414,-0.0207 1.5461,-0.0207 1.546,-0.0207 1.5414,-0.0207 1.546,-0.0207 1.546,-0.0208 1.5414,-0.0207 1.5461,-0.0207 1.5414,-0.0207 1.546,-0.0207 1.546,-0.0207 1.5414,-0.0207 1.5461,-0.0207 1.546,-0.0208 1.5414,-0.0207 1.546,-0.0207 1.546,-0.0207 1.5414,-0.0207 1.5461,-0.0207 1.5414,-0.0207 1.546,-0.0207 1.546,-0.0207 1.5414,-0.0207 1.5461,-0.0207 1.546,-0.0207 1.5414,-0.0207 1.546,-0.0207 1.5461,-0.0207 1.5414,-0.0207 1.546,-0.0207 1.546,-0.0207 1.5414,-0.0207 1.546,-0.0207 1.5414,-0.0207 1.5461,-0.0207 1.546,-0.0207 1.5414,-0.0207 1.546,-0.0207 1.5461,-0.0207 1.5414,-0.0207 1.546,-0.0207 1.546,-0.0207 1.5414,-0.0207 1.546,-0.0207 1.5414,-0.0207 1.5461,-0.0206 1.546,-0.0207 1.5414,-0.0207 1.546,-0.0207 1.5461,-0.0207 1.5414,-0.0207 1.546,-0.0207 1.546,-0.0207 1.5414,-0.0206 1.5461,-0.0207 1.5414,-0.0207 1.546,-0.0207 1.546,-0.0207 1.5414,-0.0206 1.546,-0.0207 1.5461,-0.0207 1.5414,-0.0207 1.546,-0.0206 1.546,-0.0207 1.5414,-0.0207 1.5461,-0.0207 1.5414,-0.0206 1.546,-0.0207 1.546,-0.0207 1.5414,-0.0207 1.546,-0.0206 1.5461,-0.0207 1.5414,-0.0207 1.546,-0.0206 1.546,-0.0207 1.5414,-0.0207 1.5461,-0.0206 1.546,-0.0207 1.5414,-0.0207 1.546,-0.0206 1.5414,-0.0207 1.5461,-0.0206 1.546,-0.0207 1.5414,-0.0207 1.546,-0.0206 1.546,-0.0207 1.5414,-0.0206 1.5461,-0.0207 1.546,-0.0206 1.5414,-0.0207 1.546,-0.0206 1.5414,-0.0207 1.5461,-0.0207 1.546,-0.0206 1.5414,-0.0207 1.546,-0.0206 1.546,-0.0207 1.5414,-0.0206 1.5461,-0.0206 1.546,-0.0207 1.5414,-0.0206 1.546,-0.0207 1.5414,-0.0206 1.5461,-0.0207 1.546,-0.0206 1.5414,-0.0206 1.546,-0.0207 1.5461,-0.0206 1.5414,-0.0207 1.546,-0.0206 1.546,-0.0206 1.5414,-0.0207 1.546,-0.0206 1.5414,-0.0206 1.5461,-0.0207 1.546,-0.0206 1.5414,-0.0206 1.546,-0.0207 1.5461,-0.0206 1.5414,-0.0206 1.546,-0.0206 1.546,-0.0207 1.5414,-0.0206 1.546,-0.0206 1.5415,-0.0206 1.546,-0.0207 1.546,-0.0206 1.5414,-0.0206 1.546,-0.0206 1.5461,-0.0207 1.5414,-0.0206 1.546,-0.0206 1.546,-0.0206 1.5414,-0.0206 1.5461,-0.0206 1.546,-0.0206 1.5414,-0.0207 1.546,-0.0206 1.5414,-0.0206 1.546,-0.0206 1.5461,-0.0206 1.5414,-0.0206 1.546,-0.0206 1.546,-0.0206 1.5414,-0.0206 1.5461,-0.0206 1.546,-0.0206 1.5414,-0.0206 1.546,-0.0207 1.5414,-0.0206 1.5461,-0.0206 1.546,-0.0206 1.5414,-0.0206 1.546,-0.0205 1.546,-0.0206 1.5414,-0.0206 1.5461,-0.0206 1.546,-0.0206 1.5414,-0.0206 1.546,-0.0206 1.5414,-0.0206 1.5461,-0.0206 1.546,-0.0206 1.5414,-0.0206 1.546,-0.0206 1.546,-0.0206 1.5414,-0.0205 1.5461,-0.0206 1.546,-0.0206 1.5414,-0.0206 1.546,-0.0206 1.5414,-0.0206 1.5461,-0.0205 1.546,-0.0206 1.5414,-0.0206 1.546,-0.0206 1.5461,-0.0206 1.5414,-0.0205 1.546,-0.0206 1.546,-0.0206 1.5414,-0.0206 1.546,-0.0205 1.5414,-0.0206 1.5461,-0.0206 1.546,-0.0205 1.5414,-0.0206 1.546,-0.0206 1.5461,-0.0206 1.5414,-0.0205 1.546,-0.0206 1.546,-0.0206 1.5414,-0.0205 1.546,-0.0206 1.5461,-0.0205 1.5414,-0.0206 1.546,-0.0206 1.5414,-0.0205 1.546,-0.0206 1.5461,-0.0205 1.5414,-0.0206 1.546,-0.0206 1.546,-0.0205 1.5414,-0.0206 1.5461,-0.0205 1.546,-0.0206 1.5414,-0.0205 1.546,-0.0206 1.5414,-0.0205 1.546,-0.0206 1.5461,-0.0205 1.5414,-0.0206 1.546,-0.0205 1.546,-0.0206 1.5414,-0.0205 1.5461,-0.0205 1.546,-0.0206 1.5414,-0.0205 1.546,-0.0206 1.5414,-0.0205 1.546,-0.0205 1.5461,-0.0206 1.5414,-0.0205 1.546,-0.0206 1.546,-0.0205 1.5414,-0.0205 1.5461,-0.0206 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0206 1.5414,-0.0205 1.5461,-0.0205 1.546,-0.0205 1.5414,-0.0206 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.5461,-0.0206 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5414,-0.0206 1.5461,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0206 1.5461,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0206 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.5461,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.5461,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.5461,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.5461,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.5461,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.5461,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.5461,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.5461,-0.0205 1.546,-0.0204 1.5414,-0.0205 1.546,-0.0205 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0205 1.5414,-0.0205 1.546,-0.0204 1.546,-0.0205 1.5414,-0.0205 1.5461,-0.0205 1.546,-0.0205 1.5414,-0.0204 1.546,-0.0205 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0204 1.5414,-0.0205 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0204 1.5461,-0.0205 1.546,-0.0205 1.5414,-0.0204 1.546,-0.0205 1.5461,-0.0205 1.5414,-0.0204 1.546,-0.0205 1.546,-0.0205 1.5414,-0.0204 1.5461,-0.0205 1.5414,-0.0205 1.546,-0.0204 1.546,-0.0205 1.5414,-0.0204 1.546,-0.0205 1.5461,-0.0204 1.5414,-0.0205 1.546,-0.0205 1.546,-0.0204 1.5414,-0.0205 1.5461,-0.0204 1.5414,-0.0205 1.546,-0.0204 1.546,-0.0205 1.5414,-0.0204 1.546,-0.0205"
+                   id="path2749"
+                   inkscape:connector-curvature="0"
+                   style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+              </g>
+            </g>
+          </g>
+          <g
+             id="PlotDataItem_672">
+            <g
+               id="PlotCurveItem_672"
+               style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+              <g
+                 font-size="14.3611"
+                 font-style="normal"
+                 font-weight="400"
+                 id="g2757"
+                 style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#00ffff;stroke-width:3;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                <path
+                   d="m 56,674 1.544354,-10e-6 h 1.544353 l 1.544335,-10e-6 h 1.544363 1.544363 l 1.544363,-1e-5 h 1.544363 1.544316 l 1.544363,-10e-6 h 1.544363 1.544363 l 1.544363,-10e-6 h 1.544316 1.544363 l 1.544363,-10e-6 h 1.544363 l 1.544362,-1e-5 h 1.544317 l 1.544363,-10e-6 1.544363,-10e-6 h 1.544363 l 1.544362,-10e-6 1.544317,-10e-6 1.544363,-1e-5 1.544363,-10e-6 1.544362,-10e-6 1.544363,-10e-6 1.544317,-1e-5 1.544358,-10e-6 1.54418,-10e-6 1.54464,-2e-5 1.54418,-1e-5 1.54464,-2e-5 1.54418,-2e-5 1.54418,-2e-5 1.54464,-2e-5 1.54417,-2e-5 1.54418,-3e-5 1.54464,-2e-5 1.54418,-3e-5 1.54464,-3e-5 1.54418,-4e-5 1.54418,-3e-5 1.54464,-4e-5 1.54417,-4e-5 1.54418,-5e-5 1.54464,-4e-5 1.54418,-6e-5 1.54464,-5e-5 1.54418,-6e-5 1.54418,-7e-5 1.54464,-7e-5 1.54418,-7e-5 1.54464,-9e-5 1.54417,-8e-5 1.54418,-10e-5 1.54464,-10e-5 1.54418,-1.1e-4 1.54418,-1.2e-4 1.54464,-1.3e-4 1.54418,-1.4e-4 1.54464,-1.5e-4 1.54417,-1.6e-4 1.54418,-1.7e-4 1.54464,-1.9e-4 1.54418,-2e-4 1.54418,-2.2e-4 1.54464,-2.4e-4 1.54418,-2.5e-4 1.54464,-2.7e-4 1.54417,-3e-4 1.54418,-3.1e-4 1.54464,-3.5e-4 1.54418,-3.6e-4 1.54464,-4e-4 1.54418,-4.3e-4 1.54418,-4.6e-4 1.54464,-5e-4 1.54417,-5.4e-4 1.54418,-5.8e-4 1.54464,-6.3e-4 1.54418,-6.7e-4 1.54464,-7.3e-4 1.54418,-7.8e-4 1.54418,-8.5e-4 1.54464,-9.1e-4 1.54417,-9.8e-4 1.54418,-10e-4 1.54464,-10e-4 1.54418,-10e-4 1.54464,-0.001 1.54418,-10e-4 1.54418,-0.002 1.54464,-0.002 1.54417,-0.002 1.54464,-0.002 1.54418,-0.002 1.54418,-0.002 1.54464,-0.002 1.54418,-0.003 1.54418,-0.003 1.54464,-0.003 1.54417,-0.003 1.54464,-0.004 1.54418,-0.004 1.54418,-0.004 1.54464,-0.004 1.54418,-0.005 1.54418,-0.005 1.54464,-0.006 1.54417,-0.006 1.54465,-0.006 1.54417,-0.007 1.54418,-0.008 1.54464,-0.008 1.54418,-0.009 1.54418,-0.009 1.54464,-0.0101 1.54417,-0.0109 1.54465,-0.0118 1.54417,-0.0127 1.54418,-0.0137 1.54464,-0.0148 1.54418,-0.0159 1.54464,-0.0172 1.54418,-0.0185 1.54417,-0.0199 1.54465,-0.0215 1.54417,-0.0232 1.54418,-0.025 1.54464,-0.0269 1.54418,-0.029 1.54464,-0.0313 1.54418,-0.0337 1.54417,-0.0363 1.54465,-0.0392 1.54417,-0.0422 1.54418,-0.0455 1.54464,-0.049 1.54418,-0.0528 1.54464,-0.0569 1.54418,-0.0613 1.54418,-0.066 1.54464,-0.0711 1.54417,-0.0766 1.54464,-0.0825 1.54418,-0.0889 1.54418,-0.0957 1.54464,-0.10304 1.54418,-0.11093 1.54418,-0.11942 1.54464,-0.12854 1.54417,-0.13834 1.54464,-0.14885 1.54418,-0.16016 1.54418,-0.17227 1.54464,-0.18529 1.54418,-0.19924 1.54418,-0.21419 1.54464,-0.23021 1.54417,-0.24737 1.54464,-0.26575 1.54418,-0.28538 1.54418,-0.3064 1.54464,-0.32884 1.54418,-0.3528 1.54464,-0.37835 1.54418,-0.40559 1.54417,-0.43458 1.54464,-0.46545 1.54418,-0.49821 1.54418,-0.53296 1.54464,-0.5699 1.54418,-0.60886 1.54464,-0.65007 1.54418,-0.69358 1.54417,-0.73937 1.54464,-0.78752 1.54418,-0.83801 1.54418,-0.8908 1.54464,-0.94587 1.54418,-1.00322 1.54464,-1.06262 1.54418,-1.12407 1.54417,-1.18736 1.54464,-1.25216 1.54418,-1.31832 1.54418,-1.38549 1.54464,-1.45326 1.54418,-1.52103 1.54464,-1.58841 1.54418,-1.65489 1.54417,-1.71946 1.54464,-1.78168 1.54418,-1.84063 1.54464,-1.89516 1.54418,-1.9446 1.54418,-1.9878 1.54464,-2.02362 1.54418,-2.051 1.54417,-2.06888 1.54464,-2.07595 1.54418,-2.07132 1.54464,-2.05381 1.54418,-2.02264 1.54418,-1.97677 1.54464,-1.91577 1.54418,-1.83903 1.54417,-1.74639 1.54465,-1.63777 1.54417,-1.51342 1.54464,-1.37408 1.54418,-1.22029 1.54418,-1.05342 1.54464,-0.87475 1.54418,-0.68613 1.54464,-0.48929 1.54418,-0.28643 1.54417,-0.0799 1.54464,0.12816 1.54418,0.33512 1.54418,0.53865 1.54464,0.7364 1.54418,0.92632 1.54464,1.1062 1.54418,1.27437 1.54417,1.4293 1.54464,1.56955 1.54418,1.69452 1.54418,1.8032 1.54464,1.89546 1.54418,1.97115 1.54464,2.03047 1.54418,2.07397 1.54417,2.10219 1.54464,2.11596 1.54418,2.11634 1.54464,2.10447 1.54418,2.08128 1.54418,2.04826 1.54464,2.00636 1.54418,1.95707 1.54417,1.90132 1.54464,1.84048 1.54418,1.77536 1.54464,1.70715 1.54418,1.63671 1.54418,1.56483 1.54464,1.49236 1.54418,1.41971 1.54417,1.34784 1.54464,1.2768 1.54418,1.20736 1.54464,1.13967 1.54418,1.0741 1.54418,1.01082 1.54464,0.9499 1.54418,0.89164 1.54417,0.83596 1.54464,0.78303 1.54418,0.73275 1.54464,0.68522 1.54418,0.64018 1.54418,0.59783 1.54464,0.55789 1.54418,0.52039 1.54464,0.48525 1.54417,0.45232 1.54418,0.4215 1.54464,0.39271 1.54418,0.36582 1.54418,0.34076 1.54464,0.31739 1.54418,0.29564 1.54464,0.27539 1.54417,0.25656 1.54418,0.23906 1.54464,0.22279 1.54418,0.20767 1.54418,0.19364 1.54464,0.1806 1.54418,0.16851 1.54464,0.15727 1.54417,0.14685 1.54418,0.13716 1.54464,0.12819 1.54418,0.11985 1.54464,0.1121 1.54418,0.10491 1.54418,0.0982 1.54464,0.092 1.54417,0.0863 1.54418,0.0809 1.54464,0.0759 1.54418,0.0713 1.54464,0.067 1.54418,0.063 1.54418,0.0592 1.54464,0.0557 1.54232,0.0525 1.54603,0.0495 1.54603,0.0466 1.5414,0.044 1.54603,0.0415 1.54603,0.0392 1.5414,0.0371 1.54603,0.0351 1.54603,0.0332 1.5414,0.0314 1.54603,0.0298 1.5414,0.0283 1.54603,0.0268 1.54603,0.0254 1.5414,0.0241 1.54603,0.023 1.54603,0.0218 1.5414,0.0208 1.54603,0.0198 1.54603,0.0188 1.5414,0.018 1.54603,0.0171 1.5414,0.0163 1.54602,0.0156 1.54603,0.0149 1.5414,0.0142 1.54603,0.0136 1.54603,0.013 1.5414,0.0124 1.54603,0.0119 1.54603,0.0114 1.5414,0.0109 1.54603,0.0105 1.5414,0.0101 1.54603,0.01 1.54603,0.009 1.5414,0.009 1.54603,0.009 1.54603,0.008 1.5414,0.008 1.54603,0.008 1.54603,0.007 1.5414,0.007 1.54603,0.007 1.5414,0.007 1.54603,0.006 1.54603,0.006 1.5414,0.006 1.54603,0.006 1.54603,0.005 1.5414,0.005 1.54602,0.005 1.54603,0.005 1.5414,0.005 1.54603,0.005 1.5414,0.004 1.54603,0.004 1.54603,0.004 1.5414,0.004 1.54603,0.004 1.54603,0.004 1.5414,0.004 1.54603,0.004 1.54603,0.003 1.5414,0.003 1.54603,0.003 1.54603,0.003 1.5414,0.003 1.54603,0.003 1.5414,0.003 1.54603,0.003 1.54603,0.003 1.5414,0.003 1.54603,0.003 1.54603,0.002 1.5414,0.002 1.54603,0.002 1.54603,0.002 1.5414,0.002 1.54602,0.002 1.54141,0.002 1.54602,0.002 1.54603,0.002 1.5414,0.002 1.54603,0.002 1.54603,0.002 1.5414,0.002 1.54603,0.002 1.54603,0.002 1.5414,0.002 1.54603,0.002 1.5414,0.002 1.54603,10e-4 1.54603,10e-4 1.5414,0.001 1.54603,10e-4 1.54603,10e-4 1.5414,10e-4 1.54603,0.001 1.54603,10e-4 1.5414,10e-4 1.54603,10e-4 1.5414,10e-4 1.54603,0.001 1.54603,10e-4 1.5414,10e-4 1.54603,10e-4 1.54602,10e-4 1.5414,9.8e-4 1.54603,9.6e-4 1.54603,9.4e-4 1.5414,9.2e-4 1.54603,8.9e-4 1.54603,8.7e-4 1.5414,8.5e-4 1.54603,8.3e-4 1.5414,8e-4 1.54603,7.9e-4 1.54603,7.7e-4 1.5414,7.5e-4 1.54603,7.3e-4 1.54603,7.2e-4 1.5414,7e-4 1.54603,6.8e-4 1.54603,6.6e-4 1.5414,6.5e-4 1.54603,6.3e-4 1.5414,6.2e-4 1.54603,6e-4 1.54603,5.9e-4 1.5414,5.7e-4 1.54603,5.7e-4 1.54603,5.4e-4 1.5414,5.4e-4 1.54603,5.2e-4 1.54602,5.1e-4 1.5414,5e-4 1.54603,4.8e-4 1.5414,4.8e-4 1.54603,4.6e-4 1.54603,4.5e-4 1.5414,4.4e-4 1.54603,4.3e-4 1.54603,4.3e-4 1.5414,4.1e-4 1.54603,4e-4 1.54603,3.9e-4 1.5414,3.8e-4 1.54603,3.8e-4 1.5414,3.6e-4 1.54603,3.6e-4 1.54603,3.5e-4 1.5414,3.4e-4 1.54603,3.3e-4 1.54603,3.3e-4 1.5414,3.1e-4 1.54603,3.1e-4 1.54603,3.1e-4 1.5414,2.9e-4 1.54603,2.9e-4 1.5414,2.8e-4 1.54603,2.8e-4 1.54603,2.7e-4 1.5414,2.6e-4 1.54602,2.6e-4 1.54603,2.5e-4 1.5414,2.4e-4 1.54603,2.4e-4 1.54603,2.4e-4 1.5414,2.2e-4 1.54603,2.3e-4 1.54603,2.2e-4 1.5414,2.1e-4 1.54603,2.1e-4 1.5414,2e-4 1.54603,2e-4 1.54603,1.9e-4 1.5414,1.9e-4 1.54603,1.9e-4 1.54603,1.8e-4 1.5414,1.8e-4 1.54603,1.7e-4 1.54603,1.7e-4 1.5414,1.6e-4 1.54603,1.6e-4 1.5414,1.6e-4 1.54603,1.5e-4 1.54603,1.5e-4 1.5414,1.5e-4 1.54603,1.4e-4 1.54602,1.4e-4 1.54141,1.4e-4 1.54602,1.3e-4 1.54603,1.4e-4 1.5414,1.2e-4 1.54603,1.3e-4 1.5414,1.2e-4 1.54603,1.2e-4 1.54603,1.2e-4 1.5414,1.1e-4 1.54603,1.1e-4 1.54603,1.1e-4 1.5414,10e-5 1.54603,1.1e-4 1.54603,1e-4 1.5414,10e-5 1.54603,9e-5 1.5414,10e-5 1.54603,9e-5 1.54603,9e-5 1.5414,9e-5 1.54603,9e-5 1.54603,8e-5 1.5414,8e-5 1.54603,8e-5 1.54603,8e-5 1.5414,8e-5 1.54603,7e-5 1.5414,7e-5 1.54603,8e-5 1.54602,7e-5 1.5414,6e-5 1.54603,7e-5 1.54603,7e-5 1.5414,6e-5 1.54603,6e-5 1.54603,6e-5 1.5414,6e-5 1.54603,6e-5 1.54603,6e-5 1.5414,5e-5 1.54603,5e-5 1.5414,6e-5 1.54603,5e-5 1.54603,5e-5 1.5414,5e-5 1.54603,5e-5 1.54603,4e-5 1.5414,5e-5 1.54603,4e-5 1.54603,5e-5 1.5414,4e-5 1.54603,4e-5 1.5414,4e-5 1.54603,4e-5 1.54603,4e-5 1.5414,4e-5 1.54602,4e-5 1.54603,3e-5 1.5414,4e-5 1.54603,3e-5 1.54603,4e-5 1.5414,3e-5 1.54603,3e-5 1.5414,4e-5 1.54603,3e-5 1.54603,3e-5 1.5414,3e-5 1.54603,3e-5 1.54603,2e-5 1.5414,3e-5 1.54603,3e-5 1.54603,2e-5 1.5414,3e-5 1.54603,3e-5 1.5414,2e-5 1.54603,2e-5 1.54603,3e-5 1.5414,2e-5 1.54603,2e-5 1.54603,2e-5 1.5414,3e-5 1.54603,2e-5 1.54603,2e-5 1.5414,2e-5 1.54602,2e-5 1.54603,10e-6 1.5414,2e-5 1.54603,2e-5 1.5414,2e-5 1.54603,2e-5 1.54603,10e-6 1.5414,2e-5 1.54603,2e-5 1.54603,10e-6 1.5414,2e-5 1.54603,10e-6 1.54603,2e-5 1.5414,1e-5 1.54603,10e-6 1.5414,2e-5 1.54603,10e-6 1.54603,2e-5 1.5414,10e-6 1.54603,10e-6 1.54603,1e-5 1.5414,10e-6 1.54603,2e-5 1.54603,10e-6 1.5414,1e-5 1.54603,10e-6 1.5414,10e-6 1.54603,10e-6 1.54602,1e-5 1.54141,10e-6 1.54602,10e-6 1.54603,10e-6 1.5414,10e-6 1.54603,1e-5 1.54603,10e-6 1.5414,10e-6 h 1.54603 l 1.54142,10e-6 1.546,1e-5 1.546,10e-6 1.5414,10e-6 h 1.5461 l 1.546,10e-6 1.5414,10e-6 h 1.546 l 1.5461,1e-5 1.5414,10e-6 h 1.546 l 1.5414,10e-6 1.546,10e-6 h 1.546 l 1.5414,1e-5 h 1.5461 l 1.546,10e-6 1.5414,10e-6 h 1.546 l 1.5461,10e-6 h 1.5414 l 1.546,10e-6 h 1.546 l 1.5414,1e-5 h 1.5461 l 1.5414,10e-6 h 1.546 1.546 l 1.5414,10e-6 h 1.546 l 1.5461,10e-6 h 1.5414 1.546 l 1.546,1e-5 h 1.5414 l 1.5461,10e-6 h 1.5414 1.546 l 1.546,10e-6 h 1.5414 1.546 l 1.5461,10e-6 h 1.5414 1.546 1.546 l 1.5414,10e-6 h 1.5461 1.5414 l 1.546,1e-5 h 1.546 1.5414 1.5461 l 1.546,10e-6 h 1.5414 1.546 1.546 l 1.5414,10e-6 h 1.5461 1.5414 1.546 1.546 l 1.5414,10e-6 h 1.5461 1.546 1.5414 1.546 1.546 l 1.5414,1e-5 h 1.5461 1.5414 1.546 1.546 1.5414 l 1.5461,10e-6 h 1.546 1.5414 1.546 1.5461 1.5414 1.546 l 1.546,10e-6 h 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 l 1.5414,10e-6 h 1.546 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 l 1.5414,10e-6 h 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 l 1.5414,1e-5 h 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 l 1.5414,10e-6 h 1.5461 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5415 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 l 1.5461,10e-6 h 1.546 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.546"
+                   id="path2755"
+                   inkscape:connector-curvature="0"
+                   style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+              </g>
+            </g>
+          </g>
+          <g
+             id="PlotDataItem_673">
+            <g
+               id="PlotCurveItem_673"
+               style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+              <g
+                 font-size="14.3611"
+                 font-style="normal"
+                 font-weight="400"
+                 id="g2763"
+                 style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#ff0000;stroke-width:3;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                <path
+                   d="m 56,673.99996 h 1.544354 1.544353 1.544335 l 1.544363,-10e-6 h 1.544363 1.544363 1.544363 l 1.544316,-10e-6 h 1.544363 l 1.544363,-1e-5 h 1.544363 l 1.544363,-10e-6 h 1.544316 l 1.544363,-10e-6 1.544363,-10e-6 h 1.544363 l 1.544362,-10e-6 1.544317,-1e-5 1.544363,-10e-6 1.544363,-10e-6 1.544363,-10e-6 1.544362,-1e-5 1.544317,-2e-5 1.544363,-10e-6 1.544363,-10e-6 1.544362,-2e-5 1.544363,-2e-5 1.544317,-2e-5 1.544358,-2e-5 1.54418,-2e-5 1.54464,-2e-5 1.54418,-3e-5 1.54464,-2e-5 1.54418,-3e-5 1.54418,-3e-5 1.54464,-4e-5 1.54417,-3e-5 1.54418,-4e-5 1.54464,-5e-5 1.54418,-4e-5 1.54464,-5e-5 1.54418,-6e-5 1.54418,-5e-5 1.54464,-7e-5 1.54417,-6e-5 1.54418,-7e-5 1.54464,-8e-5 1.54418,-9e-5 1.54464,-9e-5 1.54418,-9e-5 1.54418,-1.1e-4 1.54464,-1.1e-4 1.54418,-1.3e-4 1.54464,-1.3e-4 1.54417,-1.4e-4 1.54418,-1.5e-4 1.54464,-1.7e-4 1.54418,-1.8e-4 1.54418,-1.9e-4 1.54464,-2.1e-4 1.54418,-2.2e-4 1.54464,-2.4e-4 1.54417,-2.6e-4 1.54418,-2.8e-4 1.54464,-3e-4 1.54418,-3.3e-4 1.54418,-3.5e-4 1.54464,-3.8e-4 1.54418,-4.1e-4 1.54464,-4.4e-4 1.54417,-4.7e-4 1.54418,-5.2e-4 1.54464,-5.5e-4 1.54418,-5.9e-4 1.54464,-6.4e-4 1.54418,-7e-4 1.54418,-7.4e-4 1.54464,-8.1e-4 1.54417,-8.7e-4 1.54418,-9.3e-4 1.54464,-10e-4 1.54418,-0.001 1.54464,-10e-4 1.54418,-10e-4 1.54418,-10e-4 1.54464,-0.001 1.54417,-0.002 1.54418,-0.002 1.54464,-0.002 1.54418,-0.002 1.54464,-0.002 1.54418,-0.002 1.54418,-0.002 1.54464,-0.003 1.54417,-0.003 1.54464,-0.003 1.54418,-0.003 1.54418,-0.004 1.54464,-0.004 1.54418,-0.004 1.54418,-0.005 1.54464,-0.005 1.54417,-0.005 1.54464,-0.006 1.54418,-0.006 1.54418,-0.007 1.54464,-0.007 1.54418,-0.008 1.54418,-0.008 1.54464,-0.009 1.54417,-0.01 1.54465,-0.0104 1.54417,-0.0112 1.54418,-0.0121 1.54464,-0.0131 1.54418,-0.0141 1.54418,-0.0152 1.54464,-0.0164 1.54417,-0.0177 1.54465,-0.019 1.54417,-0.0205 1.54418,-0.0221 1.54464,-0.0239 1.54418,-0.0257 1.54464,-0.0277 1.54418,-0.0299 1.54417,-0.0322 1.54465,-0.0347 1.54417,-0.0375 1.54418,-0.0404 1.54464,-0.0435 1.54418,-0.0469 1.54464,-0.0506 1.54418,-0.0545 1.54417,-0.0588 1.54465,-0.0634 1.54417,-0.0683 1.54418,-0.0736 1.54464,-0.0794 1.54418,-0.0855 1.54464,-0.0922 1.54418,-0.0993 1.54418,-0.10707 1.54464,-0.11537 1.54417,-0.12434 1.54464,-0.13398 1.54418,-0.14437 1.54418,-0.15554 1.54464,-0.16759 1.54418,-0.18053 1.54418,-0.19449 1.54464,-0.20949 1.54417,-0.22564 1.54464,-0.24302 1.54418,-0.2617 1.54418,-0.28179 1.54464,-0.3034 1.54418,-0.32663 1.54418,-0.35158 1.54464,-0.37839 1.54417,-0.40721 1.54464,-0.43812 1.54418,-0.47133 1.54418,-0.50695 1.54464,-0.54515 1.54418,-0.58611 1.54464,-0.63007 1.54418,-0.67708 1.54417,-0.72743 1.54464,-0.78127 1.54418,-0.83893 1.54418,-0.90054 1.54464,-0.96633 1.54418,-1.03645 1.54464,-1.11137 1.54418,-1.19116 1.54417,-1.27597 1.54464,-1.36624 1.54418,-1.46216 1.54418,-1.56392 1.54464,-1.67163 1.54418,-1.78571 1.54464,-1.90626 1.54418,-2.03328 1.54417,-2.16723 1.54464,-2.30785 1.54418,-2.45549 1.54418,-2.60988 1.54464,-2.77121 1.54418,-2.93922 1.54464,-3.11362 1.54418,-3.29434 1.54417,-3.48076 1.54464,-3.6725 1.54418,-3.86889 1.54464,-4.06915 1.54418,-4.27253 1.54418,-4.4779 1.54464,-4.68401 1.54418,-4.88982 1.54417,-5.09291 1.54464,-5.2937 1.54418,-5.48841 1.54464,-5.67627 1.54418,-5.85426 1.54418,-6.02158 1.54464,-6.17522 1.54418,-6.31365 1.54417,-6.43382 1.54465,-6.53422 1.54417,-6.61257 1.54464,-6.66808 1.54418,-6.69622 1.54418,-6.69851 1.54464,-6.67189 1.54418,-6.6156 1.54464,-6.5289 1.54418,-6.41252 1.54417,-6.26497 1.54464,-6.08776 1.54418,-5.88087 1.54418,-5.64662 1.54464,-5.38497 1.54418,-5.09898 1.54464,-4.79019 1.54418,-4.46238 1.54417,-4.11555 1.54464,-3.75579 1.54418,-3.38234 1.54418,-3.00052 1.54464,-2.61338 1.54418,-2.2232 1.54464,-1.8315 1.54418,-1.4436 1.54417,-1.0595 1.54464,-0.68377 1.54418,-0.31564 1.54464,0.0395 1.54418,0.38333 1.54418,0.71267 1.54464,1.02604 1.54418,1.32418 1.54417,1.60485 1.54464,1.868 1.54418,2.11368 1.54464,2.34185 1.54418,2.55178 1.54418,2.74497 1.54464,2.92066 1.54418,3.07886 1.54417,3.2211 1.54464,3.34811 1.54418,3.45992 1.54464,3.55651 1.54418,3.64094 1.54418,3.71092 1.54464,3.77024 1.54418,3.81663 1.54417,3.85315 1.54464,3.87976 1.54418,3.89726 1.54464,3.90562 1.54418,3.90715 1.54418,3.9003 1.54464,3.88737 1.54418,3.86835 1.54464,3.84402 1.54417,3.81512 1.54418,3.78164 1.54464,3.74286 1.54418,3.70255 1.54418,3.65767 1.54464,3.61128 1.54418,3.56108 1.54464,3.50935 1.54417,3.45688 1.54418,3.40136 1.54464,3.34507 1.54418,3.28802 1.54418,3.23022 1.54464,3.17166 1.54418,3.11233 1.54464,3.053 1.54417,2.99368 1.54418,2.93359 1.54464,2.87503 1.54418,2.8157 1.54464,2.75714 1.54418,2.69781 1.54418,2.64076 1.54464,2.58296 1.54417,2.52592 1.54418,2.46963 1.54464,2.41487 1.54418,2.36011 1.54464,2.30534 1.54418,2.25287 1.54418,2.20038 1.54464,2.14943 1.54232,2.09846 1.54603,2.04903 1.54603,1.99959 1.5414,1.95235 1.54603,1.90512 1.54603,1.85911 1.5414,1.81393 1.54603,1.76966 1.54603,1.72631 1.5414,1.68387 1.54603,1.64226 1.5414,1.60165 1.54603,1.56187 1.54603,1.52293 1.5414,1.48482 1.54603,1.44763 1.54603,1.41127 1.5414,1.37576 1.54603,1.34099 1.54603,1.30707 1.5414,1.27399 1.54603,1.24151 1.5414,1.20994 1.54602,1.17915 1.54603,1.14902 1.5414,1.11958 1.54603,1.09084 1.54603,1.06292 1.5414,1.03562 1.54603,1.00892 1.54603,0.98291 1.5414,0.95758 1.54603,0.93287 1.5414,0.90875 1.54603,0.88517 1.54603,0.86228 1.5414,0.83984 1.54603,0.81817 1.54603,0.79679 1.5414,0.77611 1.54603,0.75595 1.54603,0.73625 1.5414,0.717 1.54603,0.69838 1.5414,0.68012 1.54603,0.66232 1.54603,0.64505 1.5414,0.62817 1.54603,0.61174 1.54603,0.59577 1.5414,0.5801 1.54602,0.56489 1.54603,0.55014 1.5414,0.53576 1.54603,0.52161 1.5414,0.50792 1.54603,0.49461 1.54603,0.48168 1.5414,0.46898 1.54603,0.45658 1.54603,0.44472 1.5414,0.43293 1.54603,0.42152 1.54603,0.41049 1.5414,0.39968 1.54603,0.38912 1.54603,0.37893 1.5414,0.36888 1.54603,0.35923 1.5414,0.34979 1.54603,0.34052 1.54603,0.33154 1.5414,0.32279 1.54603,0.31436 1.54603,0.30598 1.5414,0.29792 1.54603,0.29009 1.54603,0.28249 1.5414,0.27495 1.54602,0.2678 1.54141,0.26066 1.54602,0.2538 1.54603,0.24712 1.5414,0.24057 1.54603,0.23419 1.54603,0.2281 1.5414,0.22202 1.54603,0.21616 1.54603,0.21053 1.5414,0.20489 1.54603,0.19951 1.5414,0.19425 1.54603,0.18912 1.54603,0.18413 1.5414,0.17927 1.54603,0.17454 1.54603,0.16994 1.5414,0.16545 1.54603,0.16108 1.54603,0.15684 1.5414,0.15269 1.54603,0.14868 1.5414,0.14474 1.54603,0.14093 1.54603,0.13721 1.5414,0.13359 1.54603,0.13006 1.54602,0.12664 1.5414,0.1233 1.54603,0.12005 1.54603,0.11688 1.5414,0.11379 1.54603,0.11081 1.54603,0.10787 1.5414,0.10504 1.54603,0.10227 1.5414,0.0996 1.54603,0.0969 1.54603,0.0944 1.5414,0.0919 1.54603,0.0895 1.54603,0.0871 1.5414,0.0848 1.54603,0.0826 1.54603,0.0804 1.5414,0.0783 1.54603,0.0763 1.5414,0.0742 1.54603,0.0723 1.54603,0.0704 1.5414,0.0685 1.54603,0.0667 1.54603,0.065 1.5414,0.0633 1.54603,0.0616 1.54602,0.06 1.5414,0.0584 1.54603,0.0569 1.5414,0.0554 1.54603,0.0539 1.54603,0.0525 1.5414,0.0511 1.54603,0.0498 1.54603,0.0485 1.5414,0.0472 1.54603,0.046 1.54603,0.0447 1.5414,0.0436 1.54603,0.0424 1.5414,0.0413 1.54603,0.0403 1.54603,0.0392 1.5414,0.0382 1.54603,0.0372 1.54603,0.0362 1.5414,0.0352 1.54603,0.0343 1.54603,0.0334 1.5414,0.0325 1.54603,0.0317 1.5414,0.0308 1.54603,0.0301 1.54603,0.0293 1.5414,0.0285 1.54602,0.0277 1.54603,0.027 1.5414,0.0263 1.54603,0.0256 1.54603,0.025 1.5414,0.0243 1.54603,0.0237 1.54603,0.0231 1.5414,0.0224 1.54603,0.0219 1.5414,0.0213 1.54603,0.0207 1.54603,0.0202 1.5414,0.0197 1.54603,0.0192 1.54603,0.0187 1.5414,0.0182 1.54603,0.0177 1.54603,0.0172 1.5414,0.0168 1.54603,0.0163 1.5414,0.0159 1.54603,0.0155 1.54603,0.0151 1.5414,0.0147 1.54603,0.0143 1.54602,0.0139 1.54141,0.0136 1.54602,0.0132 1.54603,0.0129 1.5414,0.0126 1.54603,0.0122 1.5414,0.0119 1.54603,0.0116 1.54603,0.0113 1.5414,0.011 1.54603,0.0107 1.54603,0.0104 1.5414,0.0102 1.54603,0.01 1.54603,0.01 1.5414,0.009 1.54603,0.009 1.5414,0.009 1.54603,0.009 1.54603,0.008 1.5414,0.008 1.54603,0.008 1.54603,0.008 1.5414,0.008 1.54603,0.007 1.54603,0.007 1.5414,0.007 1.54603,0.007 1.5414,0.007 1.54603,0.007 1.54602,0.006 1.5414,0.006 1.54603,0.006 1.54603,0.006 1.5414,0.006 1.54603,0.006 1.54603,0.005 1.5414,0.005 1.54603,0.005 1.54603,0.005 1.5414,0.005 1.54603,0.005 1.5414,0.005 1.54603,0.005 1.54603,0.004 1.5414,0.004 1.54603,0.004 1.54603,0.004 1.5414,0.004 1.54603,0.004 1.54603,0.004 1.5414,0.004 1.54603,0.004 1.5414,0.003 1.54603,0.003 1.54603,0.003 1.5414,0.003 1.54602,0.003 1.54603,0.003 1.5414,0.003 1.54603,0.003 1.54603,0.003 1.5414,0.003 1.54603,0.003 1.5414,0.003 1.54603,0.003 1.54603,0.002 1.5414,0.002 1.54603,0.002 1.54603,0.002 1.5414,0.002 1.54603,0.002 1.54603,0.002 1.5414,0.002 1.54603,0.002 1.5414,0.002 1.54603,0.002 1.54603,0.002 1.5414,0.002 1.54603,0.002 1.54603,0.002 1.5414,0.002 1.54603,0.002 1.54603,0.002 1.5414,0.002 1.54602,0.002 1.54603,10e-4 1.5414,10e-4 1.54603,10e-4 1.5414,10e-4 1.54603,0.001 1.54603,10e-4 1.5414,10e-4 1.54603,10e-4 1.54603,10e-4 1.5414,0.001 1.54603,10e-4 1.54603,10e-4 1.5414,10e-4 1.54603,10e-4 1.5414,0.001 1.54603,10e-4 1.54603,9.7e-4 1.5414,9.5e-4 1.54603,9.3e-4 1.54603,9e-4 1.5414,8.7e-4 1.54603,8.6e-4 1.54603,8.3e-4 1.5414,8.2e-4 1.54603,7.9e-4 1.5414,7.7e-4 1.54603,7.5e-4 1.54602,7.3e-4 1.54141,7.2e-4 1.54602,6.9e-4 1.54603,6.8e-4 1.5414,6.6e-4 1.54603,6.5e-4 1.54603,6.3e-4 1.5414,6.1e-4 1.54603,5.9e-4 1.54142,5.9e-4 1.546,5.6e-4 1.546,5.5e-4 1.5414,5.4e-4 1.5461,5.3e-4 1.546,5.1e-4 1.5414,5e-4 1.546,4.8e-4 1.5461,4.8e-4 1.5414,4.6e-4 1.546,4.5e-4 1.5414,4.3e-4 1.546,4.3e-4 1.546,4.2e-4 1.5414,4e-4 1.5461,4e-4 1.546,3.9e-4 1.5414,3.7e-4 1.546,3.7e-4 1.5461,3.5e-4 1.5414,3.5e-4 1.546,3.4e-4 1.546,3.3e-4 1.5414,3.3e-4 1.5461,3.1e-4 1.5414,3.1e-4 1.546,2.9e-4 1.546,3e-4 1.5414,2.8e-4 1.546,2.8e-4 1.5461,2.6e-4 1.5414,2.7e-4 1.546,2.5e-4 1.546,2.5e-4 1.5414,2.5e-4 1.5461,2.3e-4 1.5414,2.4e-4 1.546,2.2e-4 1.546,2.2e-4 1.5414,2.1e-4 1.546,2.1e-4 1.5461,2.1e-4 1.5414,2e-4 1.546,1.9e-4 1.546,1.9e-4 1.5414,1.8e-4 1.5461,1.8e-4 1.5414,1.8e-4 1.546,1.7e-4 1.546,1.6e-4 1.5414,1.6e-4 1.5461,1.6e-4 1.546,1.6e-4 1.5414,1.5e-4 1.546,1.4e-4 1.546,1.4e-4 1.5414,1.4e-4 1.5461,1.4e-4 1.5414,1.3e-4 1.546,1.3e-4 1.546,1.3e-4 1.5414,1.2e-4 1.5461,1.2e-4 1.546,1.1e-4 1.5414,1.2e-4 1.546,1.1e-4 1.546,1.1e-4 1.5414,10e-5 1.5461,10e-5 1.5414,1e-4 1.546,10e-5 1.546,10e-5 1.5414,9e-5 1.5461,9e-5 1.546,9e-5 1.5414,8e-5 1.546,9e-5 1.5461,8e-5 1.5414,8e-5 1.546,8e-5 1.546,7e-5 1.5414,8e-5 1.546,7e-5 1.5414,7e-5 1.5461,7e-5 1.546,6e-5 1.5414,7e-5 1.546,6e-5 1.5461,6e-5 1.5414,6e-5 1.546,6e-5 1.546,6e-5 1.5414,6e-5 1.546,5e-5 1.5414,5e-5 1.5461,6e-5 1.546,5e-5 1.5414,5e-5 1.546,4e-5 1.5461,5e-5 1.5414,5e-5 1.546,4e-5 1.546,4e-5 1.5414,5e-5 1.5461,4e-5 1.5414,4e-5 1.546,4e-5 1.546,4e-5 1.5414,3e-5 1.546,4e-5 1.5461,4e-5 1.5414,3e-5 1.546,3e-5 1.546,4e-5 1.5414,3e-5 1.5461,3e-5 1.5414,3e-5 1.546,3e-5 1.546,3e-5 1.5414,3e-5 1.546,3e-5 1.5461,2e-5 1.5414,3e-5 1.546,3e-5 1.546,2e-5 1.5414,3e-5 1.5461,2e-5 1.546,2e-5 1.5414,3e-5 1.546,2e-5 1.5414,2e-5 1.5461,2e-5 1.546,2e-5 1.5414,2e-5 1.546,2e-5 1.546,2e-5 1.5414,2e-5 1.5461,2e-5 1.546,10e-6 1.5414,2e-5 1.546,2e-5 1.5414,10e-6 1.5461,2e-5 1.546,2e-5 1.5414,1e-5 1.546,2e-5 1.546,10e-6 1.5414,10e-6 1.5461,2e-5 1.546,10e-6 1.5414,10e-6 1.546,2e-5 1.5414,10e-6 1.5461,10e-6 1.546,10e-6 1.5414,2e-5 1.546,10e-6 1.5461,10e-6 1.5414,1e-5 1.546,10e-6 1.546,10e-6 1.5414,10e-6 1.546,10e-6 1.5414,1e-5 1.5461,10e-6 1.546,10e-6 1.5414,10e-6 h 1.546 l 1.5461,1e-5 1.5414,10e-6 1.546,10e-6 1.546,10e-6 h 1.5414 l 1.546,10e-6 1.5415,1e-5 1.546,10e-6 h 1.546 l 1.5414,10e-6 1.546,10e-6 h 1.5461 l 1.5414,1e-5 h 1.546 l 1.546,10e-6 1.5414,10e-6 h 1.5461 l 1.546,10e-6 h 1.5414 l 1.546,10e-6 h 1.5414 l 1.546,1e-5 h 1.5461 l 1.5414,10e-6 h 1.546 l 1.546,10e-6 h 1.5414 l 1.5461,10e-6 h 1.546 1.5414 l 1.546,1e-5 h 1.5414 l 1.5461,10e-6 h 1.546 1.5414 l 1.546,10e-6 h 1.546 1.5414 l 1.5461,10e-6 h 1.546 1.5414 l 1.546,10e-6 h 1.5414 1.5461 1.546 l 1.5414,1e-5 h 1.546 1.546 l 1.5414,10e-6 h 1.5461 1.546 1.5414 1.546 l 1.5414,10e-6 h 1.5461 1.546 1.5414 l 1.546,10e-6 h 1.5461 1.5414 1.546 1.546 l 1.5414,1e-5 h 1.546 1.5414 1.5461 1.546 1.5414 l 1.546,10e-6 h 1.5461 1.5414 1.546 1.546 1.5414 1.546 l 1.5461,10e-6 h 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 l 1.546,10e-6 h 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 l 1.546,10e-6 h 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 l 1.546,1e-5 h 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 l 1.5461,10e-6 h 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 l 1.5461,10e-6 h 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.546"
+                   id="path2761"
+                   inkscape:connector-curvature="0"
+                   style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+              </g>
+            </g>
+          </g>
+          <g
+             id="PlotDataItem_674">
+            <g
+               id="PlotCurveItem_674"
+               style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+              <g
+                 font-size="14.3611"
+                 font-style="normal"
+                 font-weight="400"
+                 id="g2769"
+                 style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#00ff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                <path
+                   d="m 56,674 h 1.544354 1.544353 1.544335 1.544363 l 1.544363,-10e-6 h 1.544363 1.544363 1.544316 1.544363 1.544363 l 1.544363,-10e-6 h 1.544363 1.544316 1.544363 l 1.544363,-1e-5 h 1.544363 1.544362 1.544317 l 1.544363,-10e-6 h 1.544363 l 1.544363,-10e-6 h 1.544362 1.544317 l 1.544363,-10e-6 1.544363,-1e-5 h 1.544362 l 1.544363,-10e-6 h 1.544317 l 1.544358,-10e-6 1.54418,-10e-6 1.54464,-10e-6 1.54418,-1e-5 1.54464,-10e-6 1.54418,-10e-6 1.54418,-10e-6 1.54464,-1e-5 1.54417,-2e-5 1.54418,-10e-6 1.54464,-2e-5 1.54418,-10e-6 1.54464,-2e-5 1.54418,-2e-5 1.54418,-2e-5 1.54464,-2e-5 1.54417,-3e-5 1.54418,-3e-5 1.54464,-2e-5 1.54418,-3e-5 1.54464,-4e-5 1.54418,-3e-5 1.54418,-4e-5 1.54464,-4e-5 1.54418,-5e-5 1.54464,-5e-5 1.54417,-5e-5 1.54418,-6e-5 1.54464,-6e-5 1.54418,-6e-5 1.54418,-7e-5 1.54464,-8e-5 1.54418,-8e-5 1.54464,-9e-5 1.54417,-10e-5 1.54418,-10e-5 1.54464,-1.1e-4 1.54418,-1.2e-4 1.54418,-1.3e-4 1.54464,-1.4e-4 1.54418,-1.5e-4 1.54464,-1.6e-4 1.54417,-1.7e-4 1.54418,-1.9e-4 1.54464,-2.1e-4 1.54418,-2.1e-4 1.54464,-2.4e-4 1.54418,-2.5e-4 1.54418,-2.8e-4 1.54464,-3e-4 1.54417,-3.1e-4 1.54418,-3.5e-4 1.54464,-3.7e-4 1.54418,-4e-4 1.54464,-4.3e-4 1.54418,-4.6e-4 1.54418,-5.1e-4 1.54464,-5.4e-4 1.54417,-5.8e-4 1.54418,-6.3e-4 1.54464,-6.7e-4 1.54418,-7.3e-4 1.54464,-7.9e-4 1.54418,-8.5e-4 1.54418,-9.2e-4 1.54464,-9.9e-4 1.54417,-10e-4 1.54464,-10e-4 1.54418,-0.001 1.54418,-10e-4 1.54464,-10e-4 1.54418,-0.002 1.54418,-0.002 1.54464,-0.002 1.54417,-0.002 1.54464,-0.002 1.54418,-0.002 1.54418,-0.002 1.54464,-0.003 1.54418,-0.003 1.54418,-0.003 1.54464,-0.003 1.54417,-0.004 1.54465,-0.004 1.54417,-0.004 1.54418,-0.004 1.54464,-0.005 1.54418,-0.005 1.54418,-0.006 1.54464,-0.006 1.54417,-0.006 1.54465,-0.007 1.54417,-0.008 1.54418,-0.008 1.54464,-0.009 1.54418,-0.009 1.54464,-0.0102 1.54418,-0.011 1.54417,-0.0119 1.54465,-0.0128 1.54417,-0.0138 1.54418,-0.0149 1.54464,-0.016 1.54418,-0.0173 1.54464,-0.0186 1.54418,-0.0201 1.54417,-0.0216 1.54465,-0.0233 1.54417,-0.0252 1.54418,-0.0271 1.54464,-0.0292 1.54418,-0.0315 1.54464,-0.034 1.54418,-0.0366 1.54418,-0.0395 1.54464,-0.0426 1.54417,-0.0459 1.54464,-0.0495 1.54418,-0.0533 1.54418,-0.0575 1.54464,-0.0619 1.54418,-0.0668 1.54418,-0.0719 1.54464,-0.0775 1.54417,-0.0836 1.54464,-0.09 1.54418,-0.097 1.54418,-0.10455 1.54464,-0.11265 1.54418,-0.12137 1.54418,-0.13075 1.54464,-0.14085 1.54417,-0.15173 1.54464,-0.16343 1.54418,-0.17602 1.54418,-0.18955 1.54464,-0.20411 1.54418,-0.21977 1.54464,-0.23661 1.54418,-0.25469 1.54417,-0.27413 1.54464,-0.29502 1.54418,-0.31744 1.54418,-0.34151 1.54464,-0.36736 1.54418,-0.39506 1.54464,-0.4248 1.54418,-0.45667 1.54417,-0.49082 1.54464,-0.52739 1.54418,-0.56655 1.54418,-0.60839 1.54464,-0.65319 1.54418,-0.70112 1.54464,-0.75214 1.54418,-0.80668 1.54417,-0.86487 1.54464,-0.92678 1.54418,-0.99272 1.54418,-1.06284 1.54464,-1.13731 1.54418,-1.21641 1.54464,-1.30015 1.54418,-1.38891 1.54417,-1.4827 1.54464,-1.58164 1.54418,-1.68615 1.54464,-1.79606 1.54418,-1.91151 1.54418,-2.0326 1.54464,-2.15954 1.54418,-2.29211 1.54417,-2.43031 1.54464,-2.57414 1.54418,-2.72344 1.54464,-2.87799 1.54418,-3.03772 1.54418,-3.20215 1.54464,-3.37108 1.54418,-3.54404 1.54417,-3.72058 1.54465,-3.90015 1.54417,-4.08231 1.54464,-4.26614 1.54418,-4.45097 1.54418,-4.63731 1.54464,-4.82213 1.54418,-5.0062 1.54464,-5.18798 1.54418,-5.36747 1.54417,-5.54241 1.54464,-5.71431 1.54418,-5.88011 1.54418,-6.03908 1.54464,-6.19272 1.54418,-6.33722 1.54464,-6.4749 1.54418,-6.60267 1.54417,-6.72133 1.54464,-6.83084 1.54418,-6.92897 1.54418,-7.01796 1.54464,-7.09553 1.54418,-7.16247 1.54464,-7.21799 1.54418,-7.26438 1.54417,-7.29861 1.54464,-7.32219 1.54418,-7.33665 1.54464,-7.34044 1.54418,-7.33436 1.54418,-7.31915 1.54464,-7.29481 1.54418,-7.26286 1.54417,-7.22179 1.54464,-7.17388 1.54418,-7.11835 1.54464,-7.05675 1.54418,-6.98905 1.54418,-6.91603 1.54464,-6.83694 1.54418,-6.75403 1.54417,-6.66732 1.54464,-6.57529 1.54418,-6.48174 1.54464,-6.38439 1.54418,-6.28474 1.54418,-6.18283 1.54464,-6.07863 1.54418,-5.97443 1.54417,-5.86794 1.54464,-5.7607 1.54418,-5.6527 1.54464,-5.54545 1.54418,-5.43669 1.54418,-5.32869 1.54464,-5.22068 1.54418,-5.11344 1.54464,-5.00696 1.54417,-4.90048 1.54418,-4.79551 1.54464,-4.69131 1.54418,-4.58788 1.54418,-4.48671 1.54464,-4.38556 1.54418,-4.28591 1.54464,-4.18857 1.54417,-4.09197 1.54418,-3.99689 1.54464,-3.90335 1.54418,-3.81131 1.54418,-3.72156 1.54464,-3.63257 1.54418,-3.54587 1.54464,-3.46068 1.54417,-3.37625 1.54418,-3.29487 1.54464,-3.21425 1.54418,-3.13515 1.54464,-3.05833 1.54418,-2.98227 1.54418,-2.90925 1.54464,-2.83624 1.54417,-2.7655 1.54418,-2.69705 1.54464,-2.62859 1.54418,-2.56243 1.54464,-2.49853 1.54418,-2.43541 1.54418,-2.37304 1.54464,-2.31295 1.54232,-2.25438 1.54603,-2.19735 1.54603,-2.14105 1.5414,-2.08554 1.54603,-2.03305 1.54603,-1.98058 1.5414,-1.92961 1.54603,-1.88018 1.54603,-1.83226 1.5414,-1.78434 1.54603,-1.7387 1.5414,-1.69307 1.54603,-1.64972 1.54603,-1.60713 1.5414,-1.56529 1.54603,-1.52498 1.54603,-1.48543 1.5414,-1.44664 1.54603,-1.40937 1.54603,-1.3721 1.5414,-1.33636 1.54603,-1.30213 1.5414,-1.2679 1.54602,-1.234436 1.54603,-1.202491 1.5414,-1.171307 1.54603,-1.140883 1.54603,-1.11046 1.5414,-1.081558 1.54603,-1.053416 1.54603,-1.026034 1.5414,-0.998654 1.54603,-0.972793 1.5414,-0.947694 1.54603,-0.921834 1.54603,-0.898255 1.5414,-0.874678 1.54603,-0.851859 1.54603,-0.829042 1.5414,-0.807746 1.54603,-0.786449 1.54603,-0.765913 1.5414,-0.745377 1.54603,-0.725602 1.5414,-0.707348 1.54603,-0.688333 1.54603,-0.670079 1.5414,-0.652585 1.54603,-0.635092 1.54603,-0.619119 1.5414,-0.602387 1.54602,-0.586414 1.54603,-0.571202 1.5414,-0.555991 1.54603,-0.541539 1.5414,-0.527089 1.54603,-0.513397 1.54603,-0.499707 1.5414,-0.486777 1.54603,-0.473086 1.54603,-0.461678 1.5414,-0.449508 1.54603,-0.437339 1.54603,-0.425169 1.5414,-0.415282 1.54603,-0.403112 1.54603,-0.393224 1.5414,-0.382576 1.54603,-0.372689 1.5414,-0.362801 1.54603,-0.353674 1.54603,-0.343786 1.5414,-0.334659 1.54603,-0.326293 1.54603,-0.317166 1.5414,-0.309559 1.54603,-0.300433 1.54603,-0.293587 1.5414,-0.285221 1.54602,-0.277615 1.54141,-0.27077 1.54602,-0.263164 1.54603,-0.256318 1.5414,-0.249473 1.54603,-0.243389 1.54603,-0.236543 1.5414,-0.230458 1.54603,-0.224374 1.54603,-0.218289 1.5414,-0.212965 1.54603,-0.20688 1.5414,-0.202317 1.54603,-0.196232 1.54603,-0.190908 1.5414,-0.186344 1.54603,-0.18102 1.54603,-0.176457 1.5414,-0.171893 1.54603,-0.16733 1.54603,-0.163526 1.5414,-0.158203 1.54603,-0.154399 1.5414,-0.150597 1.54603,-0.146794 1.54603,-0.14223 1.5414,-0.139188 1.54603,-0.135384 1.54602,-0.131582 1.5414,-0.127779 1.54603,-0.125498 1.54603,-0.120933 1.5414,-0.118652 1.54603,-0.11561 1.54603,-0.111806 1.5414,-0.109525 1.54603,-0.106482 1.5414,-0.103441 1.54603,-0.101158 1.54603,-0.09812 1.5414,-0.09583 1.54603,-0.09279 1.54603,-0.09051 1.5414,-0.08823 1.54603,-0.08595 1.54603,-0.08443 1.5414,-0.08138 1.54603,-0.0791 1.5414,-0.07758 1.54603,-0.0753 1.54603,-0.07302 1.5414,-0.0715 1.54603,-0.06997 1.54603,-0.06769 1.5414,-0.06541 1.54603,-0.06465 1.54602,-0.06237 1.5414,-0.06085 1.54603,-0.05933 1.5414,-0.0578 1.54603,-0.05628 1.54603,-0.05476 1.5414,-0.05324 1.54603,-0.05172 1.54603,-0.05096 1.5414,-0.04868 1.54603,-0.04792 1.54603,-0.04716 1.5414,-0.04564 1.54603,-0.04411 1.5414,-0.04259 1.54603,-0.04259 1.54603,-0.04031 1.5414,-0.04031 1.54603,-0.03879 1.54603,-0.03727 1.5414,-0.03727 1.54603,-0.03575 1.54603,-0.03499 1.5414,-0.03347 1.54603,-0.03347 1.5414,-0.03194 1.54603,-0.03119 1.54603,-0.03042 1.5414,-0.02966 1.54602,-0.02966 1.54603,-0.02814 1.5414,-0.02738 1.54603,-0.02662 1.54603,-0.02586 1.5414,-0.0251 1.54603,-0.0251 1.54603,-0.02358 1.5414,-0.02358 1.54603,-0.02282 1.5414,-0.02206 1.54603,-0.02206 1.54603,-0.0213 1.5414,-0.01978 1.54603,-0.02054 1.54603,-0.01901 1.5414,-0.01902 1.54603,-0.01825 1.54603,-0.01825 1.5414,-0.01749 1.54603,-0.01673 1.5414,-0.01673 1.54603,-0.01597 1.54603,-0.01597 1.5414,-0.01521 1.54603,-0.01521 1.54602,-0.01445 1.54141,-0.01369 1.54602,-0.01445 1.54603,-0.01293 1.5414,-0.01293 1.54603,-0.01293 1.5414,-0.01217 1.54603,-0.01217 1.54603,-0.01141 1.5414,-0.01141 1.54603,-0.01141 1.54603,-0.01065 1.5414,-0.01065 1.54603,-0.01065 1.54603,-0.0099 1.5414,-0.0099 1.54603,-0.0091 1.5414,-0.0091 1.54603,-0.0091 1.54603,-0.0084 1.5414,-0.0091 1.54603,-0.0076 1.54603,-0.0084 1.5414,-0.0076 1.54603,-0.0076 1.54603,-0.0076 1.5414,-0.0076 1.54603,-0.0068 1.5414,-0.0068 1.54603,-0.0068 1.54602,-0.0061 1.5414,-0.0068 1.54603,-0.0061 1.54603,-0.0061 1.5414,-0.0053 1.54603,-0.0061 1.54603,-0.0053 1.5414,-0.0053 1.54603,-0.0053 1.54603,-0.0053 1.5414,-0.0046 1.54603,-0.0053 1.5414,-0.0046 1.54603,-0.0046 1.54603,-0.0046 1.5414,-0.0038 1.54603,-0.0046 1.54603,-0.0038 1.5414,-0.0038 1.54603,-0.0038 1.54603,-0.0038 1.5414,-0.0038 1.54603,-0.0038 1.5414,-0.003 1.54603,-0.0038 1.54603,-0.003 1.5414,-0.003 1.54602,-0.003 1.54603,-0.003 1.5414,-0.003 1.54603,-0.003 1.54603,-0.003 1.5414,-0.0023 1.54603,-0.003 1.5414,-0.0023 1.54603,-0.0023 1.54603,-0.0023 1.5414,-0.0023 1.54603,-0.0023 1.54603,-0.0023 1.5414,-0.0023 1.54603,-0.0023 1.54603,-0.0023 1.5414,-0.0015 1.54603,-0.0023 1.5414,-0.0015 1.54603,-0.0023 1.54603,-0.0015 1.5414,-0.0015 1.54603,-0.0015 1.54603,-0.0015 1.5414,-0.0015 1.54603,-0.0015 1.54603,-0.0015 1.5414,-0.0015 1.54602,-0.0015 1.54603,-0.0015 1.5414,-7.6e-4 1.54603,-0.0015 1.5414,-0.0015 1.54603,-7.6e-4 1.54603,-0.0015 1.5414,-7.61e-4 1.54603,-0.0015 1.54603,-7.61e-4 1.5414,-7.6e-4 1.54603,-0.0015 1.54603,-7.6e-4 1.5414,-7.61e-4 1.54603,-7.6e-4 1.5414,-7.61e-4 1.54603,-7.61e-4 1.54603,-7.6e-4 1.5414,-7.61e-4 1.54603,-7.6e-4 1.54603,-7.61e-4 1.5414,-7.6e-4 1.54603,-7.61e-4 1.54603,-7.61e-4 1.5414,-7.6e-4 1.54603,-7.61e-4 1.5414,-7.6e-4 h 1.54603 l 1.54602,-7.61e-4 1.54141,-7.61e-4 h 1.54602 l 1.54603,-7.6e-4 1.5414,-7.61e-4 h 1.54603 l 1.54603,-7.6e-4 h 1.5414 l 1.54603,-7.61e-4 h 1.54142 l 1.546,-7.61e-4 h 1.546 l 1.5414,-7.6e-4 h 1.5461 l 1.546,-7.61e-4 h 1.5414 1.546 l 1.5461,-7.6e-4 h 1.5414 1.546 l 1.5414,-7.61e-4 h 1.546 1.546 1.5414 l 1.5461,-7.61e-4 h 1.546 1.5414 1.546 1.5461 l 1.5414,-7.6e-4 h 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 l 1.5414,-7.61e-4 h 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 l 1.5461,7.61e-4 h 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 l 1.5414,7.6e-4 h 1.5461 1.5414 1.546 1.546 1.5414 1.5461 l 1.546,7.61e-4 h 1.5414 1.546 1.546 1.5414 1.5461 l 1.5414,7.61e-4 h 1.546 1.546 1.5414 1.5461 l 1.546,7.6e-4 h 1.5414 1.546 1.5461 1.5414 l 1.546,7.61e-4 h 1.546 1.5414 1.546 l 1.5414,7.6e-4 h 1.5461 1.546 1.5414 l 1.546,7.61e-4 h 1.5461 1.5414 1.546 1.546 l 1.5414,7.61e-4 h 1.546 1.5414 1.5461 l 1.546,7.6e-4 h 1.5414 1.546 1.5461 l 1.5414,7.61e-4 h 1.546 1.546 l 1.5414,7.6e-4 h 1.5461 1.5414 1.546 l 1.546,7.61e-4 h 1.5414 1.546 1.5461 l 1.5414,7.61e-4 h 1.546 1.546 l 1.5414,7.6e-4 h 1.5461 1.5414 1.546 l 1.546,7.61e-4 h 1.5414 1.546 l 1.5461,7.6e-4 h 1.5414 1.546 1.546 l 1.5414,7.61e-4 h 1.5461 1.546 l 1.5414,7.61e-4 h 1.546 1.5414 l 1.5461,7.6e-4 h 1.546 1.5414 1.546 l 1.546,7.61e-4 h 1.5414 1.5461 l 1.546,7.6e-4 h 1.5414 1.546 l 1.5414,7.61e-4 h 1.5461 1.546 1.5414 l 1.546,7.6e-4 h 1.546 1.5414 l 1.5461,7.61e-4 h 1.546 1.5414 l 1.546,7.61e-4 h 1.5414 1.5461 l 1.546,7.6e-4 h 1.5414 1.546 1.5461 l 1.5414,7.61e-4 h 1.546 1.546 l 1.5414,7.6e-4 h 1.546 1.5414 l 1.5461,7.61e-4 h 1.546 1.5414 l 1.546,7.61e-4 h 1.5461 1.5414 l 1.546,7.6e-4 h 1.546 1.5414 l 1.546,7.61e-4 h 1.5415 1.546 1.546 l 1.5414,7.6e-4 h 1.546 1.5461 l 1.5414,7.61e-4 h 1.546 1.546 l 1.5414,7.61e-4 h 1.5461 1.546 l 1.5414,7.6e-4 h 1.546 1.5414 l 1.546,7.61e-4 h 1.5461 1.5414 l 1.546,7.6e-4 h 1.546 1.5414 l 1.5461,7.61e-4 h 1.546 1.5414 l 1.546,7.6e-4 h 1.5414 1.5461 l 1.546,7.61e-4 h 1.5414 1.546 1.546 l 1.5414,7.61e-4 h 1.5461 1.546 l 1.5414,7.6e-4 h 1.546 1.5414 l 1.5461,7.61e-4 h 1.546 1.5414 l 1.546,7.6e-4 h 1.546 1.5414 l 1.5461,7.61e-4 h 1.546 1.5414 l 1.546,7.61e-4 h 1.5414 1.5461 l 1.546,7.6e-4 h 1.5414 1.546 l 1.5461,7.61e-4 h 1.5414 1.546 l 1.546,7.6e-4 h 1.5414 1.546 l 1.5414,7.61e-4 h 1.5461 1.546 l 1.5414,7.61e-4 h 1.546 1.5461 l 1.5414,7.6e-4 h 1.546 1.546 l 1.5414,7.61e-4 h 1.546 1.5461 1.5414 l 1.546,7.6e-4 h 1.5414 1.546 l 1.5461,7.61e-4 h 1.5414 1.546 l 1.546,7.6e-4 h 1.5414 1.5461 l 1.546,7.61e-4 h 1.5414 1.546 l 1.5414,7.61e-4 h 1.546 1.5461 l 1.5414,7.6e-4 h 1.546 1.546 l 1.5414,7.61e-4 h 1.5461 1.546 l 1.5414,7.6e-4 h 1.546 1.5414 l 1.546,7.61e-4 h 1.5461 1.5414 l 1.546,7.61e-4 h 1.546 1.5414 l 1.5461,7.6e-4 h 1.546 1.5414 l 1.546,7.61e-4 h 1.5414 1.5461 l 1.546,7.6e-4 h 1.5414 1.546 l 1.546,7.61e-4 h 1.5414 1.5461 l 1.546,7.61e-4 h 1.5414 1.546 l 1.5414,7.6e-4 h 1.5461 1.546 l 1.5414,7.61e-4 h 1.546 1.546 l 1.5414,7.6e-4 h 1.5461 1.546 l 1.5414,7.61e-4 h 1.546 1.5461 1.5414 l 1.546,7.6e-4 h 1.5414 1.546 l 1.5461,7.61e-4 h 1.5414 1.546 l 1.546,7.61e-4 h 1.5414 1.546 l 1.5461,7.6e-4 h 1.5414 1.546 l 1.5414,7.61e-4 h 1.546 1.5461 l 1.5414,7.6e-4 h 1.546 1.546 l 1.5414,7.61e-4 h 1.546 1.5461 l 1.5414,7.61e-4 h 1.546 1.5414 l 1.546,7.6e-4 h 1.5461 1.5414 l 1.546,7.61e-4 h 1.546 1.5414 l 1.5461,7.6e-4 h 1.546 1.5414 l 1.546,7.61e-4 h 1.5414 1.546 l 1.5461,7.61e-4 h 1.5414 1.546 l 1.546,7.6e-4 h 1.5414 1.5461 l 1.546,7.61e-4 h 1.5414 1.546 l 1.546,7.6e-4 h 1.5414 1.5461 l 1.5414,7.61e-4 h 1.546 1.546 l 1.5414,7.6e-4 h 1.5461 1.546 l 1.5414,7.61e-4 h 1.546 1.5461 l 1.5414,7.61e-4 h 1.546 1.5414 l 1.546,7.6e-4 h 1.546 1.5414 l 1.5461,7.61e-4 h 1.546 1.5414 l 1.546,7.6e-4 h 1.5461 1.5414 1.546 l 1.5414,7.61e-4 h 1.546 1.546 l 1.5414,7.61e-4 h 1.5461 1.546 l 1.5414,7.6e-4 h 1.546 1.5461 l 1.5414,7.61e-4 h 1.546 1.5414 l 1.546,7.6e-4 h 1.5461 1.5414 l 1.546,7.61e-4 h 1.546 1.5414 l 1.546,7.61e-4 h 1.5461 1.5414 l 1.546,7.6e-4 h 1.5414 1.546 l 1.5461,7.61e-4 h 1.5414 1.546 l 1.546,7.6e-4 h 1.5414 1.546 l 1.5461,7.61e-4 h 1.5414 1.546 l 1.546,7.61e-4 h 1.5414 1.5461 l 1.5414,7.6e-4 h 1.546 1.546 l 1.5414,7.61e-4 h 1.5461 1.546 l 1.5414,7.6e-4 h 1.546 1.546 l 1.5414,7.61e-4 h 1.5461 1.5414 l 1.546,7.6e-4 h 1.546 1.5414 l 1.5461,7.61e-4 h 1.546 1.5414 l 1.546,7.61e-4 h 1.546 1.5414 l 1.5461,7.6e-4 h 1.5414 1.546 l 1.546,7.61e-4 h 1.5414 1.5461 l 1.546,7.6e-4 h 1.5414 1.546 l 1.5461,7.61e-4 h 1.5414 1.546 1.5414 l 1.546,7.61e-4 h 1.546 1.5414 l 1.5461,7.6e-4 h 1.546 1.5414 l 1.546,7.61e-4 h 1.5461 1.5414 l 1.546,7.6e-4 h 1.5414 1.546 l 1.546,7.61e-4 h 1.5414 1.5461 l 1.546,7.61e-4 h 1.5414 1.546 l 1.5461,7.6e-4 h 1.5414 1.546 l 1.546,7.61e-4 h 1.5414 1.5461 l 1.5414,7.6e-4 h 1.546 1.546 l 1.5414,7.61e-4 h 1.546 1.5461 l 1.5414,7.6e-4 h 1.546 1.546 l 1.5414,7.61e-4 h 1.5461 1.5414 l 1.546,7.61e-4 h 1.546 1.5414 l 1.546,7.6e-4"
+                   id="path2767"
+                   inkscape:connector-curvature="0"
+                   style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+              </g>
+            </g>
+          </g>
+          <g
+             id="PlotDataItem_675">
+            <g
+               id="PlotCurveItem_675"
+               style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+              <g
+                 font-size="14.3611"
+                 font-style="normal"
+                 font-weight="400"
+                 id="g2775"
+                 style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                <path
+                   d="m 56,674 h 1.544354 1.544353 1.544335 1.544363 1.544363 1.544363 1.544363 1.544316 1.544363 1.544363 1.544363 1.544363 1.544316 1.544363 1.544363 1.544363 1.544362 1.544317 1.544363 1.544363 1.544363 1.544362 1.544317 1.544363 1.544363 1.544362 1.544363 1.544317 1.544358 1.54418 1.54464 1.54418 1.54464 1.54418 1.54418 1.54464 1.54417 1.54418 1.54464 1.54418 1.54464 1.54418 1.54418 1.54464 1.54417 1.54418 1.54464 1.54418 l 1.54464,-10e-6 h 1.54418 1.54418 1.54464 1.54418 1.54464 1.54417 1.54418 1.54464 1.54418 1.54418 1.54464 1.54418 1.54464 l 1.54417,-10e-6 h 1.54418 1.54464 1.54418 1.54418 1.54464 1.54418 l 1.54464,-1e-5 h 1.54417 1.54418 1.54464 l 1.54418,-10e-6 h 1.54464 1.54418 l 1.54418,-10e-6 h 1.54464 1.54417 l 1.54418,-10e-6 h 1.54464 l 1.54418,-1e-5 h 1.54464 l 1.54418,-10e-6 h 1.54418 l 1.54464,-10e-6 1.54417,-10e-6 h 1.54418 l 1.54464,-10e-6 1.54418,-1e-5 1.54464,-10e-6 1.54418,-10e-6 1.54418,-10e-6 1.54464,-1e-5 1.54417,-2e-5 1.54464,-10e-6 1.54418,-2e-5 1.54418,-10e-6 1.54464,-2e-5 1.54418,-2e-5 1.54418,-2e-5 1.54464,-2e-5 1.54417,-2e-5 1.54464,-3e-5 1.54418,-3e-5 1.54418,-2e-5 1.54464,-4e-5 1.54418,-3e-5 1.54418,-4e-5 1.54464,-4e-5 1.54417,-4e-5 1.54465,-5e-5 1.54417,-5e-5 1.54418,-5e-5 1.54464,-6e-5 1.54418,-6e-5 1.54418,-7e-5 1.54464,-7e-5 1.54417,-8e-5 1.54465,-8e-5 1.54417,-9e-5 1.54418,-10e-5 1.54464,-1.1e-4 1.54418,-1.1e-4 1.54464,-1.2e-4 1.54418,-1.4e-4 1.54417,-1.4e-4 1.54465,-1.5e-4 1.54417,-1.7e-4 1.54418,-1.8e-4 1.54464,-1.9e-4 1.54418,-2.1e-4 1.54464,-2.2e-4 1.54418,-2.5e-4 1.54417,-2.6e-4 1.54465,-2.8e-4 1.54417,-3e-4 1.54418,-3.3e-4 1.54464,-3.5e-4 1.54418,-3.8e-4 1.54464,-4.1e-4 1.54418,-4.4e-4 1.54418,-4.8e-4 1.54464,-5.1e-4 1.54417,-5.5e-4 1.54464,-6e-4 1.54418,-6.4e-4 1.54418,-6.9e-4 1.54464,-7.5e-4 1.54418,-8e-4 1.54418,-8.7e-4 1.54464,-9.3e-4 1.54417,-10e-4 1.54464,-10e-4 1.54418,-10e-4 1.54418,-0.001 1.54464,-10e-4 1.54418,-10e-4 1.54418,-0.002 1.54464,-0.002 1.54417,-0.002 1.54464,-0.002 1.54418,-0.002 1.54418,-0.002 1.54464,-0.002 1.54418,-0.003 1.54464,-0.003 1.54418,-0.003 1.54417,-0.003 1.54464,-0.004 1.54418,-0.004 1.54418,-0.004 1.54464,-0.004 1.54418,-0.005 1.54464,-0.005 1.54418,-0.006 1.54417,-0.006 1.54464,-0.006 1.54418,-0.007 1.54418,-0.007 1.54464,-0.008 1.54418,-0.008 1.54464,-0.009 1.54418,-0.01 1.54417,-0.0104 1.54464,-0.0112 1.54418,-0.012 1.54418,-0.0128 1.54464,-0.0137 1.54418,-0.0147 1.54464,-0.0157 1.54418,-0.0167 1.54417,-0.0179 1.54464,-0.0191 1.54418,-0.0203 1.54464,-0.0216 1.54418,-0.023 1.54418,-0.0245 1.54464,-0.026 1.54418,-0.0276 1.54417,-0.0293 1.54464,-0.031 1.54418,-0.0328 1.54464,-0.0347 1.54418,-0.0366 1.54418,-0.0386 1.54464,-0.0406 1.54418,-0.0427 1.54417,-0.0448 1.54465,-0.047 1.54417,-0.0492 1.54464,-0.0514 1.54418,-0.0536 1.54418,-0.0559 1.54464,-0.0581 1.54418,-0.0603 1.54464,-0.0625 1.54418,-0.0647 1.54417,-0.0668 1.54464,-0.0688 1.54418,-0.0708 1.54418,-0.0728 1.54464,-0.0746 1.54418,-0.0764 1.54464,-0.078 1.54418,-0.0795 1.54417,-0.081 1.54464,-0.0823 1.54418,-0.0835 1.54418,-0.0846 1.54464,-0.0855 1.54418,-0.0863 1.54464,-0.087 1.54418,-0.0875 1.54417,-0.0879 1.54464,-0.0882 1.54418,-0.0884 1.54464,-0.0884 1.54418,-0.0884 1.54418,-0.0882 1.54464,-0.0879 1.54418,-0.0875 1.54417,-0.087 1.54464,-0.0864 1.54418,-0.0858 1.54464,-0.085 1.54418,-0.0842 1.54418,-0.0833 1.54464,-0.0824 1.54418,-0.0814 1.54417,-0.0803 1.54464,-0.0792 1.54418,-0.0781 1.54464,-0.0769 1.54418,-0.0757 1.54418,-0.0745 1.54464,-0.0732 1.54418,-0.072 1.54417,-0.0707 1.54464,-0.0694 1.54418,-0.0681 1.54464,-0.0668 1.54418,-0.0655 1.54418,-0.0642 1.54464,-0.0629 1.54418,-0.0616 1.54464,-0.0603 1.54417,-0.0591 1.54418,-0.0578 1.54464,-0.0565 1.54418,-0.0553 1.54418,-0.0541 1.54464,-0.0528 1.54418,-0.0516 1.54464,-0.0505 1.54417,-0.0493 1.54418,-0.0482 1.54464,-0.047 1.54418,-0.0459 1.54418,-0.0448 1.54464,-0.0438 1.54418,-0.0427 1.54464,-0.0417 1.54417,-0.0407 1.54418,-0.0397 1.54464,-0.0387 1.54418,-0.0378 1.54464,-0.0368 1.54418,-0.0359 1.54418,-0.0351 1.54464,-0.0342 1.54417,-0.0333 1.54418,-0.0325 1.54464,-0.0317 1.54418,-0.0309 1.54464,-0.0301 1.54418,-0.0293 1.54418,-0.0286 1.54464,-0.0279 1.54232,-0.0272 1.54603,-0.0265 1.54603,-0.0258 1.5414,-0.0251 1.54603,-0.0245 1.54603,-0.0239 1.5414,-0.0233 1.54603,-0.0226 1.54603,-0.0221 1.5414,-0.0215 1.54603,-0.021 1.5414,-0.0204 1.54603,-0.0199 1.54603,-0.0194 1.5414,-0.0189 1.54603,-0.0184 1.54603,-0.0179 1.5414,-0.0174 1.54603,-0.017 1.54603,-0.0165 1.5414,-0.0161 1.54603,-0.0157 1.5414,-0.0153 1.54602,-0.0149 1.54603,-0.0145 1.5414,-0.0141 1.54603,-0.0137 1.54603,-0.0134 1.5414,-0.013 1.54603,-0.0127 1.54603,-0.0124 1.5414,-0.012 1.54603,-0.0117 1.5414,-0.0114 1.54603,-0.0111 1.54603,-0.0108 1.5414,-0.0105 1.54603,-0.0103 1.54603,-0.01 1.5414,-0.01 1.54603,-0.009 1.54603,-0.009 1.5414,-0.009 1.54603,-0.009 1.5414,-0.009 1.54603,-0.008 1.54603,-0.008 1.5414,-0.008 1.54603,-0.008 1.54603,-0.007 1.5414,-0.007 1.54602,-0.007 1.54603,-0.007 1.5414,-0.007 1.54603,-0.007 1.5414,-0.006 1.54603,-0.006 1.54603,-0.006 1.5414,-0.006 1.54603,-0.006 1.54603,-0.006 1.5414,-0.005 1.54603,-0.005 1.54603,-0.005 1.5414,-0.005 1.54603,-0.005 1.54603,-0.005 1.5414,-0.005 1.54603,-0.004 1.5414,-0.004 1.54603,-0.004 1.54603,-0.004 1.5414,-0.004 1.54603,-0.004 1.54603,-0.004 1.5414,-0.004 1.54603,-0.004 1.54603,-0.004 1.5414,-0.003 1.54602,-0.003 1.54141,-0.003 1.54602,-0.003 1.54603,-0.003 1.5414,-0.003 1.54603,-0.003 1.54603,-0.003 1.5414,-0.003 1.54603,-0.003 1.54603,-0.003 1.5414,-0.003 1.54603,-0.002 1.5414,-0.002 1.54603,-0.002 1.54603,-0.002 1.5414,-0.002 1.54603,-0.002 1.54603,-0.002 1.5414,-0.002 1.54603,-0.002 1.54603,-0.002 1.5414,-0.002 1.54603,-0.002 1.5414,-0.002 1.54603,-0.002 1.54603,-0.002 1.5414,-0.002 1.54603,-0.002 1.54602,-0.002 1.5414,-0.002 1.54603,-0.001 1.54603,-10e-4 1.5414,-10e-4 1.54603,-10e-4 1.54603,-10e-4 1.5414,-0.001 1.54603,-10e-4 1.5414,-10e-4 1.54603,-10e-4 1.54603,-10e-4 1.5414,-0.001 1.54603,-10e-4 1.54603,-10e-4 1.5414,-10e-4 1.54603,-10e-4 1.54603,-0.001 1.5414,-9.9e-4 1.54603,-9.6e-4 1.5414,-9.3e-4 1.54603,-9.2e-4 1.54603,-8.8e-4 1.5414,-8.6e-4 1.54603,-8.4e-4 1.54603,-8.2e-4 1.5414,-8e-4 1.54603,-7.8e-4 1.54602,-7.5e-4 1.5414,-7.4e-4 1.54603,-7.2e-4 1.5414,-6.9e-4 1.54603,-6.9e-4 1.54603,-6.6e-4 1.5414,-6.5e-4 1.54603,-6.3e-4 1.54603,-6e-4 1.5414,-6e-4 1.54603,-5.8e-4 1.54603,-5.7e-4 1.5414,-5.4e-4 1.54603,-5.4e-4 1.5414,-5.3e-4 1.54603,-5.1e-4 1.54603,-4.9e-4 1.5414,-4.8e-4 1.54603,-4.7e-4 1.54603,-4.6e-4 1.5414,-4.5e-4 1.54603,-4.3e-4 1.54603,-4.3e-4 1.5414,-4.1e-4 1.54603,-4e-4 1.5414,-3.9e-4 1.54603,-3.8e-4 1.54603,-3.7e-4 1.5414,-3.6e-4 1.54602,-3.5e-4 1.54603,-3.5e-4 1.5414,-3.3e-4 1.54603,-3.2e-4 1.54603,-3.2e-4 1.5414,-3.1e-4 1.54603,-3e-4 1.54603,-2.9e-4 1.5414,-2.9e-4 1.54603,-2.7e-4 1.5414,-2.8e-4 1.54603,-2.6e-4 1.54603,-2.6e-4 1.5414,-2.5e-4 1.54603,-2.4e-4 1.54603,-2.4e-4 1.5414,-2.3e-4 1.54603,-2.2e-4 1.54603,-2.2e-4 1.5414,-2.2e-4 1.54603,-2.1e-4 1.5414,-2e-4 1.54603,-1.9e-4 1.54603,-2e-4 1.5414,-1.8e-4 1.54603,-1.9e-4 1.54602,-1.8e-4 1.54141,-1.7e-4 1.54602,-1.7e-4 1.54603,-1.6e-4 1.5414,-1.6e-4 1.54603,-1.6e-4 1.5414,-1.5e-4 1.54603,-1.5e-4 1.54603,-1.4e-4 1.5414,-1.5e-4 1.54603,-1.3e-4 1.54603,-1.3e-4 1.5414,-1.3e-4 1.54603,-1.3e-4 1.54603,-1.2e-4 1.5414,-1.2e-4 1.54603,-1.2e-4 1.5414,-1.1e-4 1.54603,-1.2e-4 1.54603,-10e-5 1.5414,-1.1e-4 1.54603,-10e-5 1.54603,-1.1e-4 1.5414,-9e-5 1.54603,-10e-5 1.54603,-9e-5 1.5414,-9e-5 1.54603,-9e-5 1.5414,-8e-5 1.54603,-9e-5 1.54602,-7e-5 1.5414,-9e-5 1.54603,-7e-5 1.54603,-8e-5 1.5414,-7e-5 1.54603,-7e-5 1.54603,-7e-5 1.5414,-7e-5 1.54603,-7e-5 1.54603,-6e-5 1.5414,-6e-5 1.54603,-6e-5 1.5414,-6e-5 1.54603,-6e-5 1.54603,-6e-5 1.5414,-6e-5 1.54603,-5e-5 1.54603,-5e-5 1.5414,-5e-5 1.54603,-5e-5 1.54603,-5e-5 1.5414,-4e-5 1.54603,-5e-5 1.5414,-4e-5 1.54603,-5e-5 1.54603,-5e-5 1.5414,-3e-5 1.54602,-4e-5 1.54603,-4e-5 1.5414,-4e-5 1.54603,-4e-5 1.54603,-3e-5 1.5414,-4e-5 1.54603,-3e-5 1.5414,-4e-5 1.54603,-3e-5 1.54603,-3e-5 1.5414,-3e-5 1.54603,-3e-5 1.54603,-3e-5 1.5414,-3e-5 1.54603,-3e-5 1.54603,-3e-5 1.5414,-3e-5 1.54603,-2e-5 1.5414,-3e-5 1.54603,-2e-5 1.54603,-3e-5 1.5414,-2e-5 1.54603,-2e-5 1.54603,-2e-5 1.5414,-3e-5 1.54603,-2e-5 1.54603,-2e-5 1.5414,-2e-5 1.54602,-2e-5 1.54603,-2e-5 1.5414,-2e-5 1.54603,-10e-6 1.5414,-2e-5 1.54603,-2e-5 1.54603,-2e-5 1.5414,-10e-6 1.54603,-2e-5 1.54603,-10e-6 1.5414,-2e-5 1.54603,-10e-6 1.54603,-2e-5 1.5414,-10e-6 1.54603,-2e-5 1.5414,-10e-6 1.54603,-10e-6 1.54603,-2e-5 h 1.5414 l 1.54603,-2e-5 1.54603,-10e-6 1.5414,-1e-5 1.54603,-2e-5 h 1.54603 l 1.5414,-10e-6 1.54603,-2e-5 1.5414,-10e-6 h 1.54603 l 1.54602,-2e-5 1.54141,-1e-5 h 1.54602 l 1.54603,-10e-6 1.5414,-10e-6 1.54603,-10e-6 1.54603,-1e-5 1.5414,-10e-6 1.54603,-10e-6 h 1.54142 l 1.546,-10e-6 1.546,-10e-6 h 1.5414 l 1.5461,-1e-5 h 1.546 l 1.5414,-10e-6 1.546,-10e-6 1.5461,-10e-6 1.5414,-1e-5 h 1.546 1.5414 l 1.546,-10e-6 1.546,-10e-6 h 1.5414 l 1.5461,-10e-6 h 1.546 1.5414 l 1.546,-10e-6 h 1.5461 l 1.5414,-1e-5 1.546,-10e-6 h 1.546 1.5414 1.5461 l 1.5414,-10e-6 h 1.546 l 1.546,-10e-6 h 1.5414 l 1.546,-1e-5 h 1.5461 1.5414 1.546 l 1.546,-10e-6 h 1.5414 l 1.5461,-10e-6 h 1.5414 1.546 l 1.546,-10e-6 h 1.5414 1.546 1.5461 1.5414 1.546 l 1.546,-10e-6 h 1.5414 1.5461 l 1.5414,-1e-5 h 1.546 1.546 l 1.5414,-10e-6 h 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 l 1.5414,-10e-6 h 1.546 1.546 1.5414 1.5461 l 1.546,-10e-6 h 1.5414 1.546 1.546 1.5414 l 1.5461,-1e-5 h 1.5414 1.546 1.546 1.5414 1.5461 l 1.546,-10e-6 h 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 l 1.5414,-10e-6 h 1.546 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 l 1.5414,-10e-6 h 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 l 1.5461,-10e-6 h 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5415 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 l 1.5414,-1e-5 h 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.5414 1.546 1.546 1.5414 1.5461 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.546 1.5461 1.5414 1.546 1.546 1.5414 1.5461 1.5414 1.546 1.546 1.5414 1.546"
+                   id="path2773"
+                   inkscape:connector-curvature="0"
+                   style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+              </g>
+            </g>
+          </g>
+          <g
+             id="PlotDataItem_676">
+            <g
+               id="PlotCurveItem_676"
+               style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+              <g
+                 font-size="14.3611"
+                 font-style="normal"
+                 font-weight="400"
+                 id="g2781"
+                 style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#ffff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                <path
+                   d="m 56,42.71113 h 1.544354 1.544353 1.544335 1.544363 1.544363 1.544363 1.544363 1.544316 1.544363 1.544363 1.544363 1.544363 1.544316 1.544363 1.544363 1.544363 1.544362 1.544317 1.544363 1.544363 1.544363 1.544362 1.544317 1.544363 1.544363 1.544362 1.544363 1.544317 1.544358 1.54418 1.54464 1.54418 1.54464 1.54418 1.54418 1.54464 1.54417 1.54418 1.54464 1.54418 1.54464 1.54418 1.54418 1.54464 1.54417 1.54418 1.54464 1.54418 1.54464 1.54418 1.54418 1.54464 1.54418 1.54464 1.54417 1.54418 1.54464 1.54418 1.54418 1.54464 1.54418 1.54464 1.54417 1.54418 1.54464 1.54418 1.54418 1.54464 1.54418 1.54464 1.54417 1.54418 1.54464 1.54418 1.54464 1.54418 1.54418 1.54464 1.54417 1.54418 1.54464 1.54418 1.54464 1.54418 1.54418 1.54464 1.54417 1.54418 1.54464 1.54418 1.54464 1.54418 1.54418 1.54464 1.54417 1.54464 1.54418 1.54418 1.54464 1.54418 1.54418 1.54464 1.54417 1.54464 1.54418 l 1.54418,7.61e-4 h 1.54464 1.54418 1.54418 1.54464 1.54417 1.54465 1.54417 1.54418 1.54464 1.54418 1.54418 1.54464 1.54417 1.54465 l 1.54417,7.6e-4 h 1.54418 1.54464 1.54418 1.54464 1.54418 1.54417 l 1.54465,7.61e-4 h 1.54417 1.54418 1.54464 l 1.54418,7.6e-4 h 1.54464 1.54418 l 1.54417,7.61e-4 h 1.54465 1.54417 l 1.54418,7.61e-4 h 1.54464 l 1.54418,7.6e-4 h 1.54464 l 1.54418,7.61e-4 h 1.54418 l 1.54464,7.6e-4 1.54417,7.61e-4 h 1.54464 l 1.54418,7.6e-4 1.54418,7.61e-4 1.54464,7.61e-4 1.54418,7.6e-4 1.54418,7.61e-4 1.54464,7.6e-4 1.54417,0.0015 1.54464,7.6e-4 1.54418,7.61e-4 1.54418,0.0015 1.54464,0.0015 1.54418,0.0015 1.54418,0.0015 1.54464,0.0015 1.54417,0.0015 1.54464,0.0023 1.54418,0.0015 1.54418,0.0023 1.54464,0.0023 1.54418,0.003 1.54464,0.0023 1.54418,0.003 1.54417,0.003 1.54464,0.0038 1.54418,0.0038 1.54418,0.0038 1.54464,0.0038 1.54418,0.0046 1.54464,0.0053 1.54418,0.0053 1.54417,0.0053 1.54464,0.0061 1.54418,0.0068 1.54418,0.0068 1.54464,0.0076 1.54418,0.0084 1.54464,0.0084 1.54418,0.0099 1.54417,0.0099 1.54464,0.01065 1.54418,0.01141 1.54418,0.01217 1.54464,0.01369 1.54418,0.01369 1.54464,0.01521 1.54418,0.01597 1.54417,0.01749 1.54464,0.01825 1.54418,0.01902 1.54464,0.0213 1.54418,0.02206 1.54418,0.02358 1.54464,0.02434 1.54418,0.02662 1.54417,0.02814 1.54464,0.02966 1.54418,0.03194 1.54464,0.03271 1.54418,0.03499 1.54418,0.03727 1.54464,0.03879 1.54418,0.04031 1.54417,0.04335 1.54465,0.04488 1.54417,0.0464 1.54464,0.04944 1.54418,0.05096 1.54418,0.05324 1.54464,0.05476 1.54418,0.05704 1.54464,0.05933 1.54418,0.06161 1.54417,0.06313 1.54464,0.06541 1.54418,0.06693 1.54418,0.06845 1.54464,0.06997 1.54418,0.07226 1.54464,0.07302 1.54418,0.07454 1.54417,0.0753 1.54464,0.07682 1.54418,0.07834 1.54418,0.07834 1.54464,0.0791 1.54418,0.07986 1.54464,0.08062 1.54418,0.08062 1.54417,0.08062 1.54464,0.08138 1.54418,0.08062 1.54464,0.08062 1.54418,0.08062 1.54418,0.07986 1.54464,0.0791 1.54418,0.07834 1.54417,0.07834 1.54464,0.07682 1.54418,0.07606 1.54464,0.0753 1.54418,0.07454 1.54418,0.07302 1.54464,0.07226 1.54418,0.06997 1.54417,0.06997 1.54464,0.06769 1.54418,0.06693 1.54464,0.06541 1.54418,0.06389 1.54418,0.06237 1.54464,0.06085 1.54418,0.06009 1.54417,0.05781 1.54464,0.05704 1.54418,0.05476 1.54464,0.054 1.54418,0.05172 1.54418,0.05096 1.54464,0.04944 1.54418,0.04716 1.54464,0.0464 1.54417,0.04487 1.54418,0.04335 1.54464,0.04183 1.54418,0.04107 1.54418,0.03879 1.54464,0.03803 1.54418,0.03651 1.54464,0.03499 1.54417,0.03423 1.54418,0.03271 1.54464,0.03118 1.54418,0.03042 1.54418,0.0289 1.54464,0.02738 1.54418,0.02662 1.54464,0.02586 1.54417,0.02434 1.54418,0.02282 1.54464,0.02206 1.54418,0.0213 1.54464,0.01978 1.54418,0.01901 1.54418,0.01825 1.54464,0.01673 1.54417,0.01673 1.54418,0.01521 1.54464,0.01369 1.54418,0.01369 1.54464,0.01293 1.54418,0.01141 1.54418,0.01065 1.54464,0.0099 1.54232,0.0099 1.54603,0.0084 1.54603,0.0076 1.5414,0.0068 1.54603,0.0068 1.54603,0.0053 1.5414,0.0053 1.54603,0.0038 1.54603,0.0038 1.5414,0.003 1.54603,0.0023 1.5414,0.0023 1.54603,0.0015 h 1.54603 l 1.5414,7.61e-4 1.54603,-7.61e-4 1.54603,-7.6e-4 1.5414,-0.0015 1.54603,-0.0023 1.54603,-0.0023 1.5414,-0.003 1.54603,-0.003 1.5414,-0.0038 1.54602,-0.0046 1.54603,-0.0046 1.5414,-0.0053 1.54603,-0.0053 1.54603,-0.0061 1.5414,-0.0061 1.54603,-0.0068 1.54603,-0.0068 1.5414,-0.0076 1.54603,-0.0076 1.5414,-0.0084 1.54603,-0.0084 1.54603,-0.0084 1.5414,-0.0091 1.54603,-0.0091 1.54603,-0.0099 1.5414,-0.0099 1.54603,-0.01065 1.54603,-0.0099 1.5414,-0.01141 1.54603,-0.01065 1.5414,-0.01141 1.54603,-0.01141 1.54603,-0.01217 1.5414,-0.01141 1.54603,-0.01217 1.54603,-0.01293 1.5414,-0.01217 1.54602,-0.01293 1.54603,-0.01369 1.5414,-0.01293 1.54603,-0.01369 1.5414,-0.01369 1.54603,-0.01369 1.54603,-0.01369 1.5414,-0.01445 1.54603,-0.01445 1.54603,-0.01445 1.5414,-0.01445 1.54603,-0.01521 1.54603,-0.01521 1.5414,-0.01521 1.54603,-0.01521 1.54603,-0.01521 1.5414,-0.01521 1.54603,-0.01597 1.5414,-0.01597 1.54603,-0.01597 1.54603,-0.01597 1.5414,-0.01597 1.54603,-0.01673 1.54603,-0.01597 1.5414,-0.01673 1.54603,-0.01673 1.54603,-0.01673 1.5414,-0.01673 1.54602,-0.01749 1.54141,-0.01673 1.54602,-0.01749 1.54603,-0.01673 1.5414,-0.01749 1.54603,-0.01749 1.54603,-0.01749 1.5414,-0.01749 1.54603,-0.01749 1.54603,-0.01825 1.5414,-0.01749 1.54603,-0.01825 1.5414,-0.01749 1.54603,-0.01825 1.54603,-0.01825 1.5414,-0.01825 1.54603,-0.01825 1.54603,-0.01826 1.5414,-0.01825 1.54603,-0.01825 1.54603,-0.01825 1.5414,-0.01902 1.54603,-0.01825 1.5414,-0.01902 1.54603,-0.01825 1.54603,-0.01901 1.5414,-0.01902 1.54603,-0.01825 1.54602,-0.01901 1.5414,-0.01902 1.54603,-0.01901 1.54603,-0.01902 1.5414,-0.01901 1.54603,-0.01902 1.54603,-0.01901 1.5414,-0.01978 1.54603,-0.01901 1.5414,-0.01902 1.54603,-0.01977 1.54603,-0.01902 1.5414,-0.01901 1.54603,-0.01978 1.54603,-0.01902 1.5414,-0.01977 1.54603,-0.01978 1.54603,-0.01901 1.5414,-0.01978 1.54603,-0.01978 1.5414,-0.01901 1.54603,-0.01978 1.54603,-0.01978 1.5414,-0.01978 1.54603,-0.01977 1.54603,-0.01978 1.5414,-0.01978 1.54603,-0.01977 1.54602,-0.01978 1.5414,-0.01978 1.54603,-0.01978 1.5414,-0.01977 1.54603,-0.01978 1.54603,-0.01978 1.5414,-0.01977 1.54603,-0.02054 1.54603,-0.01978 1.5414,-0.01978 1.54603,-0.01978 1.54603,-0.02054 1.5414,-0.01977 1.54603,-0.01978 1.5414,-0.02054 1.54603,-0.01978 1.54603,-0.01978 1.5414,-0.02054 1.54603,-0.01977 1.54603,-0.02054 1.5414,-0.01978 1.54603,-0.01978 1.54603,-0.02054 1.5414,-0.01977 1.54603,-0.02054 1.5414,-0.01978 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.01978 1.54602,-0.02054 1.54603,-0.01977 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.01978 1.5414,-0.02054 1.54603,-0.01978 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.01978 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.01977 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.01978 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.01977 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.01977 1.54602,-0.02054 1.54141,-0.02054 1.54602,-0.02054 1.54603,-0.02054 1.5414,-0.01978 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.01978 1.5414,-0.02054 1.54603,-0.02053 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.01978 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54602,-0.01978 1.5414,-0.02054 1.54603,-0.02053 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02053 1.54603,-0.01978 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54602,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.01977 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54602,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.01978 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02053 1.5414,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02053 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.01978 1.54602,-0.02054 1.54141,-0.02054 1.54602,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54603,-0.02054 1.5414,-0.02054 1.54603,-0.02054 1.54142,-0.02054 1.546,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.5461,-0.01977 1.5414,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.01977 1.5414,-0.02054 1.546,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.02054 1.5414,-0.01978 1.546,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.01977 1.5414,-0.02054 1.546,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.02053 1.546,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.546,-0.02054 1.5414,-0.01978 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.546,-0.01978 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.546,-0.02054 1.5414,-0.02053 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.01978 1.546,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.546,-0.02054 1.5414,-0.01978 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.5461,-0.01977 1.5414,-0.02054 1.546,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.546,-0.02054 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.546,-0.01977 1.5414,-0.02054 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.546,-0.01977 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.01978 1.546,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.546,-0.02054 1.546,-0.02053 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.02054 1.5414,-0.01978 1.546,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.02054 1.5414,-0.01977 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.02054 1.5414,-0.01978 1.546,-0.02054 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.01977 1.5414,-0.02054 1.546,-0.02054 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.546,-0.02054 1.5415,-0.02054 1.546,-0.01978 1.546,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.5461,-0.02053 1.5414,-0.01978 1.546,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.5461,-0.01978 1.5414,-0.02054 1.546,-0.02053 1.546,-0.02054 1.5414,-0.01978 1.5461,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.5414,-0.01978 1.5461,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.546,-0.01978 1.546,-0.02054 1.5414,-0.02053 1.5461,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.546,-0.02054 1.546,-0.02054 1.5414,-0.01978 1.5461,-0.02053 1.546,-0.02054 1.5414,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.02054 1.5414,-0.01978 1.546,-0.02054 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.01978 1.546,-0.02054 1.5414,-0.02053 1.546,-0.02054 1.5414,-0.01978 1.5461,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.546,-0.01978 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.546,-0.02054 1.5461,-0.01977 1.5414,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.546,-0.01978 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.01977 1.5414,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.546,-0.01978 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.01977 1.5414,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.546,-0.01978 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.01977 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.01978 1.546,-0.02054 1.5414,-0.02054 1.546,-0.02054 1.5414,-0.01978 1.5461,-0.02054 1.546,-0.02054 1.5414,-0.01978 1.546,-0.02053 1.546,-0.02054 1.5414,-0.01978 1.5461,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.546,-0.02054 1.546,-0.01977 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.546,-0.02054 1.5461,-0.01978 1.5414,-0.02054 1.546,-0.02054 1.5414,-0.02054 1.546,-0.01977 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.01978 1.546,-0.02054 1.5414,-0.02054 1.546,-0.01978 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.01978 1.5414,-0.02053 1.546,-0.02054 1.5461,-0.01978 1.5414,-0.02054 1.546,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.546,-0.02054 1.5461,-0.01977 1.5414,-0.02054 1.546,-0.02054 1.5414,-0.01977 1.546,-0.02054 1.5461,-0.02054 1.5414,-0.01978 1.546,-0.02054 1.546,-0.01977 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.546,-0.02054 1.5414,-0.01978 1.546,-0.02054 1.5461,-0.02054 1.5414,-0.01978 1.546,-0.02054 1.546,-0.02054 1.5414,-0.01977 1.5461,-0.02054 1.546,-0.02054 1.5414,-0.01978 1.546,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.5461,-0.02054 1.5414,-0.01977 1.546,-0.02054 1.546,-0.02054 1.5414,-0.01978 1.5461,-0.02054 1.546,-0.02054 1.5414,-0.01978 1.546,-0.02054 1.5461,-0.01978 1.5414,-0.02054 1.546,-0.02054 1.5414,-0.01977 1.546,-0.02054 1.546,-0.02054 1.5414,-0.01978 1.5461,-0.02054 1.546,-0.01977 1.5414,-0.02054 1.546,-0.02054 1.5461,-0.01978 1.5414,-0.02054 1.546,-0.02054 1.5414,-0.01978 1.546,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.5461,-0.02054 1.546,-0.01977 1.5414,-0.02054 1.546,-0.01978 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.546,-0.02054 1.5461,-0.01977 1.5414,-0.02054 1.546,-0.01978 1.546,-0.02054 1.5414,-0.02054 1.546,-0.01978 1.5461,-0.02054 1.5414,-0.01978 1.546,-0.02054 1.5414,-0.02054 1.546,-0.01977 1.5461,-0.02054 1.5414,-0.01978 1.546,-0.02054 1.546,-0.01977 1.5414,-0.02054 1.546,-0.02054 1.5461,-0.01978 1.5414,-0.02054 1.546,-0.01978 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.01978 1.5414,-0.02054 1.546,-0.01977 1.546,-0.02054 1.5414,-0.02054 1.5461,-0.01978 1.546,-0.02054 1.5414,-0.01978 1.546,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.5461,-0.02053 1.5414,-0.01978 1.546,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.5461,-0.01977 1.546,-0.02054 1.5414,-0.02054 1.546,-0.01978 1.546,-0.02054 1.5414,-0.01978 1.5461,-0.02054 1.5414,-0.01978 1.546,-0.02054 1.546,-0.02054 1.5414,-0.01977 1.5461,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.546,-0.01978 1.5461,-0.02054 1.5414,-0.01978 1.546,-0.02053 1.5414,-0.02054 1.546,-0.01978 1.546,-0.02054 1.5414,-0.01978 1.5461,-0.02054 1.546,-0.01977 1.5414,-0.02054 1.546,-0.01978 1.5461,-0.02054 1.5414,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.546,-0.01978 1.546,-0.02054 1.5414,-0.01977 1.5461,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.546,-0.01978 1.5461,-0.02054 1.5414,-0.01977 1.546,-0.02054 1.546,-0.02054 1.5414,-0.01978 1.5461,-0.02054 1.5414,-0.01978 1.546,-0.02054 1.546,-0.01977 1.5414,-0.02054 1.546,-0.01977 1.5461,-0.02054 1.5414,-0.01978 1.546,-0.02054 1.546,-0.01978 1.5414,-0.02054 1.5461,-0.01977 1.5414,-0.02054 1.546,-0.01978 1.546,-0.02054 1.5414,-0.02054 1.546,-0.01978"
+                   id="path2779"
+                   inkscape:connector-curvature="0"
+                   style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+              </g>
+            </g>
+          </g>
+        </g>
+        <g
+           id="LegendItem_1"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+          <g
+             font-size="14.3611"
+             font-style="normal"
+             font-weight="400"
+             transform="translate(1617.86,11)"
+             id="g2788"
+             style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:#646464;fill-opacity:0.19607801;stroke:#ffffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.39215698">
+            <rect
+               height="198"
+               width="202.14101"
+               x="0"
+               y="0"
+               id="rect2786"
+               style="vector-effect:non-scaling-stroke" />
+          </g>
+          <g
+             id="ItemSample_1"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+            <g
+               font-size="14.3611"
+               font-style="normal"
+               font-weight="400"
+               id="g2792"
+               style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#0000ff;stroke-width:3;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+              <polyline
+                 points="1628.86,38.0 1644.86,22.0"
+                 id="polyline2790"
+                 style="vector-effect:non-scaling-stroke;fill:none" />
+            </g>
+          </g>
+          <g
+             id="LabelItem_1"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+            <g
+               id="QGraphicsTextItem_3"
+               style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+              <g
+                 font-size="14.3611"
+                 font-style="normal"
+                 font-weight="400"
+                 transform="translate(1681.8,20)"
+                 id="g2797"
+                 style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                <text
+                   font-size="14.3611"
+                   font-style="normal"
+                   font-weight="400"
+                   x="4"
+                   xml:space="preserve"
+                   y="18"
+                   id="text2795"
+                   style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">suspectible</text>
+              </g>
+            </g>
+          </g>
+          <g
+             id="ItemSample_2"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+            <g
+               font-size="14.3611"
+               font-style="normal"
+               font-weight="400"
+               id="g2803"
+               style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#00ffff;stroke-width:3;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+              <polyline
+                 points="1628.86,69.0 1644.86,53.0"
+                 id="polyline2801"
+                 style="vector-effect:non-scaling-stroke;fill:none" />
+            </g>
+          </g>
+          <g
+             id="LabelItem_2"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+            <g
+               id="QGraphicsTextItem_4"
+               style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+              <g
+                 font-size="14.3611"
+                 font-style="normal"
+                 font-weight="400"
+                 transform="translate(1637.86,51)"
+                 id="g2808"
+                 style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                <text
+                   font-size="14.3611"
+                   font-style="normal"
+                   font-weight="400"
+                   x="4"
+                   xml:space="preserve"
+                   y="18"
+                   id="text2806"
+                   style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">exposed (not infectious)</text>
+              </g>
+            </g>
+          </g>
+          <g
+             id="ItemSample_3"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+            <g
+               font-size="14.3611"
+               font-style="normal"
+               font-weight="400"
+               id="g2814"
+               style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#ff0000;stroke-width:3;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+              <polyline
+                 points="1628.86,100.0 1644.86,84.0"
+                 id="polyline2812"
+                 style="vector-effect:non-scaling-stroke;fill:none" />
+            </g>
+          </g>
+          <g
+             id="LabelItem_3"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+            <g
+               id="QGraphicsTextItem_5"
+               style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+              <g
+                 font-size="14.3611"
+                 font-style="normal"
+                 font-weight="400"
+                 transform="translate(1686.7,82)"
+                 id="g2819"
+                 style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                <text
+                   font-size="14.3611"
+                   font-style="normal"
+                   font-weight="400"
+                   x="4"
+                   xml:space="preserve"
+                   y="18"
+                   id="text2817"
+                   style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">infectious</text>
+              </g>
+            </g>
+          </g>
+          <g
+             id="ItemSample_4"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+            <g
+               font-size="14.3611"
+               font-style="normal"
+               font-weight="400"
+               id="g2825"
+               style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#00ff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+              <polyline
+                 points="1628.86,131.0 1644.86,115.0"
+                 id="polyline2823"
+                 style="vector-effect:non-scaling-stroke;fill:none" />
+            </g>
+          </g>
+          <g
+             id="LabelItem_4"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+            <g
+               id="QGraphicsTextItem_6"
+               style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+              <g
+                 font-size="14.3611"
+                 font-style="normal"
+                 font-weight="400"
+                 transform="translate(1690.32,113)"
+                 id="g2830"
+                 style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                <text
+                   font-size="14.3611"
+                   font-style="normal"
+                   font-weight="400"
+                   x="4"
+                   xml:space="preserve"
+                   y="18"
+                   id="text2828"
+                   style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">removed</text>
+              </g>
+            </g>
+          </g>
+          <g
+             id="ItemSample_5"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+            <g
+               font-size="14.3611"
+               font-style="normal"
+               font-weight="400"
+               id="g2836"
+               style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+              <polyline
+                 points="1628.86,162.0 1644.86,146.0"
+                 id="polyline2834"
+                 style="vector-effect:non-scaling-stroke;fill:none" />
+            </g>
+          </g>
+          <g
+             id="LabelItem_5"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+            <g
+               id="QGraphicsTextItem_7"
+               style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+              <g
+                 font-size="14.3611"
+                 font-style="normal"
+                 font-weight="400"
+                 transform="translate(1697.28,144)"
+                 id="g2841"
+                 style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                <text
+                   font-size="14.3611"
+                   font-style="normal"
+                   font-weight="400"
+                   x="4"
+                   xml:space="preserve"
+                   y="18"
+                   id="text2839"
+                   style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">deaths</text>
+              </g>
+            </g>
+          </g>
+          <g
+             id="ItemSample_6"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+            <g
+               font-size="14.3611"
+               font-style="normal"
+               font-weight="400"
+               id="g2847"
+               style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#ffff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+              <polyline
+                 points="1628.86,193.0 1644.86,177.0"
+                 id="polyline2845"
+                 style="vector-effect:non-scaling-stroke;fill:none" />
+            </g>
+          </g>
+          <g
+             id="LabelItem_6"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+            <g
+               id="QGraphicsTextItem_8"
+               style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+              <g
+                 font-size="14.3611"
+                 font-style="normal"
+                 font-weight="400"
+                 transform="translate(1668.7,175)"
+                 id="g2852"
+                 style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu;fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
+                <text
+                   font-size="14.3611"
+                   font-style="normal"
+                   font-weight="400"
+                   x="4"
+                   xml:space="preserve"
+                   y="18"
+                   id="text2850"
+                   style="font-style:normal;font-weight:400;font-size:14.3611002px;font-family:Ubuntu, sans-serif;fill:#969696;fill-opacity:1;stroke:none">population (all)</text>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="g2917"
+     transform="translate(380.6722,128.43154)">
+    <text
+       id="text2869"
+       y="171.72287"
+       x="683.61261"
+       style="font-style:normal;font-weight:normal;font-size:66.55893707px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.66397333"
+       xml:space="preserve"><tspan
+         id="tspan2879"
+         style="stroke-width:1.66397333"
+         y="171.72287"
+         x="683.61261"
+         sodipodi:role="line">SEIRD Model</tspan></text>
+    <text
+       id="text2899"
+       y="242.8306"
+       x="685.36328"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="242.8306"
+         x="685.36328"
+         id="tspan2897"
+         sodipodi:role="line">S - suspectible</tspan><tspan
+         id="tspan2901"
+         y="292.8306"
+         x="685.36328"
+         sodipodi:role="line">E - exposed (not infectious yet)</tspan><tspan
+         id="tspan2903"
+         y="342.8306"
+         x="685.36328"
+         sodipodi:role="line">I - infectious</tspan><tspan
+         id="tspan2905"
+         y="392.8306"
+         x="685.36328"
+         sodipodi:role="line">R - recovered</tspan><tspan
+         id="tspan2907"
+         y="442.8306"
+         x="685.36328"
+         sodipodi:role="line">D - deceased</tspan></text>
+  </g>
+</svg>
