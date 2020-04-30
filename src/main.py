@@ -1,5 +1,6 @@
-__version__ = "v1.0"
+__version__ = "v1.1"
 __license__ = "MIT"
+__author__ = "Konrad Simon, PhD"
  
  
 import sys
@@ -473,7 +474,10 @@ class SIR_QCvWidget(object):
     
     def callback_solve(self):
         if self.initial_run == False:
-            self.plot_legend.scene().removeItem(self.plot_legend)
+            if float(pg.__version__[0:4]) < 0.11:
+                self.plot_legend.scene().removeItem(self.plot_legend)
+            else:
+                self.plot_legend.clear()
         else:            
             # After first solve we need to set this to false
             self.initial_run = False
